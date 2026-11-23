@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url'
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url))
 const PORT = Number(process.env.PORT || 5173)
+const BASE = '/jee-notes-site'
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -41,16 +42,25 @@ const server = http.createServer((req, res) => {
     return
   }
 
-  let filePath = path.resolve(ROOT, '.' + pathname)
+  // Match the GitHub Pages project URL: /jee-notes-site/
+  if (pathname === '/' || pathname === BASE) {
+    res.writeHead(302, { Location: BASE + '/' }).end()
+    return
+  }
+
+  // Strip the base prefix to map the URL back onto files in this folder.
+  let rel = pathname
+  if (rel.startsWith(BASE + '/')) rel = rel.slice(BASE.length)
+  if (rel === '' || rel.endsWith('/')) rel += 'index.html'
+
+  const filePath = path.resolve(ROOT, '.' + rel)
   if (filePath !== ROOT && !filePath.startsWith(ROOT + path.sep)) {
     res.writeHead(403).end('Forbidden')
     return
   }
-  if (pathname.endsWith('/') || pathname === '') filePath = path.join(filePath, 'index.html')
 
   fs.stat(filePath, (err, stat) => {
     if (err || !stat.isFile()) {
-      // Pretty fallback: /some/topic/ -> /some/topic/index.html is handled above.
       res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' })
       res.end('<!doctype html><title>Not found</title><h1>404</h1><p>Page not found.</p>')
       return
@@ -65,6 +75,6 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`JEE Notes site running at http://localhost:${PORT}/`)
+  console.log(`JEE Notes site running at http://localhost:${PORT}${BASE}/`)
   console.log('Press Ctrl+C to stop.')
 })

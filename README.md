@@ -18,9 +18,14 @@ npm start
 # or: node server.mjs
 ```
 
-Then open <http://localhost:5173/>. Set a different port with `PORT=8080 npm start`.
+Then open <http://localhost:5173/jee-notes-site/>. Set a different port with `PORT=8080 npm start`.
 
 A tiny dependency-free static server (`server.mjs`) is included; no `npm install` is needed.
+
+> **Base path:** every internal URL is prefixed with `/jee-notes-site/` so the exact same files work
+> both locally and at <https://aiexploregroup-source.github.io/jee-notes-site/>. If you host the
+> folder somewhere else, change `BASE` in `server.mjs`, `build_index.py` and `fix_base_paths.py`,
+> then run `python fix_base_paths.py`.
 
 ## What is inside
 
@@ -34,12 +39,13 @@ A tiny dependency-free static server (`server.mjs`) is included; no `npm install
 | `source-notes/` | The same 629 pages as clean Markdown, kept as editable source content |
 | `robots.txt`, `sitemap.xml` | Original site metadata |
 
-Every page is at its original URL path, for example
-<http://localhost:5173/physics/work-energy-power/work-done/>. All internal links were rewritten
-from `https://jeenotes.in/...` to local paths, so navigation stays inside your project. The
-homepage also has a **Browse all notes** button.
+Every page keeps its original URL path under the base, for example
+<http://localhost:5173/jee-notes-site/physics/work-energy-power/work-done/>. All internal links were
+rewritten from `https://jeenotes.in/...` to local paths, so navigation stays inside your project.
+The homepage also has a **Browse all notes** button.
 
 `build_index.py` regenerates the all-notes page and re-localises links if you add or change pages.
+`fix_base_paths.py` applies the base prefix to any new HTML/CSS/JS files (safe to re-run).
 
 ## Customising it
 

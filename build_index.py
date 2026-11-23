@@ -8,6 +8,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent
+BASE = "/jee-notes-site"
 MD_ROOT = ROOT / "source-notes"
 QUOTED_RE = re.compile(
     r'''((?:href|src)=)(["'])(?:https?:)?//(?:www\.)?jeenotes\.in(/[^"']*)\2''',
@@ -23,8 +24,8 @@ def localise_links() -> int:
     changed = 0
     for page in ROOT.rglob("*.html"):
         text = page.read_text(encoding="utf-8", errors="replace")
-        new, n = QUOTED_RE.subn(r"\1\2\3\2", text)
-        new, m = BARE_RE.subn(r"\1\2", new)
+        new, n = QUOTED_RE.subn(r"\1\2" + BASE + r"\3\2", text)
+        new, m = BARE_RE.subn(r"\1" + BASE + r"\2", new)
         if n + m:
             page.write_text(new, encoding="utf-8", newline="\n")
             changed += n + m
@@ -55,9 +56,9 @@ def collect_notes() -> dict[str, list[dict]]:
         else:
             section = parts[0].replace("-", " ").title()
         meta = front_matter(md)
-        href = "/" + "/".join(parts[:-1]) + "/"
+        href = BASE + "/" + "/".join(parts[:-1]) + "/"
         if rel.name == "index.md" and len(parts) == 1:
-            href = "/"
+            href = BASE + "/"
         groups.setdefault(section, []).append(
             {
                 "title": meta.get("title", rel.stem.replace("-", " ").title()),
@@ -86,7 +87,7 @@ def build_index() -> None:
     head = template.new_tag("header", attrs={"class": "si-head"})
     copy = template.new_tag("div", attrs={"class": "si-head__copy"})
     crumb = template.new_tag("nav", attrs={"aria-label": "Breadcrumb", "class": "si-crumb"})
-    crumb.append(template.new_tag("a", href="/", string="JEE Notes"))
+    crumb.append(template.new_tag("a", href=BASE + "/", string="JEE Notes"))
     crumb.append(" / All Notes")
     copy.append(crumb)
     copy.append(template.new_tag("h1", attrs={"class": "si-title"}, string="All JEE Notes — Complete Index"))
@@ -145,7 +146,7 @@ document.getElementById('note-filter').addEventListener('input', function (e) {
     if template.title:
         template.title.string = "All JEE Notes — Complete Index"
     for tag in template.select('link[rel="canonical"], meta[property="og:url"]'):
-        tag["href" if tag.name == "link" else "content"] = "/all-notes/"
+        tag["href" if tag.name == "link" else "content"] = BASE + "/all-notes/"
 
     dest = ROOT / "all-notes" / "index.html"
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -155,11 +156,11 @@ document.getElementById('note-filter').addEventListener('input', function (e) {
 def add_home_link() -> None:
     home = ROOT / "index.html"
     text = home.read_text(encoding="utf-8", errors="replace")
-    marker = '<a class="t1-btn t1-btn--ink" href=/physics/>Start with Physics</a>'
-    if marker in text and "/all-notes/" not in text:
+    marker = f'<a class="t1-btn t1-btn--ink" href={BASE}/physics/>Start with Physics</a>'
+    if marker in text and BASE + "/all-notes/" not in text:
         text = text.replace(
             marker,
-            marker + '<a class="t1-btn t1-btn--line" href=/all-notes/>Browse all notes</a>',
+            marker + f'<a class="t1-btn t1-btn--line" href={BASE}/all-notes/>Browse all notes</a>',
             1,
         )
         home.write_text(text, encoding="utf-8", newline="\n")

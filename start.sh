@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 cd "$(dirname "$0")" || exit 1
-echo "Starting JEE Notes site at http://localhost:5173/"
+echo "Starting JEE Notes site at http://localhost:5173/jee-notes-site/"
 node server.mjs

@@ -129,13 +129,13 @@ Disallow: /
 # END Cloudflare Managed Content
 
 # Robots.txt for JEE Notes
-# https://jeenotes.in/
+# https://aiexploregroup-source.github.io/jee-notes-site/
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://jeenotes.in/sitemap.xml
+Sitemap: https://aiexploregroup-source.github.io/jee-notes-site/sitemap.xml
 
 # Disallow admin/private paths (if any)
 Disallow: /admin/
