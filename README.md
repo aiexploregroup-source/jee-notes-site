@@ -1,5 +1,7 @@
 # JEE Notes — standalone local site
 
+**Live site:** <https://aiexploregroup-source.github.io/jee-notes-site/> · **Repo:** <https://github.com/aiexploregroup-source/jee-notes-site>
+
 This is your own standalone copy of the JEE Notes website, built from the extracted pages. The
 **design is exactly jeenotes.in**: the original HTML, CSS, JavaScript, images and fonts are used
 unchanged, so every page looks and behaves like the live site.
