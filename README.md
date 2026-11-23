@@ -32,12 +32,13 @@ A tiny dependency-free static server (`server.mjs`) is included; no `npm install
 | Path | Contents |
 |---|---|
 | `index.html` | Homepage, exactly as extracted |
-| `physics/`, `chemistry/`, `mathematics/` | All 495 subject/chapter/topic notes as real HTML pages |
+| `physics/`, `chemistry/`, `mathematics/` | All 629 subject/chapter/topic notes as real HTML pages |
 | `daily-challenges/`, `mock-tests/`, `previous-year-questions/` | Daily sets, mocks and PYQs |
 | `css/`, `js/`, `images/`, `favicon.png` | Original styling, scripts and media |
 | `all-notes/` | **Complete index of all 629 notes**, grouped by subject, with live filtering |
+| `search/`, `index.json`, `vendor/fuse/` | Original search page with a local index and local Fuse.js (works offline) |
 | `source-notes/` | The same 629 pages as clean Markdown, kept as editable source content |
-| `robots.txt`, `sitemap.xml` | Original site metadata |
+| `robots.txt`, `sitemap.xml` | Site metadata, pointing at the live GitHub Pages URL |
 
 Every page keeps its original URL path under the base, for example
 <http://localhost:5173/jee-notes-site/physics/work-energy-power/work-done/>. All internal links were
