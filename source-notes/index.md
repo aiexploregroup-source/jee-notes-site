@@ -1,0 +1,651 @@
+# JEE Notes — Offline Index
+
+_Generated 2026-11-23 11:48 UTC · 629 notes_
+
+
+## General
+
+- [About JEE Notes](about/index.md) — <https://jeenotes.in/about/>
+- [JEE Chemistry Notes: Chapter-wise & PYQs](chemistry/index.md) — <https://jeenotes.in/chemistry/>
+- [Daily Practise Problems](daily-challenges/index.md) — <https://jeenotes.in/daily-challenges/>
+- [Disclaimer](disclaimer/index.md) — <https://jeenotes.in/disclaimer/>
+- [JEE Formula Sheets — Chapter Wise](formula-sheets/index.md) — <https://jeenotes.in/formula-sheets/>
+- [Every JEE topic, explained once, properly.](index.md) — <https://jeenotes.in/>
+- [Mathematics](mathematics/index.md) — <https://jeenotes.in/mathematics/>
+- [JEE Main 2026 Mock Tests](mock-tests/index.md) — <https://jeenotes.in/mock-tests/>
+- [JEE Physics Notes: Chapter-wise Formulas & PYQs](physics/index.md) — <https://jeenotes.in/physics/>
+- [JEE Main Previous Year Questions — Chapter Wise](previous-year-questions/index.md) — <https://jeenotes.in/previous-year-questions/>
+- [Privacy Policy](privacy/index.md) — <https://jeenotes.in/privacy/>
+- [Mission JEE 2027 — The Complete Study Plan](study-plan/index.md) — <https://jeenotes.in/study-plan/>
+- [Terms and Conditions](terms/index.md) — <https://jeenotes.in/terms/>
+
+## Chemistry
+
+- [Bohr's Atomic Model](chemistry/atomic-structure/bohr-model/index.md) — <https://jeenotes.in/chemistry/atomic-structure/bohr-model/>
+- [Dual Nature of Matter](chemistry/atomic-structure/dual-nature/index.md) — <https://jeenotes.in/chemistry/atomic-structure/dual-nature/>
+- [Electromagnetic Radiation](chemistry/atomic-structure/electromagnetic-radiation/index.md) — <https://jeenotes.in/chemistry/atomic-structure/electromagnetic-radiation/>
+- [Electronic Configuration](chemistry/atomic-structure/electronic-configuration/index.md) — <https://jeenotes.in/chemistry/atomic-structure/electronic-configuration/>
+- [Atomic Structure Formula Sheet](chemistry/atomic-structure/formula-sheet/index.md) — <https://jeenotes.in/chemistry/atomic-structure/formula-sheet/>
+- [Hydrogen Spectrum](chemistry/atomic-structure/hydrogen-spectrum/index.md) — <https://jeenotes.in/chemistry/atomic-structure/hydrogen-spectrum/>
+- [Atomic Structure](chemistry/atomic-structure/index.md) — <https://jeenotes.in/chemistry/atomic-structure/>
+- [Shapes of Orbitals](chemistry/atomic-structure/orbital-shapes/index.md) — <https://jeenotes.in/chemistry/atomic-structure/orbital-shapes/>
+- [Photoelectric Effect](chemistry/atomic-structure/photoelectric-effect/index.md) — <https://jeenotes.in/chemistry/atomic-structure/photoelectric-effect/>
+- [Atomic Structure Previous Year Questions (JEE Main 2026)](chemistry/atomic-structure/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/atomic-structure/previous-year-questions/>
+- [Quantum Mechanical Model](chemistry/atomic-structure/quantum-model/index.md) — <https://jeenotes.in/chemistry/atomic-structure/quantum-model/>
+- [Atomic Theory](chemistry/basic-concepts/atomic-theory/index.md) — <https://jeenotes.in/chemistry/basic-concepts/atomic-theory/>
+- [Concentration Terms](chemistry/basic-concepts/concentration-terms/index.md) — <https://jeenotes.in/chemistry/basic-concepts/concentration-terms/>
+- [Equivalent Concept](chemistry/basic-concepts/equivalent-concept/index.md) — <https://jeenotes.in/chemistry/basic-concepts/equivalent-concept/>
+- [Basic Concepts in Chemistry Formula Sheet](chemistry/basic-concepts/formula-sheet/index.md) — <https://jeenotes.in/chemistry/basic-concepts/formula-sheet/>
+- [Basic Concepts in Chemistry](chemistry/basic-concepts/index.md) — <https://jeenotes.in/chemistry/basic-concepts/>
+- [Mole Concept](chemistry/basic-concepts/mole-concept/index.md) — <https://jeenotes.in/chemistry/basic-concepts/mole-concept/>
+- [Percentage Composition](chemistry/basic-concepts/percentage-composition/index.md) — <https://jeenotes.in/chemistry/basic-concepts/percentage-composition/>
+- [Basic Concepts of Chemistry Previous Year Questions (JEE Main 2026)](chemistry/basic-concepts/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/basic-concepts/previous-year-questions/>
+- [Stoichiometry](chemistry/basic-concepts/stoichiometry/index.md) — <https://jeenotes.in/chemistry/basic-concepts/stoichiometry/>
+- [Carbohydrates: Sugars and Polysaccharides](chemistry/biomolecules/carbohydrates/index.md) — <https://jeenotes.in/chemistry/biomolecules/carbohydrates/>
+- [Enzymes: Biological Catalysts](chemistry/biomolecules/enzymes/index.md) — <https://jeenotes.in/chemistry/biomolecules/enzymes/>
+- [Biomolecules Formula Sheet](chemistry/biomolecules/formula-sheet/index.md) — <https://jeenotes.in/chemistry/biomolecules/formula-sheet/>
+- [Biomolecules](chemistry/biomolecules/index.md) — <https://jeenotes.in/chemistry/biomolecules/>
+- [Nucleic Acids: DNA and RNA Structure](chemistry/biomolecules/nucleic-acids/index.md) — <https://jeenotes.in/chemistry/biomolecules/nucleic-acids/>
+- [Biomolecules Previous Year Questions (JEE Main 2026)](chemistry/biomolecules/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/biomolecules/previous-year-questions/>
+- [Proteins: Amino Acids and Protein Structure](chemistry/biomolecules/proteins/index.md) — <https://jeenotes.in/chemistry/biomolecules/proteins/>
+- [Vitamins: Essential Micronutrients](chemistry/biomolecules/vitamins/index.md) — <https://jeenotes.in/chemistry/biomolecules/vitamins/>
+- [Covalent Bonding](chemistry/chemical-bonding/covalent-bonding/index.md) — <https://jeenotes.in/chemistry/chemical-bonding/covalent-bonding/>
+- [Chemical Bonding Formula Sheet](chemistry/chemical-bonding/formula-sheet/index.md) — <https://jeenotes.in/chemistry/chemical-bonding/formula-sheet/>
+- [Hybridization Theory](chemistry/chemical-bonding/hybridization/index.md) — <https://jeenotes.in/chemistry/chemical-bonding/hybridization/>
+- [Hydrogen Bonding](chemistry/chemical-bonding/hydrogen-bonding/index.md) — <https://jeenotes.in/chemistry/chemical-bonding/hydrogen-bonding/>
+- [Chemical Bonding and Molecular Structure](chemistry/chemical-bonding/index.md) — <https://jeenotes.in/chemistry/chemical-bonding/>
+- [Ionic Bonding](chemistry/chemical-bonding/ionic-bonding/index.md) — <https://jeenotes.in/chemistry/chemical-bonding/ionic-bonding/>
+- [Molecular Orbital Theory](chemistry/chemical-bonding/molecular-orbital-theory/index.md) — <https://jeenotes.in/chemistry/chemical-bonding/molecular-orbital-theory/>
+- [Chemical Bonding Previous Year Questions (JEE Main 2026)](chemistry/chemical-bonding/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/chemical-bonding/previous-year-questions/>
+- [VSEPR Theory and Molecular Shapes](chemistry/chemical-bonding/vsepr-theory/index.md) — <https://jeenotes.in/chemistry/chemical-bonding/vsepr-theory/>
+- [Arrhenius Equation and Activation Energy](chemistry/chemical-kinetics/arrhenius-equation/index.md) — <https://jeenotes.in/chemistry/chemical-kinetics/arrhenius-equation/>
+- [Catalysis: Homogeneous and Heterogeneous](chemistry/chemical-kinetics/catalysis/index.md) — <https://jeenotes.in/chemistry/chemical-kinetics/catalysis/>
+- [Factors Affecting Rate of Reaction](chemistry/chemical-kinetics/factors-affecting-rate/index.md) — <https://jeenotes.in/chemistry/chemical-kinetics/factors-affecting-rate/>
+- [Chemical Kinetics Formula Sheet](chemistry/chemical-kinetics/formula-sheet/index.md) — <https://jeenotes.in/chemistry/chemical-kinetics/formula-sheet/>
+- [Half-Life of Reactions: Zero, First, and Second Order](chemistry/chemical-kinetics/half-life/index.md) — <https://jeenotes.in/chemistry/chemical-kinetics/half-life/>
+- [Chemical Kinetics](chemistry/chemical-kinetics/index.md) — <https://jeenotes.in/chemistry/chemical-kinetics/>
+- [Integrated Rate Equations: Zero, First, and Second Order](chemistry/chemical-kinetics/integrated-rate-equations/index.md) — <https://jeenotes.in/chemistry/chemical-kinetics/integrated-rate-equations/>
+- [Order and Molecularity of Reaction](chemistry/chemical-kinetics/order-molecularity/index.md) — <https://jeenotes.in/chemistry/chemical-kinetics/order-molecularity/>
+- [Chemical Kinetics Previous Year Questions (JEE Main 2026)](chemistry/chemical-kinetics/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/chemical-kinetics/previous-year-questions/>
+- [Rate Law and Rate Constant](chemistry/chemical-kinetics/rate-law/index.md) — <https://jeenotes.in/chemistry/chemical-kinetics/rate-law/>
+- [Rate of Reaction: Average and Instantaneous Rate](chemistry/chemical-kinetics/rate-of-reaction/index.md) — <https://jeenotes.in/chemistry/chemical-kinetics/rate-of-reaction/>
+- [Applications of Coordination Compounds](chemistry/coordination-compounds/applications/index.md) — <https://jeenotes.in/chemistry/coordination-compounds/applications/>
+- [Bonding Theories in Coordination Compounds](chemistry/coordination-compounds/bonding-theories/index.md) — <https://jeenotes.in/chemistry/coordination-compounds/bonding-theories/>
+- [Crystal Field Theory (CFT)](chemistry/coordination-compounds/crystal-field-theory/index.md) — <https://jeenotes.in/chemistry/coordination-compounds/crystal-field-theory/>
+- [Coordination Compounds Formula Sheet](chemistry/coordination-compounds/formula-sheet/index.md) — <https://jeenotes.in/chemistry/coordination-compounds/formula-sheet/>
+- [Coordination Compounds](chemistry/coordination-compounds/index.md) — <https://jeenotes.in/chemistry/coordination-compounds/>
+- [Isomerism in Coordination Compounds](chemistry/coordination-compounds/isomerism/index.md) — <https://jeenotes.in/chemistry/coordination-compounds/isomerism/>
+- [IUPAC Nomenclature of Coordination Compounds](chemistry/coordination-compounds/nomenclature/index.md) — <https://jeenotes.in/chemistry/coordination-compounds/nomenclature/>
+- [Coordination Compounds Previous Year Questions (JEE Main 2026)](chemistry/coordination-compounds/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/coordination-compounds/previous-year-questions/>
+- [Stability of Coordination Compounds](chemistry/coordination-compounds/stability-constants/index.md) — <https://jeenotes.in/chemistry/coordination-compounds/stability-constants/>
+- [Werner's Theory of Coordination Compounds](chemistry/coordination-compounds/werners-theory/index.md) — <https://jeenotes.in/chemistry/coordination-compounds/werners-theory/>
+- [Actinoids: The 5f Series](chemistry/d-f-block-elements/actinoids/index.md) — <https://jeenotes.in/chemistry/d-f-block-elements/actinoids/>
+- [d- and f-Block Elements Formula Sheet](chemistry/d-f-block-elements/formula-sheet/index.md) — <https://jeenotes.in/chemistry/d-f-block-elements/formula-sheet/>
+- [Important Compounds of d-Block Elements](chemistry/d-f-block-elements/important-compounds/index.md) — <https://jeenotes.in/chemistry/d-f-block-elements/important-compounds/>
+- [d- and f-Block Elements](chemistry/d-f-block-elements/index.md) — <https://jeenotes.in/chemistry/d-f-block-elements/>
+- [Lanthanoids: The 4f Series](chemistry/d-f-block-elements/lanthanoids/index.md) — <https://jeenotes.in/chemistry/d-f-block-elements/lanthanoids/>
+- [d and f Block Elements Previous Year Questions (JEE Main 2026)](chemistry/d-f-block-elements/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/d-f-block-elements/previous-year-questions/>
+- [Properties of d-Block Elements](chemistry/d-f-block-elements/properties-d-block/index.md) — <https://jeenotes.in/chemistry/d-f-block-elements/properties-d-block/>
+- [Transition Elements: General Characteristics](chemistry/d-f-block-elements/transition-elements/index.md) — <https://jeenotes.in/chemistry/d-f-block-elements/transition-elements/>
+- [Acids and Bases: Arrhenius, Bronsted-Lowry, and Lewis Theories](chemistry/equilibrium/acids-bases/index.md) — <https://jeenotes.in/chemistry/equilibrium/acids-bases/>
+- [Chemical Equilibrium: Law of Mass Action, Kp, and Kc](chemistry/equilibrium/chemical-equilibrium/index.md) — <https://jeenotes.in/chemistry/equilibrium/chemical-equilibrium/>
+- [Equilibrium Formula Sheet](chemistry/equilibrium/formula-sheet/index.md) — <https://jeenotes.in/chemistry/equilibrium/formula-sheet/>
+- [Chemical and Ionic Equilibrium](chemistry/equilibrium/index.md) — <https://jeenotes.in/chemistry/equilibrium/>
+- [Ionic Equilibrium: Electrolytes and Ionization](chemistry/equilibrium/ionic-equilibrium/index.md) — <https://jeenotes.in/chemistry/equilibrium/ionic-equilibrium/>
+- [Le Chatelier's Principle: Shifting Equilibrium](chemistry/equilibrium/le-chateliers-principle/index.md) — <https://jeenotes.in/chemistry/equilibrium/le-chateliers-principle/>
+- [pH Scale and Buffer Solutions: Henderson-Hasselbalch Equation](chemistry/equilibrium/ph-buffer/index.md) — <https://jeenotes.in/chemistry/equilibrium/ph-buffer/>
+- [Equilibrium — Previous Year Questions (JEE Main 2026)](chemistry/equilibrium/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/equilibrium/previous-year-questions/>
+- [Solubility Product (Ksp) and Common Ion Effect](chemistry/equilibrium/solubility-product/index.md) — <https://jeenotes.in/chemistry/equilibrium/solubility-product/>
+- [Alkyl Halides: Haloalkanes Fundamentals](chemistry/halogens-compounds/alkyl-halides/index.md) — <https://jeenotes.in/chemistry/halogens-compounds/alkyl-halides/>
+- [Elimination Reactions: E1 and E2 Mechanisms](chemistry/halogens-compounds/elimination-reactions/index.md) — <https://jeenotes.in/chemistry/halogens-compounds/elimination-reactions/>
+- [Organic Compounds Containing Halogens Formula Sheet](chemistry/halogens-compounds/formula-sheet/index.md) — <https://jeenotes.in/chemistry/halogens-compounds/formula-sheet/>
+- [Haloarenes: Aromatic Halogen Compounds](chemistry/halogens-compounds/haloarenes/index.md) — <https://jeenotes.in/chemistry/halogens-compounds/haloarenes/>
+- [Organic Compounds Containing Halogens](chemistry/halogens-compounds/index.md) — <https://jeenotes.in/chemistry/halogens-compounds/>
+- [Polyhalogen Compounds: CHCl₃, CCl₄, DDT, and CFCs](chemistry/halogens-compounds/polyhalogen-compounds/index.md) — <https://jeenotes.in/chemistry/halogens-compounds/polyhalogen-compounds/>
+- [Haloalkanes and Haloarenes Previous Year Questions (JEE Main 2026)](chemistry/halogens-compounds/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/halogens-compounds/previous-year-questions/>
+- [SN1 and SN2 Reactions: Nucleophilic Substitution Mechanisms](chemistry/halogens-compounds/sn1-sn2-reactions/index.md) — <https://jeenotes.in/chemistry/halogens-compounds/sn1-sn2-reactions/>
+- [Alkanes: Saturated Hydrocarbons](chemistry/hydrocarbons/alkanes/index.md) — <https://jeenotes.in/chemistry/hydrocarbons/alkanes/>
+- [Alkenes: Unsaturated Hydrocarbons](chemistry/hydrocarbons/alkenes/index.md) — <https://jeenotes.in/chemistry/hydrocarbons/alkenes/>
+- [Alkynes: Triple Bond Chemistry](chemistry/hydrocarbons/alkynes/index.md) — <https://jeenotes.in/chemistry/hydrocarbons/alkynes/>
+- [Benzene and Aromatic Compounds](chemistry/hydrocarbons/benzene/index.md) — <https://jeenotes.in/chemistry/hydrocarbons/benzene/>
+- [Directive Effects in Aromatic Substitution](chemistry/hydrocarbons/directive-effects/index.md) — <https://jeenotes.in/chemistry/hydrocarbons/directive-effects/>
+- [Hydrocarbons Formula Sheet](chemistry/hydrocarbons/formula-sheet/index.md) — <https://jeenotes.in/chemistry/hydrocarbons/formula-sheet/>
+- [Hydrocarbons](chemistry/hydrocarbons/index.md) — <https://jeenotes.in/chemistry/hydrocarbons/>
+- [Hydrocarbons Previous Year Questions (JEE Main 2026)](chemistry/hydrocarbons/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/hydrocarbons/previous-year-questions/>
+- [Amines: Classification and Nomenclature](chemistry/nitrogen-compounds/amines-classification/index.md) — <https://jeenotes.in/chemistry/nitrogen-compounds/amines-classification/>
+- [Preparation Methods of Amines](chemistry/nitrogen-compounds/amines-preparation/index.md) — <https://jeenotes.in/chemistry/nitrogen-compounds/amines-preparation/>
+- [Physical and Chemical Properties of Amines](chemistry/nitrogen-compounds/amines-properties/index.md) — <https://jeenotes.in/chemistry/nitrogen-compounds/amines-properties/>
+- [Basicity of Amines: Order and Factors](chemistry/nitrogen-compounds/basicity-amines/index.md) — <https://jeenotes.in/chemistry/nitrogen-compounds/basicity-amines/>
+- [Azo Coupling Reactions and Dye Chemistry](chemistry/nitrogen-compounds/coupling-reactions/index.md) — <https://jeenotes.in/chemistry/nitrogen-compounds/coupling-reactions/>
+- [Diazonium Salts: Preparation and Reactions](chemistry/nitrogen-compounds/diazonium-salts/index.md) — <https://jeenotes.in/chemistry/nitrogen-compounds/diazonium-salts/>
+- [Nitrogen Compounds Formula Sheet](chemistry/nitrogen-compounds/formula-sheet/index.md) — <https://jeenotes.in/chemistry/nitrogen-compounds/formula-sheet/>
+- [Organic Compounds Containing Nitrogen](chemistry/nitrogen-compounds/index.md) — <https://jeenotes.in/chemistry/nitrogen-compounds/>
+- [Nitrogen Compounds (Amines) Previous Year Questions (JEE Main 2026)](chemistry/nitrogen-compounds/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/nitrogen-compounds/previous-year-questions/>
+- [Electronic Effects in Organic Chemistry](chemistry/organic-principles/electronic-effects/index.md) — <https://jeenotes.in/chemistry/organic-principles/electronic-effects/>
+- [Organic Chemistry Basics Formula Sheet](chemistry/organic-principles/formula-sheet/index.md) — <https://jeenotes.in/chemistry/organic-principles/formula-sheet/>
+- [Hybridization in Organic Chemistry](chemistry/organic-principles/hybridization/index.md) — <https://jeenotes.in/chemistry/organic-principles/hybridization/>
+- [Basic Principles of Organic Chemistry](chemistry/organic-principles/index.md) — <https://jeenotes.in/chemistry/organic-principles/>
+- [Isomerism in Organic Chemistry](chemistry/organic-principles/isomerism-types/index.md) — <https://jeenotes.in/chemistry/organic-principles/isomerism-types/>
+- [Organic Chemistry Principles Previous Year Questions (JEE Main 2026)](chemistry/organic-principles/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/organic-principles/previous-year-questions/>
+- [Reactive Intermediates in Organic Chemistry](chemistry/organic-principles/reaction-intermediates/index.md) — <https://jeenotes.in/chemistry/organic-principles/reaction-intermediates/>
+- [Types of Organic Reactions](chemistry/organic-principles/reaction-types/index.md) — <https://jeenotes.in/chemistry/organic-principles/reaction-types/>
+- [Chromatography - TLC, Column, and Paper Chromatography](chemistry/organic-purification/chromatography/index.md) — <https://jeenotes.in/chemistry/organic-purification/chromatography/>
+- [Purification by Crystallization](chemistry/organic-purification/crystallization/index.md) — <https://jeenotes.in/chemistry/organic-purification/crystallization/>
+- [Detection of Elements in Organic Compounds](chemistry/organic-purification/detection-elements/index.md) — <https://jeenotes.in/chemistry/organic-purification/detection-elements/>
+- [Distillation - Simple, Fractional, and Steam Distillation](chemistry/organic-purification/distillation/index.md) — <https://jeenotes.in/chemistry/organic-purification/distillation/>
+- [Purification & Characterisation of Organic Compounds Formula Sheet](chemistry/organic-purification/formula-sheet/index.md) — <https://jeenotes.in/chemistry/organic-purification/formula-sheet/>
+- [Purification and Characterisation of Organic Compounds](chemistry/organic-purification/index.md) — <https://jeenotes.in/chemistry/organic-purification/>
+- [Purification & Characterisation of Organic Compounds Previous Year Questions (JEE Main 2026)](chemistry/organic-purification/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/organic-purification/previous-year-questions/>
+- [Alcohols: From Hand Sanitizers to JEE Champions](chemistry/oxygen-compounds/alcohols/index.md) — <https://jeenotes.in/chemistry/oxygen-compounds/alcohols/>
+- [Aldehydes & Ketones: The Carbonyl Powerhouses](chemistry/oxygen-compounds/aldehydes-ketones/index.md) — <https://jeenotes.in/chemistry/oxygen-compounds/aldehydes-ketones/>
+- [Carboxylic Acids: The Acidic Oxidation Champions](chemistry/oxygen-compounds/carboxylic-acids/index.md) — <https://jeenotes.in/chemistry/oxygen-compounds/carboxylic-acids/>
+- [Ethers: The Unreactive Oxygen Bridge](chemistry/oxygen-compounds/ethers/index.md) — <https://jeenotes.in/chemistry/oxygen-compounds/ethers/>
+- [Oxygen-Containing Organic Compounds Formula Sheet](chemistry/oxygen-compounds/formula-sheet/index.md) — <https://jeenotes.in/chemistry/oxygen-compounds/formula-sheet/>
+- [Organic Compounds Containing Oxygen](chemistry/oxygen-compounds/index.md) — <https://jeenotes.in/chemistry/oxygen-compounds/>
+- [Phenols: The Acidic Rebels of Organic Chemistry](chemistry/oxygen-compounds/phenols/index.md) — <https://jeenotes.in/chemistry/oxygen-compounds/phenols/>
+- [Oxygen-Containing Compounds Previous Year Questions (JEE Main 2026)](chemistry/oxygen-compounds/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/oxygen-compounds/previous-year-questions/>
+- [p-Block Elements Formula Sheet](chemistry/p-block-elements/formula-sheet/index.md) — <https://jeenotes.in/chemistry/p-block-elements/formula-sheet/>
+- [Group 13 Elements - Boron Family](chemistry/p-block-elements/group-13/index.md) — <https://jeenotes.in/chemistry/p-block-elements/group-13/>
+- [Group 14 Elements - Carbon Family](chemistry/p-block-elements/group-14/index.md) — <https://jeenotes.in/chemistry/p-block-elements/group-14/>
+- [Group 15 Elements - Nitrogen Family](chemistry/p-block-elements/group-15/index.md) — <https://jeenotes.in/chemistry/p-block-elements/group-15/>
+- [Group 16 Elements - Oxygen Family](chemistry/p-block-elements/group-16/index.md) — <https://jeenotes.in/chemistry/p-block-elements/group-16/>
+- [Group 17 Elements - The Halogens](chemistry/p-block-elements/group-17/index.md) — <https://jeenotes.in/chemistry/p-block-elements/group-17/>
+- [Group 18 Elements - Noble Gases](chemistry/p-block-elements/group-18/index.md) — <https://jeenotes.in/chemistry/p-block-elements/group-18/>
+- [p-Block Elements](chemistry/p-block-elements/index.md) — <https://jeenotes.in/chemistry/p-block-elements/>
+- [Oxoacids of p-Block Elements](chemistry/p-block-elements/oxoacids/index.md) — <https://jeenotes.in/chemistry/p-block-elements/oxoacids/>
+- [p-Block Elements Previous Year Questions (JEE Main 2026)](chemistry/p-block-elements/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/p-block-elements/previous-year-questions/>
+- [Periodic Classification Formula Sheet](chemistry/periodic-classification/formula-sheet/index.md) — <https://jeenotes.in/chemistry/periodic-classification/formula-sheet/>
+- [Classification of Elements and Periodicity](chemistry/periodic-classification/index.md) — <https://jeenotes.in/chemistry/periodic-classification/>
+- [p-block Elements: Introduction and Overview](chemistry/periodic-classification/p-block-introduction/index.md) — <https://jeenotes.in/chemistry/periodic-classification/p-block-introduction/>
+- [Modern Periodic Law and Electronic Configuration](chemistry/periodic-classification/periodic-law/index.md) — <https://jeenotes.in/chemistry/periodic-classification/periodic-law/>
+- [Periodic Trends: Atomic Properties](chemistry/periodic-classification/periodic-trends/index.md) — <https://jeenotes.in/chemistry/periodic-classification/periodic-trends/>
+- [Periodic Classification: JEE Main 2026 Previous Year Questions (Solved)](chemistry/periodic-classification/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/periodic-classification/previous-year-questions/>
+- [s-block Elements: Groups 1 & 2](chemistry/periodic-classification/s-block-elements/index.md) — <https://jeenotes.in/chemistry/periodic-classification/s-block-elements/>
+- [Practical Chemistry Formula Sheet](chemistry/practical-chemistry/formula-sheet/index.md) — <https://jeenotes.in/chemistry/practical-chemistry/formula-sheet/>
+- [Principles Related to Practical Chemistry](chemistry/practical-chemistry/index.md) — <https://jeenotes.in/chemistry/practical-chemistry/>
+- [Practical Chemistry Previous Year Questions (JEE Main 2026)](chemistry/practical-chemistry/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/practical-chemistry/previous-year-questions/>
+- [Qualitative Analysis - Salt Analysis and Ion Detection](chemistry/practical-chemistry/qualitative-analysis/index.md) — <https://jeenotes.in/chemistry/practical-chemistry/qualitative-analysis/>
+- [Volumetric Analysis - Acid-Base and Redox Titrations](chemistry/practical-chemistry/volumetric-analysis/index.md) — <https://jeenotes.in/chemistry/practical-chemistry/volumetric-analysis/>
+- [Batteries and Fuel Cells](chemistry/redox-electrochemistry/batteries/index.md) — <https://jeenotes.in/chemistry/redox-electrochemistry/batteries/>
+- [Corrosion: Mechanism and Prevention](chemistry/redox-electrochemistry/corrosion/index.md) — <https://jeenotes.in/chemistry/redox-electrochemistry/corrosion/>
+- [Electrochemical Cells](chemistry/redox-electrochemistry/electrochemical-cells/index.md) — <https://jeenotes.in/chemistry/redox-electrochemistry/electrochemical-cells/>
+- [Electrode Potentials and Electrochemical Series](chemistry/redox-electrochemistry/electrode-potentials/index.md) — <https://jeenotes.in/chemistry/redox-electrochemistry/electrode-potentials/>
+- [Electrolysis and Faraday's Laws](chemistry/redox-electrochemistry/electrolysis/index.md) — <https://jeenotes.in/chemistry/redox-electrochemistry/electrolysis/>
+- [Redox and Electrochemistry Formula Sheet](chemistry/redox-electrochemistry/formula-sheet/index.md) — <https://jeenotes.in/chemistry/redox-electrochemistry/formula-sheet/>
+- [Redox Reactions and Electrochemistry](chemistry/redox-electrochemistry/index.md) — <https://jeenotes.in/chemistry/redox-electrochemistry/>
+- [Nernst Equation and Concentration Cells](chemistry/redox-electrochemistry/nernst-equation/index.md) — <https://jeenotes.in/chemistry/redox-electrochemistry/nernst-equation/>
+- [Oxidation and Reduction Reactions](chemistry/redox-electrochemistry/oxidation-reduction/index.md) — <https://jeenotes.in/chemistry/redox-electrochemistry/oxidation-reduction/>
+- [Redox Reactions & Electrochemistry — Previous Year Questions (JEE Main 2026)](chemistry/redox-electrochemistry/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/redox-electrochemistry/previous-year-questions/>
+- [Colligative Properties: Properties That Depend on Number, Not Nature](chemistry/solutions/colligative-properties/index.md) — <https://jeenotes.in/chemistry/solutions/colligative-properties/>
+- [Concentration Methods: Expressing Solution Strength](chemistry/solutions/concentration-methods/index.md) — <https://jeenotes.in/chemistry/solutions/concentration-methods/>
+- [Solutions Formula Sheet](chemistry/solutions/formula-sheet/index.md) — <https://jeenotes.in/chemistry/solutions/formula-sheet/>
+- [Solutions](chemistry/solutions/index.md) — <https://jeenotes.in/chemistry/solutions/>
+- [Osmotic Pressure: The Life-Sustaining Colligative Property](chemistry/solutions/osmotic-pressure/index.md) — <https://jeenotes.in/chemistry/solutions/osmotic-pressure/>
+- [Solutions — Previous Year Questions (JEE Main 2026)](chemistry/solutions/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/solutions/previous-year-questions/>
+- [Raoult's Law: Understanding Vapor Pressure in Solutions](chemistry/solutions/raoults-law/index.md) — <https://jeenotes.in/chemistry/solutions/raoults-law/>
+- [van't Hoff Factor: Explaining Abnormal Colligative Properties](chemistry/solutions/vant-hoff-factor/index.md) — <https://jeenotes.in/chemistry/solutions/vant-hoff-factor/>
+- [Enthalpy and Heat of Reaction](chemistry/thermodynamics/enthalpy/index.md) — <https://jeenotes.in/chemistry/thermodynamics/enthalpy/>
+- [Entropy and the Second Law](chemistry/thermodynamics/entropy/index.md) — <https://jeenotes.in/chemistry/thermodynamics/entropy/>
+- [First Law of Thermodynamics](chemistry/thermodynamics/first-law/index.md) — <https://jeenotes.in/chemistry/thermodynamics/first-law/>
+- [Chemical Thermodynamics Formula Sheet](chemistry/thermodynamics/formula-sheet/index.md) — <https://jeenotes.in/chemistry/thermodynamics/formula-sheet/>
+- [Gibbs Free Energy and Spontaneity](chemistry/thermodynamics/gibbs-energy/index.md) — <https://jeenotes.in/chemistry/thermodynamics/gibbs-energy/>
+- [Chemical Thermodynamics](chemistry/thermodynamics/index.md) — <https://jeenotes.in/chemistry/thermodynamics/>
+- [Thermodynamics Previous Year Questions (JEE Main 2026)](chemistry/thermodynamics/previous-year-questions/index.md) — <https://jeenotes.in/chemistry/thermodynamics/previous-year-questions/>
+- [Thermochemistry: Bond Energies and Heats of Reaction](chemistry/thermodynamics/thermochemistry/index.md) — <https://jeenotes.in/chemistry/thermodynamics/thermochemistry/>
+
+## Daily Challenges
+
+- [Daily Challenge — 1 August 2026](daily-challenges/2026-08-01/index.md) — <https://jeenotes.in/daily-challenges/2026-08-01/>
+- [Daily Challenge — 2 August 2026](daily-challenges/2026-08-02/index.md) — <https://jeenotes.in/daily-challenges/2026-08-02/>
+- [Daily Challenge — 3 August 2026](daily-challenges/2026-08-03/index.md) — <https://jeenotes.in/daily-challenges/2026-08-03/>
+- [Daily Challenge — 4 August 2026](daily-challenges/2026-08-04/index.md) — <https://jeenotes.in/daily-challenges/2026-08-04/>
+- [Daily Challenge — 5 August 2026](daily-challenges/2026-08-05/index.md) — <https://jeenotes.in/daily-challenges/2026-08-05/>
+- [Daily Challenge — 6 August 2026](daily-challenges/2026-08-06/index.md) — <https://jeenotes.in/daily-challenges/2026-08-06/>
+- [Daily Challenge — 7 August 2026](daily-challenges/2026-08-07/index.md) — <https://jeenotes.in/daily-challenges/2026-08-07/>
+- [Daily Challenge — 8 August 2026](daily-challenges/2026-08-08/index.md) — <https://jeenotes.in/daily-challenges/2026-08-08/>
+- [Daily Challenge — 9 August 2026](daily-challenges/2026-08-09/index.md) — <https://jeenotes.in/daily-challenges/2026-08-09/>
+- [Daily Challenge — 10 August 2026](daily-challenges/2026-08-10/index.md) — <https://jeenotes.in/daily-challenges/2026-08-10/>
+- [Daily Challenge — 11 August 2026](daily-challenges/2026-08-11/index.md) — <https://jeenotes.in/daily-challenges/2026-08-11/>
+- [Daily Challenge — 12 August 2026](daily-challenges/2026-08-12/index.md) — <https://jeenotes.in/daily-challenges/2026-08-12/>
+- [Daily Challenge — 13 August 2026](daily-challenges/2026-08-13/index.md) — <https://jeenotes.in/daily-challenges/2026-08-13/>
+- [Daily Challenge — 14 August 2026](daily-challenges/2026-08-14/index.md) — <https://jeenotes.in/daily-challenges/2026-08-14/>
+- [Daily Challenge — 15 August 2026](daily-challenges/2026-08-15/index.md) — <https://jeenotes.in/daily-challenges/2026-08-15/>
+- [Daily Challenge — 16 August 2026](daily-challenges/2026-08-16/index.md) — <https://jeenotes.in/daily-challenges/2026-08-16/>
+- [Daily Challenge — 17 August 2026](daily-challenges/2026-08-17/index.md) — <https://jeenotes.in/daily-challenges/2026-08-17/>
+- [Daily Challenge — 18 August 2026](daily-challenges/2026-08-18/index.md) — <https://jeenotes.in/daily-challenges/2026-08-18/>
+- [Daily Challenge — 19 August 2026](daily-challenges/2026-08-19/index.md) — <https://jeenotes.in/daily-challenges/2026-08-19/>
+- [Daily Challenge — 20 August 2026](daily-challenges/2026-08-20/index.md) — <https://jeenotes.in/daily-challenges/2026-08-20/>
+- [Daily Challenge — 21 August 2026](daily-challenges/2026-08-21/index.md) — <https://jeenotes.in/daily-challenges/2026-08-21/>
+- [Daily Challenge — 22 August 2026](daily-challenges/2026-08-22/index.md) — <https://jeenotes.in/daily-challenges/2026-08-22/>
+- [Daily Challenge — 23 August 2026](daily-challenges/2026-08-23/index.md) — <https://jeenotes.in/daily-challenges/2026-08-23/>
+- [Daily Challenge — 24 August 2026](daily-challenges/2026-08-24/index.md) — <https://jeenotes.in/daily-challenges/2026-08-24/>
+- [Daily Challenge — 25 August 2026](daily-challenges/2026-08-25/index.md) — <https://jeenotes.in/daily-challenges/2026-08-25/>
+- [Daily Challenge — 26 August 2026](daily-challenges/2026-08-26/index.md) — <https://jeenotes.in/daily-challenges/2026-08-26/>
+- [Daily Challenge — 27 August 2026](daily-challenges/2026-08-27/index.md) — <https://jeenotes.in/daily-challenges/2026-08-27/>
+- [Daily Challenge — 28 August 2026](daily-challenges/2026-08-28/index.md) — <https://jeenotes.in/daily-challenges/2026-08-28/>
+- [Daily Challenge — 29 August 2026](daily-challenges/2026-08-29/index.md) — <https://jeenotes.in/daily-challenges/2026-08-29/>
+- [Daily Challenge — 30 August 2026](daily-challenges/2026-08-30/index.md) — <https://jeenotes.in/daily-challenges/2026-08-30/>
+- [Daily Challenge — 31 August 2026](daily-challenges/2026-08-31/index.md) — <https://jeenotes.in/daily-challenges/2026-08-31/>
+- [Daily Challenge — 1 September 2026](daily-challenges/2026-09-01/index.md) — <https://jeenotes.in/daily-challenges/2026-09-01/>
+- [Daily Challenge — 2 September 2026](daily-challenges/2026-09-02/index.md) — <https://jeenotes.in/daily-challenges/2026-09-02/>
+- [Daily Challenge — 3 September 2026](daily-challenges/2026-09-03/index.md) — <https://jeenotes.in/daily-challenges/2026-09-03/>
+- [Daily Challenge — 4 September 2026](daily-challenges/2026-09-04/index.md) — <https://jeenotes.in/daily-challenges/2026-09-04/>
+- [Daily Challenge — 5 September 2026](daily-challenges/2026-09-05/index.md) — <https://jeenotes.in/daily-challenges/2026-09-05/>
+- [Daily Challenge — 6 September 2026](daily-challenges/2026-09-06/index.md) — <https://jeenotes.in/daily-challenges/2026-09-06/>
+- [Daily Challenge — 7 September 2026](daily-challenges/2026-09-07/index.md) — <https://jeenotes.in/daily-challenges/2026-09-07/>
+- [Daily Challenge — 8 September 2026](daily-challenges/2026-09-08/index.md) — <https://jeenotes.in/daily-challenges/2026-09-08/>
+- [Daily Challenge — 9 September 2026](daily-challenges/2026-09-09/index.md) — <https://jeenotes.in/daily-challenges/2026-09-09/>
+- [Daily Challenge — 10 September 2026](daily-challenges/2026-09-10/index.md) — <https://jeenotes.in/daily-challenges/2026-09-10/>
+- [Daily Challenge — 11 September 2026](daily-challenges/2026-09-11/index.md) — <https://jeenotes.in/daily-challenges/2026-09-11/>
+- [Daily Challenge — 12 September 2026](daily-challenges/2026-09-12/index.md) — <https://jeenotes.in/daily-challenges/2026-09-12/>
+- [Daily Challenge — 13 September 2026](daily-challenges/2026-09-13/index.md) — <https://jeenotes.in/daily-challenges/2026-09-13/>
+- [Daily Challenge — 14 September 2026](daily-challenges/2026-09-14/index.md) — <https://jeenotes.in/daily-challenges/2026-09-14/>
+- [Daily Challenge — 15 September 2026](daily-challenges/2026-09-15/index.md) — <https://jeenotes.in/daily-challenges/2026-09-15/>
+- [Daily Challenge — 16 September 2026](daily-challenges/2026-09-16/index.md) — <https://jeenotes.in/daily-challenges/2026-09-16/>
+- [Daily Challenge — 17 September 2026](daily-challenges/2026-09-17/index.md) — <https://jeenotes.in/daily-challenges/2026-09-17/>
+- [Daily Challenge — 18 September 2026](daily-challenges/2026-09-18/index.md) — <https://jeenotes.in/daily-challenges/2026-09-18/>
+- [Daily Challenge — 19 September 2026](daily-challenges/2026-09-19/index.md) — <https://jeenotes.in/daily-challenges/2026-09-19/>
+- [Daily Challenge — 20 September 2026](daily-challenges/2026-09-20/index.md) — <https://jeenotes.in/daily-challenges/2026-09-20/>
+- [Daily Challenge — 21 September 2026](daily-challenges/2026-09-21/index.md) — <https://jeenotes.in/daily-challenges/2026-09-21/>
+- [Daily Challenge — 22 September 2026](daily-challenges/2026-09-22/index.md) — <https://jeenotes.in/daily-challenges/2026-09-22/>
+- [Daily Challenge — 23 September 2026](daily-challenges/2026-09-23/index.md) — <https://jeenotes.in/daily-challenges/2026-09-23/>
+- [Daily Challenge — 24 September 2026](daily-challenges/2026-09-24/index.md) — <https://jeenotes.in/daily-challenges/2026-09-24/>
+- [Daily Challenge — 25 September 2026](daily-challenges/2026-09-25/index.md) — <https://jeenotes.in/daily-challenges/2026-09-25/>
+- [Daily Challenge — 26 September 2026](daily-challenges/2026-09-26/index.md) — <https://jeenotes.in/daily-challenges/2026-09-26/>
+- [Daily Challenge — 27 September 2026](daily-challenges/2026-09-27/index.md) — <https://jeenotes.in/daily-challenges/2026-09-27/>
+- [Daily Challenge — 28 September 2026](daily-challenges/2026-09-28/index.md) — <https://jeenotes.in/daily-challenges/2026-09-28/>
+- [Daily Challenge — 29 September 2026](daily-challenges/2026-09-29/index.md) — <https://jeenotes.in/daily-challenges/2026-09-29/>
+- [Daily Challenge — 30 September 2026](daily-challenges/2026-09-30/index.md) — <https://jeenotes.in/daily-challenges/2026-09-30/>
+- [Daily Challenge — 1 October 2026](daily-challenges/2026-10-01/index.md) — <https://jeenotes.in/daily-challenges/2026-10-01/>
+- [Daily Challenge — 2 October 2026](daily-challenges/2026-10-02/index.md) — <https://jeenotes.in/daily-challenges/2026-10-02/>
+- [Daily Challenge — 3 October 2026](daily-challenges/2026-10-03/index.md) — <https://jeenotes.in/daily-challenges/2026-10-03/>
+- [Daily Challenge — 4 October 2026](daily-challenges/2026-10-04/index.md) — <https://jeenotes.in/daily-challenges/2026-10-04/>
+- [Daily Challenge — 5 October 2026](daily-challenges/2026-10-05/index.md) — <https://jeenotes.in/daily-challenges/2026-10-05/>
+- [Daily Challenge — 6 October 2026](daily-challenges/2026-10-06/index.md) — <https://jeenotes.in/daily-challenges/2026-10-06/>
+- [Daily Challenge — 7 October 2026](daily-challenges/2026-10-07/index.md) — <https://jeenotes.in/daily-challenges/2026-10-07/>
+- [Daily Challenge — 8 October 2026](daily-challenges/2026-10-08/index.md) — <https://jeenotes.in/daily-challenges/2026-10-08/>
+- [Daily Challenge — 9 October 2026](daily-challenges/2026-10-09/index.md) — <https://jeenotes.in/daily-challenges/2026-10-09/>
+- [Daily Challenge — 10 October 2026](daily-challenges/2026-10-10/index.md) — <https://jeenotes.in/daily-challenges/2026-10-10/>
+- [Daily Challenge — 11 October 2026](daily-challenges/2026-10-11/index.md) — <https://jeenotes.in/daily-challenges/2026-10-11/>
+- [Daily Challenge — 12 October 2026](daily-challenges/2026-10-12/index.md) — <https://jeenotes.in/daily-challenges/2026-10-12/>
+- [Daily Challenge — 13 October 2026](daily-challenges/2026-10-13/index.md) — <https://jeenotes.in/daily-challenges/2026-10-13/>
+- [Daily Challenge — 14 October 2026](daily-challenges/2026-10-14/index.md) — <https://jeenotes.in/daily-challenges/2026-10-14/>
+- [Daily Challenge — 15 October 2026](daily-challenges/2026-10-15/index.md) — <https://jeenotes.in/daily-challenges/2026-10-15/>
+- [Daily Challenge — 16 October 2026](daily-challenges/2026-10-16/index.md) — <https://jeenotes.in/daily-challenges/2026-10-16/>
+- [Daily Challenge — 17 October 2026](daily-challenges/2026-10-17/index.md) — <https://jeenotes.in/daily-challenges/2026-10-17/>
+- [Daily Challenge — 18 October 2026](daily-challenges/2026-10-18/index.md) — <https://jeenotes.in/daily-challenges/2026-10-18/>
+- [Daily Challenge — 19 October 2026](daily-challenges/2026-10-19/index.md) — <https://jeenotes.in/daily-challenges/2026-10-19/>
+- [Daily Challenge — 20 October 2026](daily-challenges/2026-10-20/index.md) — <https://jeenotes.in/daily-challenges/2026-10-20/>
+- [Daily Challenge — 21 October 2026](daily-challenges/2026-10-21/index.md) — <https://jeenotes.in/daily-challenges/2026-10-21/>
+- [Daily Challenge — 22 October 2026](daily-challenges/2026-10-22/index.md) — <https://jeenotes.in/daily-challenges/2026-10-22/>
+- [Daily Challenge — 23 October 2026](daily-challenges/2026-10-23/index.md) — <https://jeenotes.in/daily-challenges/2026-10-23/>
+- [Daily Challenge — 24 October 2026](daily-challenges/2026-10-24/index.md) — <https://jeenotes.in/daily-challenges/2026-10-24/>
+- [Daily Challenge — 25 October 2026](daily-challenges/2026-10-25/index.md) — <https://jeenotes.in/daily-challenges/2026-10-25/>
+- [Daily Challenge — 26 October 2026](daily-challenges/2026-10-26/index.md) — <https://jeenotes.in/daily-challenges/2026-10-26/>
+- [Daily Challenge — 27 October 2026](daily-challenges/2026-10-27/index.md) — <https://jeenotes.in/daily-challenges/2026-10-27/>
+- [Daily Challenge — 28 October 2026](daily-challenges/2026-10-28/index.md) — <https://jeenotes.in/daily-challenges/2026-10-28/>
+- [Daily Challenge — 29 October 2026](daily-challenges/2026-10-29/index.md) — <https://jeenotes.in/daily-challenges/2026-10-29/>
+- [Daily Challenge — 30 October 2026](daily-challenges/2026-10-30/index.md) — <https://jeenotes.in/daily-challenges/2026-10-30/>
+- [Daily Challenge — 31 October 2026](daily-challenges/2026-10-31/index.md) — <https://jeenotes.in/daily-challenges/2026-10-31/>
+- [Daily Challenge — 1 November 2026](daily-challenges/2026-11-01/index.md) — <https://jeenotes.in/daily-challenges/2026-11-01/>
+- [Daily Challenge — 2 November 2026](daily-challenges/2026-11-02/index.md) — <https://jeenotes.in/daily-challenges/2026-11-02/>
+- [Daily Challenge — 3 November 2026](daily-challenges/2026-11-03/index.md) — <https://jeenotes.in/daily-challenges/2026-11-03/>
+- [Daily Challenge — 4 November 2026](daily-challenges/2026-11-04/index.md) — <https://jeenotes.in/daily-challenges/2026-11-04/>
+- [Daily Challenge — 5 November 2026](daily-challenges/2026-11-05/index.md) — <https://jeenotes.in/daily-challenges/2026-11-05/>
+- [Daily Challenge — 6 November 2026](daily-challenges/2026-11-06/index.md) — <https://jeenotes.in/daily-challenges/2026-11-06/>
+- [Daily Challenge — 7 November 2026](daily-challenges/2026-11-07/index.md) — <https://jeenotes.in/daily-challenges/2026-11-07/>
+- [Daily Challenge — 8 November 2026](daily-challenges/2026-11-08/index.md) — <https://jeenotes.in/daily-challenges/2026-11-08/>
+- [Daily Challenge — 9 November 2026](daily-challenges/2026-11-09/index.md) — <https://jeenotes.in/daily-challenges/2026-11-09/>
+- [Daily Challenge — 10 November 2026](daily-challenges/2026-11-10/index.md) — <https://jeenotes.in/daily-challenges/2026-11-10/>
+- [Daily Challenge — 11 November 2026](daily-challenges/2026-11-11/index.md) — <https://jeenotes.in/daily-challenges/2026-11-11/>
+- [Daily Challenge — 12 November 2026](daily-challenges/2026-11-12/index.md) — <https://jeenotes.in/daily-challenges/2026-11-12/>
+- [Daily Challenge — 13 November 2026](daily-challenges/2026-11-13/index.md) — <https://jeenotes.in/daily-challenges/2026-11-13/>
+- [Daily Challenge — 14 November 2026](daily-challenges/2026-11-14/index.md) — <https://jeenotes.in/daily-challenges/2026-11-14/>
+- [Daily Challenge — 15 November 2026](daily-challenges/2026-11-15/index.md) — <https://jeenotes.in/daily-challenges/2026-11-15/>
+- [Daily Challenge — 16 November 2026](daily-challenges/2026-11-16/index.md) — <https://jeenotes.in/daily-challenges/2026-11-16/>
+- [Daily Challenge — 17 November 2026](daily-challenges/2026-11-17/index.md) — <https://jeenotes.in/daily-challenges/2026-11-17/>
+- [Daily Challenge — 18 November 2026](daily-challenges/2026-11-18/index.md) — <https://jeenotes.in/daily-challenges/2026-11-18/>
+- [Daily Challenge — 19 November 2026](daily-challenges/2026-11-19/index.md) — <https://jeenotes.in/daily-challenges/2026-11-19/>
+- [Daily Challenge — 20 November 2026](daily-challenges/2026-11-20/index.md) — <https://jeenotes.in/daily-challenges/2026-11-20/>
+- [Daily Challenge — 21 November 2026](daily-challenges/2026-11-21/index.md) — <https://jeenotes.in/daily-challenges/2026-11-21/>
+- [Daily Challenge — 22 November 2026](daily-challenges/2026-11-22/index.md) — <https://jeenotes.in/daily-challenges/2026-11-22/>
+- [Daily Challenge — 23 November 2026](daily-challenges/2026-11-23/index.md) — <https://jeenotes.in/daily-challenges/2026-11-23/>
+
+## Mathematics
+
+- [Applications of Binomial Theorem in Approximations](mathematics/binomial-theorem/applications/index.md) — <https://jeenotes.in/mathematics/binomial-theorem/applications/>
+- [Properties of Binomial Coefficients](mathematics/binomial-theorem/binomial-coefficients/index.md) — <https://jeenotes.in/mathematics/binomial-theorem/binomial-coefficients/>
+- [Binomial Theorem for Positive Integer](mathematics/binomial-theorem/binomial-expansion/index.md) — <https://jeenotes.in/mathematics/binomial-theorem/binomial-expansion/>
+- [Binomial Theorem Formula Sheet](mathematics/binomial-theorem/formula-sheet/index.md) — <https://jeenotes.in/mathematics/binomial-theorem/formula-sheet/>
+- [General Term and Middle Term in Binomial Expansion](mathematics/binomial-theorem/general-term/index.md) — <https://jeenotes.in/mathematics/binomial-theorem/general-term/>
+- [Binomial Theorem](mathematics/binomial-theorem/index.md) — <https://jeenotes.in/mathematics/binomial-theorem/>
+- [Multinomial Theorem - Advanced Topic](mathematics/binomial-theorem/multinomial-theorem/index.md) — <https://jeenotes.in/mathematics/binomial-theorem/multinomial-theorem/>
+- [Binomial Theorem Previous Year Questions (JEE Main 2026)](mathematics/binomial-theorem/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/binomial-theorem/previous-year-questions/>
+- [Argand Diagram and Geometric Representation](mathematics/complex-numbers/argand-diagram/index.md) — <https://jeenotes.in/mathematics/complex-numbers/argand-diagram/>
+- [Complex Numbers: Basics and Algebra](mathematics/complex-numbers/complex-basics/index.md) — <https://jeenotes.in/mathematics/complex-numbers/complex-basics/>
+- [Cube Roots of Unity and Omega Properties](mathematics/complex-numbers/cube-roots-unity/index.md) — <https://jeenotes.in/mathematics/complex-numbers/cube-roots-unity/>
+- [De Moivre's Theorem: Powers and Roots](mathematics/complex-numbers/de-moivres-theorem/index.md) — <https://jeenotes.in/mathematics/complex-numbers/de-moivres-theorem/>
+- [Complex Numbers and Quadratic Equations Formula Sheet](mathematics/complex-numbers/formula-sheet/index.md) — <https://jeenotes.in/mathematics/complex-numbers/formula-sheet/>
+- [Complex Numbers and Quadratic Equations](mathematics/complex-numbers/index.md) — <https://jeenotes.in/mathematics/complex-numbers/>
+- [Modulus, Argument and Polar Form](mathematics/complex-numbers/modulus-argument/index.md) — <https://jeenotes.in/mathematics/complex-numbers/modulus-argument/>
+- [Complex Numbers & Quadratic Equations Previous Year Questions (JEE Main 2026)](mathematics/complex-numbers/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/complex-numbers/previous-year-questions/>
+- [Quadratic Equations with Complex Roots](mathematics/complex-numbers/quadratic-equations/index.md) — <https://jeenotes.in/mathematics/complex-numbers/quadratic-equations/>
+- [Chord of Contact and Pole-Polar Theory](mathematics/coordinate-geometry/chord-contact/index.md) — <https://jeenotes.in/mathematics/coordinate-geometry/chord-contact/>
+- [Circles - Perfect Curves in Coordinate Geometry](mathematics/coordinate-geometry/circles/index.md) — <https://jeenotes.in/mathematics/coordinate-geometry/circles/>
+- [General Equation of Conics - The Universal Form](mathematics/coordinate-geometry/conic-general/index.md) — <https://jeenotes.in/mathematics/coordinate-geometry/conic-general/>
+- [Ellipse - The Orbital Curve](mathematics/coordinate-geometry/ellipse/index.md) — <https://jeenotes.in/mathematics/coordinate-geometry/ellipse/>
+- [Coordinate Geometry Formula Sheet](mathematics/coordinate-geometry/formula-sheet/index.md) — <https://jeenotes.in/mathematics/coordinate-geometry/formula-sheet/>
+- [Hyperbola - The Open Conic with Asymptotes](mathematics/coordinate-geometry/hyperbola/index.md) — <https://jeenotes.in/mathematics/coordinate-geometry/hyperbola/>
+- [Coordinate Geometry](mathematics/coordinate-geometry/index.md) — <https://jeenotes.in/mathematics/coordinate-geometry/>
+- [Parabola - The Satellite Dish Curve](mathematics/coordinate-geometry/parabola/index.md) — <https://jeenotes.in/mathematics/coordinate-geometry/parabola/>
+- [Coordinate Geometry — Previous Year Questions (JEE Main 2026)](mathematics/coordinate-geometry/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/coordinate-geometry/previous-year-questions/>
+- [Straight Lines - The Foundation of Coordinate Geometry](mathematics/coordinate-geometry/straight-lines/index.md) — <https://jeenotes.in/mathematics/coordinate-geometry/straight-lines/>
+- [Tangents and Normals to Conics - The Touch and Perpendicular](mathematics/coordinate-geometry/tangent-normal-conics/index.md) — <https://jeenotes.in/mathematics/coordinate-geometry/tangent-normal-conics/>
+- [Applications of Differential Equations](mathematics/differential-equations/applications-de/index.md) — <https://jeenotes.in/mathematics/differential-equations/applications-de/>
+- [Formation of Differential Equations](mathematics/differential-equations/formation-de/index.md) — <https://jeenotes.in/mathematics/differential-equations/formation-de/>
+- [Differential Equations Formula Sheet](mathematics/differential-equations/formula-sheet/index.md) — <https://jeenotes.in/mathematics/differential-equations/formula-sheet/>
+- [Homogeneous Differential Equations](mathematics/differential-equations/homogeneous-de/index.md) — <https://jeenotes.in/mathematics/differential-equations/homogeneous-de/>
+- [Differential Equations](mathematics/differential-equations/index.md) — <https://jeenotes.in/mathematics/differential-equations/>
+- [Linear Differential Equations](mathematics/differential-equations/linear-de/index.md) — <https://jeenotes.in/mathematics/differential-equations/linear-de/>
+- [Order and Degree of Differential Equations](mathematics/differential-equations/order-degree/index.md) — <https://jeenotes.in/mathematics/differential-equations/order-degree/>
+- [Differential Equations Previous Year Questions (JEE Main 2026)](mathematics/differential-equations/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/differential-equations/previous-year-questions/>
+- [Variable Separable Method](mathematics/differential-equations/variable-separable/index.md) — <https://jeenotes.in/mathematics/differential-equations/variable-separable/>
+- [Applications of Integrals: Area Under Curves and Beyond](mathematics/integral-calculus/applications-integrals/index.md) — <https://jeenotes.in/mathematics/integral-calculus/applications-integrals/>
+- [Definite Integrals: Fundamental Theorem and Properties](mathematics/integral-calculus/definite-integrals/index.md) — <https://jeenotes.in/mathematics/integral-calculus/definite-integrals/>
+- [Integral Calculus Formula Sheet](mathematics/integral-calculus/formula-sheet/index.md) — <https://jeenotes.in/mathematics/integral-calculus/formula-sheet/>
+- [Indefinite Integrals: Antiderivatives and Standard Forms](mathematics/integral-calculus/indefinite-integrals/index.md) — <https://jeenotes.in/mathematics/integral-calculus/indefinite-integrals/>
+- [Integral Calculus](mathematics/integral-calculus/index.md) — <https://jeenotes.in/mathematics/integral-calculus/>
+- [Advanced Integration Techniques: Substitution, By Parts, and Partial Fractions](mathematics/integral-calculus/integration-techniques/index.md) — <https://jeenotes.in/mathematics/integral-calculus/integration-techniques/>
+- [Integral Calculus Previous Year Questions (JEE Main 2026)](mathematics/integral-calculus/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/integral-calculus/previous-year-questions/>
+- [Trigonometric Integration: Advanced Techniques Using Identities](mathematics/integral-calculus/trigonometric-integration/index.md) — <https://jeenotes.in/mathematics/integral-calculus/trigonometric-integration/>
+- [Applications of Derivatives](mathematics/limits-continuity-differentiability/applications-derivatives/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/applications-derivatives/>
+- [Continuity of Functions](mathematics/limits-continuity-differentiability/continuity/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/continuity/>
+- [Curve Sketching - Monotonicity, Concavity, Asymptotes](mathematics/limits-continuity-differentiability/curve-sketching/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/curve-sketching/>
+- [Differentiability & Derivatives](mathematics/limits-continuity-differentiability/differentiability/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/differentiability/>
+- [Rules of Differentiation](mathematics/limits-continuity-differentiability/differentiation-rules/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/differentiation-rules/>
+- [Limits, Continuity & Differentiability Formula Sheet](mathematics/limits-continuity-differentiability/formula-sheet/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/formula-sheet/>
+- [Higher Order Derivatives](mathematics/limits-continuity-differentiability/higher-derivatives/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/higher-derivatives/>
+- [Implicit Differentiation & Parametric Forms](mathematics/limits-continuity-differentiability/implicit-differentiation/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/implicit-differentiation/>
+- [Limits, Continuity and Differentiability](mathematics/limits-continuity-differentiability/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/>
+- [Introduction to Limits](mathematics/limits-continuity-differentiability/limits-basics/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/limits-basics/>
+- [Maxima and Minima - Optimization Problems](mathematics/limits-continuity-differentiability/maxima-minima/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/maxima-minima/>
+- [Mean Value Theorems - Rolle's, Lagrange, L'Hospital](mathematics/limits-continuity-differentiability/mean-value-theorems/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/mean-value-theorems/>
+- [Limits, Continuity & Differentiability Previous Year Questions (JEE Main 2026)](mathematics/limits-continuity-differentiability/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/previous-year-questions/>
+- [Standard Limits & L'Hôpital's Rule](mathematics/limits-continuity-differentiability/standard-limits/index.md) — <https://jeenotes.in/mathematics/limits-continuity-differentiability/standard-limits/>
+- [Adjoint and Inverse of Matrices](mathematics/matrices-determinants/adjoint-inverse/index.md) — <https://jeenotes.in/mathematics/matrices-determinants/adjoint-inverse/>
+- [Determinants: Evaluation and Calculation](mathematics/matrices-determinants/determinants-evaluation/index.md) — <https://jeenotes.in/mathematics/matrices-determinants/determinants-evaluation/>
+- [Matrices and Determinants Formula Sheet](mathematics/matrices-determinants/formula-sheet/index.md) — <https://jeenotes.in/mathematics/matrices-determinants/formula-sheet/>
+- [Matrices and Determinants](mathematics/matrices-determinants/index.md) — <https://jeenotes.in/mathematics/matrices-determinants/>
+- [Linear Equations: Cramer's Rule and Matrix Method](mathematics/matrices-determinants/linear-equations/index.md) — <https://jeenotes.in/mathematics/matrices-determinants/linear-equations/>
+- [Matrix Algebra: Operations and Properties](mathematics/matrices-determinants/matrix-algebra/index.md) — <https://jeenotes.in/mathematics/matrices-determinants/matrix-algebra/>
+- [Matrix Basics: Notation and Types](mathematics/matrices-determinants/matrix-basics/index.md) — <https://jeenotes.in/mathematics/matrices-determinants/matrix-basics/>
+- [Minors, Cofactors and Expansion](mathematics/matrices-determinants/minors-cofactors/index.md) — <https://jeenotes.in/mathematics/matrices-determinants/minors-cofactors/>
+- [Matrices & Determinants — Previous Year Questions (JEE Main 2026)](mathematics/matrices-determinants/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/matrices-determinants/previous-year-questions/>
+- [Properties of Determinants: Shortcuts for JEE](mathematics/matrices-determinants/properties-determinants/index.md) — <https://jeenotes.in/mathematics/matrices-determinants/properties-determinants/>
+- [Circular Permutations - Arrangements in a Circle](mathematics/permutations-combinations/circular-permutations/index.md) — <https://jeenotes.in/mathematics/permutations-combinations/circular-permutations/>
+- [Combinations Applications - Selection and Distribution Problems](mathematics/permutations-combinations/combinations-applications/index.md) — <https://jeenotes.in/mathematics/permutations-combinations/combinations-applications/>
+- [Combinations Basics - Selections and nCr Formula](mathematics/permutations-combinations/combinations-basics/index.md) — <https://jeenotes.in/mathematics/permutations-combinations/combinations-basics/>
+- [Derangements - Permutations with No Fixed Points](mathematics/permutations-combinations/derangements/index.md) — <https://jeenotes.in/mathematics/permutations-combinations/derangements/>
+- [Permutations and Combinations Formula Sheet](mathematics/permutations-combinations/formula-sheet/index.md) — <https://jeenotes.in/mathematics/permutations-combinations/formula-sheet/>
+- [Fundamental Principle of Counting](mathematics/permutations-combinations/fundamental-counting-principle/index.md) — <https://jeenotes.in/mathematics/permutations-combinations/fundamental-counting-principle/>
+- [Permutations and Combinations](mathematics/permutations-combinations/index.md) — <https://jeenotes.in/mathematics/permutations-combinations/>
+- [Permutations Basics - Arrangements and nPr Formula](mathematics/permutations-combinations/permutations-basics/index.md) — <https://jeenotes.in/mathematics/permutations-combinations/permutations-basics/>
+- [Permutations with Repetition](mathematics/permutations-combinations/permutations-with-repetition/index.md) — <https://jeenotes.in/mathematics/permutations-combinations/permutations-with-repetition/>
+- [Permutations & Combinations Previous Year Questions (JEE Main 2026)](mathematics/permutations-combinations/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/permutations-combinations/previous-year-questions/>
+- [Arithmetico-Geometric Progression (AGP)](mathematics/sequences-series/agp/index.md) — <https://jeenotes.in/mathematics/sequences-series/agp/>
+- [AM-GM-HM Inequalities](mathematics/sequences-series/am-gm-hm/index.md) — <https://jeenotes.in/mathematics/sequences-series/am-gm-hm/>
+- [Arithmetic Progression (AP)](mathematics/sequences-series/arithmetic-progression/index.md) — <https://jeenotes.in/mathematics/sequences-series/arithmetic-progression/>
+- [Sequences and Series Formula Sheet](mathematics/sequences-series/formula-sheet/index.md) — <https://jeenotes.in/mathematics/sequences-series/formula-sheet/>
+- [Geometric Progression (GP)](mathematics/sequences-series/geometric-progression/index.md) — <https://jeenotes.in/mathematics/sequences-series/geometric-progression/>
+- [Harmonic Progression (HP)](mathematics/sequences-series/harmonic-progression/index.md) — <https://jeenotes.in/mathematics/sequences-series/harmonic-progression/>
+- [Sequences and Series](mathematics/sequences-series/index.md) — <https://jeenotes.in/mathematics/sequences-series/>
+- [Infinite Geometric Progressions](mathematics/sequences-series/infinite-gp/index.md) — <https://jeenotes.in/mathematics/sequences-series/infinite-gp/>
+- [Method of Differences and V_n Method](mathematics/sequences-series/method-differences/index.md) — <https://jeenotes.in/mathematics/sequences-series/method-differences/>
+- [Sequences and Series Previous Year Questions (JEE Main 2026)](mathematics/sequences-series/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/sequences-series/previous-year-questions/>
+- [Special Series and Standard Summations](mathematics/sequences-series/special-series/index.md) — <https://jeenotes.in/mathematics/sequences-series/special-series/>
+- [Composition of Functions](mathematics/sets-relations-functions/composition/index.md) — <https://jeenotes.in/mathematics/sets-relations-functions/composition/>
+- [Sets, Relations and Functions Formula Sheet](mathematics/sets-relations-functions/formula-sheet/index.md) — <https://jeenotes.in/mathematics/sets-relations-functions/formula-sheet/>
+- [Introduction to Functions](mathematics/sets-relations-functions/functions-basics/index.md) — <https://jeenotes.in/mathematics/sets-relations-functions/functions-basics/>
+- [Sets, Relations and Functions](mathematics/sets-relations-functions/index.md) — <https://jeenotes.in/mathematics/sets-relations-functions/>
+- [Sets, Relations & Functions — Previous Year Questions (JEE Main 2026)](mathematics/sets-relations-functions/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/sets-relations-functions/previous-year-questions/>
+- [Introduction to Relations](mathematics/sets-relations-functions/relations-basics/index.md) — <https://jeenotes.in/mathematics/sets-relations-functions/relations-basics/>
+- [Set Operations](mathematics/sets-relations-functions/set-operations/index.md) — <https://jeenotes.in/mathematics/sets-relations-functions/set-operations/>
+- [Sets and Their Representation](mathematics/sets-relations-functions/sets-basics/index.md) — <https://jeenotes.in/mathematics/sets-relations-functions/sets-basics/>
+- [Types of Functions](mathematics/sets-relations-functions/types-of-functions/index.md) — <https://jeenotes.in/mathematics/sets-relations-functions/types-of-functions/>
+- [Types of Relations](mathematics/sets-relations-functions/types-of-relations/index.md) — <https://jeenotes.in/mathematics/sets-relations-functions/types-of-relations/>
+- [Bayes Theorem: Formula, Proof & Examples](mathematics/statistics-probability/bayes-theorem/index.md) — <https://jeenotes.in/mathematics/statistics-probability/bayes-theorem/>
+- [Bernoulli Trials](mathematics/statistics-probability/bernoulli-trials/index.md) — <https://jeenotes.in/mathematics/statistics-probability/bernoulli-trials/>
+- [Conditional Probability](mathematics/statistics-probability/conditional-probability/index.md) — <https://jeenotes.in/mathematics/statistics-probability/conditional-probability/>
+- [Statistics and Probability Formula Sheet](mathematics/statistics-probability/formula-sheet/index.md) — <https://jeenotes.in/mathematics/statistics-probability/formula-sheet/>
+- [Statistics and Probability](mathematics/statistics-probability/index.md) — <https://jeenotes.in/mathematics/statistics-probability/>
+- [Measures of Central Tendency](mathematics/statistics-probability/measures-central-tendency/index.md) — <https://jeenotes.in/mathematics/statistics-probability/measures-central-tendency/>
+- [Measures of Dispersion](mathematics/statistics-probability/measures-dispersion/index.md) — <https://jeenotes.in/mathematics/statistics-probability/measures-dispersion/>
+- [Statistics & Probability Previous Year Questions (JEE Main 2026)](mathematics/statistics-probability/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/statistics-probability/previous-year-questions/>
+- [Probability Basics](mathematics/statistics-probability/probability-basics/index.md) — <https://jeenotes.in/mathematics/statistics-probability/probability-basics/>
+- [Probability Distributions](mathematics/statistics-probability/probability-distributions/index.md) — <https://jeenotes.in/mathematics/statistics-probability/probability-distributions/>
+- [Random Variables](mathematics/statistics-probability/random-variables/index.md) — <https://jeenotes.in/mathematics/statistics-probability/random-variables/>
+- [3D Coordinate System & Distance Formula](mathematics/three-dimensional-geometry/3d-coordinates/index.md) — <https://jeenotes.in/mathematics/three-dimensional-geometry/3d-coordinates/>
+- [Angle Between Two Lines in Space](mathematics/three-dimensional-geometry/angle-between-lines/index.md) — <https://jeenotes.in/mathematics/three-dimensional-geometry/angle-between-lines/>
+- [Coplanarity of Lines and Points](mathematics/three-dimensional-geometry/coplanarity/index.md) — <https://jeenotes.in/mathematics/three-dimensional-geometry/coplanarity/>
+- [Direction Cosines and Direction Ratios](mathematics/three-dimensional-geometry/direction-cosines/index.md) — <https://jeenotes.in/mathematics/three-dimensional-geometry/direction-cosines/>
+- [Three Dimensional Geometry Formula Sheet](mathematics/three-dimensional-geometry/formula-sheet/index.md) — <https://jeenotes.in/mathematics/three-dimensional-geometry/formula-sheet/>
+- [Three Dimensional Geometry](mathematics/three-dimensional-geometry/index.md) — <https://jeenotes.in/mathematics/three-dimensional-geometry/>
+- [Equation of a Line in 3D Space](mathematics/three-dimensional-geometry/line-in-space/index.md) — <https://jeenotes.in/mathematics/three-dimensional-geometry/line-in-space/>
+- [Line and Plane Relations in 3D](mathematics/three-dimensional-geometry/line-plane-relations/index.md) — <https://jeenotes.in/mathematics/three-dimensional-geometry/line-plane-relations/>
+- [Equation of a Plane in 3D Space](mathematics/three-dimensional-geometry/plane-equations/index.md) — <https://jeenotes.in/mathematics/three-dimensional-geometry/plane-equations/>
+- [Three-Dimensional Geometry Previous Year Questions (JEE Main 2026)](mathematics/three-dimensional-geometry/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/three-dimensional-geometry/previous-year-questions/>
+- [Skew Lines and Shortest Distance](mathematics/three-dimensional-geometry/skew-lines/index.md) — <https://jeenotes.in/mathematics/three-dimensional-geometry/skew-lines/>
+- [Trigonometry Formula Sheet](mathematics/trigonometry/formula-sheet/index.md) — <https://jeenotes.in/mathematics/trigonometry/formula-sheet/>
+- [Trigonometry](mathematics/trigonometry/index.md) — <https://jeenotes.in/mathematics/trigonometry/>
+- [Inverse Trigonometric Functions: Reversing the Circle](mathematics/trigonometry/inverse-trig/index.md) — <https://jeenotes.in/mathematics/trigonometry/inverse-trig/>
+- [Trigonometry Previous Year Questions (JEE Main 2026)](mathematics/trigonometry/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/trigonometry/previous-year-questions/>
+- [Properties of Triangles: Where Trigonometry Meets Geometry](mathematics/trigonometry/properties-triangles/index.md) — <https://jeenotes.in/mathematics/trigonometry/properties-triangles/>
+- [Trigonometric Equations: Unlocking Infinite Solutions](mathematics/trigonometry/trig-equations/index.md) — <https://jeenotes.in/mathematics/trigonometry/trig-equations/>
+- [Trigonometric Identities: The Foundation of JEE Trigonometry](mathematics/trigonometry/trig-identities/index.md) — <https://jeenotes.in/mathematics/trigonometry/trig-identities/>
+- [Vector Algebra Formula Sheet](mathematics/vector-algebra/formula-sheet/index.md) — <https://jeenotes.in/mathematics/vector-algebra/formula-sheet/>
+- [Vector Algebra](mathematics/vector-algebra/index.md) — <https://jeenotes.in/mathematics/vector-algebra/>
+- [Vector Algebra Previous Year Questions (JEE Main 2026)](mathematics/vector-algebra/previous-year-questions/index.md) — <https://jeenotes.in/mathematics/vector-algebra/previous-year-questions/>
+- [Scalar Product (Dot Product): Work, Projection & Angles](mathematics/vector-algebra/scalar-product/index.md) — <https://jeenotes.in/mathematics/vector-algebra/scalar-product/>
+- [Triple Products: Scalar Triple Product (Volume) & Vector Triple Product](mathematics/vector-algebra/triple-products/index.md) — <https://jeenotes.in/mathematics/vector-algebra/triple-products/>
+- [Vector Addition: Triangle, Parallelogram & Component Methods](mathematics/vector-algebra/vector-addition/index.md) — <https://jeenotes.in/mathematics/vector-algebra/vector-addition/>
+- [Vector Product (Cross Product): Torque, Area & Perpendicular Vectors](mathematics/vector-algebra/vector-product/index.md) — <https://jeenotes.in/mathematics/vector-algebra/vector-product/>
+- [Vector Basics: Definition, Types & Position Vectors](mathematics/vector-algebra/vectors-basics/index.md) — <https://jeenotes.in/mathematics/vector-algebra/vectors-basics/>
+
+## Mock Tests
+
+- [JEE Main 2026 — 2 April Shift 1 (Mock Test)](mock-tests/jee-main-2026-apr-2-shift-1/index.md) — <https://jeenotes.in/mock-tests/jee-main-2026-apr-2-shift-1/>
+- [JEE Main 2026 — 2 April Shift 2 (Mock Test)](mock-tests/jee-main-2026-apr-2-shift-2/index.md) — <https://jeenotes.in/mock-tests/jee-main-2026-apr-2-shift-2/>
+- [JEE Main 2026 — 4 April Shift 1 (Mock Test)](mock-tests/jee-main-2026-apr-4-shift-1/index.md) — <https://jeenotes.in/mock-tests/jee-main-2026-apr-4-shift-1/>
+- [JEE Main 2026 — 4 April Shift 2 (Mock Test)](mock-tests/jee-main-2026-apr-4-shift-2/index.md) — <https://jeenotes.in/mock-tests/jee-main-2026-apr-4-shift-2/>
+- [JEE Main 2026 — 5 April Shift 1 (Mock Test)](mock-tests/jee-main-2026-apr-5-shift-1/index.md) — <https://jeenotes.in/mock-tests/jee-main-2026-apr-5-shift-1/>
+- [JEE Main 2026 — 5 April Shift 2 (Mock Test)](mock-tests/jee-main-2026-apr-5-shift-2/index.md) — <https://jeenotes.in/mock-tests/jee-main-2026-apr-5-shift-2/>
+- [JEE Main 2026 — 6 April Shift 1 (Mock Test)](mock-tests/jee-main-2026-apr-6-shift-1/index.md) — <https://jeenotes.in/mock-tests/jee-main-2026-apr-6-shift-1/>
+- [JEE Main 2026 — 6 April Shift 2 (Mock Test)](mock-tests/jee-main-2026-apr-6-shift-2/index.md) — <https://jeenotes.in/mock-tests/jee-main-2026-apr-6-shift-2/>
+- [JEE Main 2026 — 8 April Shift 2 (Mock Test)](mock-tests/jee-main-2026-apr-8-shift-2/index.md) — <https://jeenotes.in/mock-tests/jee-main-2026-apr-8-shift-2/>
+
+## Physics
+
+- [Binding Energy Curve - Nuclear Stability and Energy](physics/atoms-nuclei/binding-energy/index.md) — <https://jeenotes.in/physics/atoms-nuclei/binding-energy/>
+- [Bohr Model - Quantization of Energy Levels](physics/atoms-nuclei/bohr-model/index.md) — <https://jeenotes.in/physics/atoms-nuclei/bohr-model/>
+- [Atoms and Nuclei Formula Sheet](physics/atoms-nuclei/formula-sheet/index.md) — <https://jeenotes.in/physics/atoms-nuclei/formula-sheet/>
+- [Hydrogen Spectrum - Spectral Series Explained](physics/atoms-nuclei/hydrogen-spectrum/index.md) — <https://jeenotes.in/physics/atoms-nuclei/hydrogen-spectrum/>
+- [Atoms and Nuclei](physics/atoms-nuclei/index.md) — <https://jeenotes.in/physics/atoms-nuclei/>
+- [Nuclear Reactions - Fission, Fusion, and Applications](physics/atoms-nuclei/nuclear-reactions/index.md) — <https://jeenotes.in/physics/atoms-nuclei/nuclear-reactions/>
+- [Nuclear Structure - Protons, Neutrons, and Mass Defect](physics/atoms-nuclei/nuclear-structure/index.md) — <https://jeenotes.in/physics/atoms-nuclei/nuclear-structure/>
+- [Atoms & Nuclei Previous Year Questions (JEE Main 2026)](physics/atoms-nuclei/previous-year-questions/index.md) — <https://jeenotes.in/physics/atoms-nuclei/previous-year-questions/>
+- [Radioactivity - Alpha, Beta, Gamma Decay and Half-Life](physics/atoms-nuclei/radioactivity/index.md) — <https://jeenotes.in/physics/atoms-nuclei/radioactivity/>
+- [Rutherford Model - The Nuclear Atom Discovery](physics/atoms-nuclei/rutherford-model/index.md) — <https://jeenotes.in/physics/atoms-nuclei/rutherford-model/>
+- [Drift Velocity and Current Density](physics/current-electricity/drift-velocity/index.md) — <https://jeenotes.in/physics/current-electricity/drift-velocity/>
+- [Electrical Power and Heating Effects](physics/current-electricity/electrical-power/index.md) — <https://jeenotes.in/physics/current-electricity/electrical-power/>
+- [Current Electricity Formula Sheet](physics/current-electricity/formula-sheet/index.md) — <https://jeenotes.in/physics/current-electricity/formula-sheet/>
+- [Current Electricity](physics/current-electricity/index.md) — <https://jeenotes.in/physics/current-electricity/>
+- [Kirchhoff's Current and Voltage Laws](physics/current-electricity/kirchhoffs-laws/index.md) — <https://jeenotes.in/physics/current-electricity/kirchhoffs-laws/>
+- [Ohm's Law and V-I Characteristics](physics/current-electricity/ohms-law/index.md) — <https://jeenotes.in/physics/current-electricity/ohms-law/>
+- [Current Electricity Previous Year Questions (JEE Main 2026)](physics/current-electricity/previous-year-questions/index.md) — <https://jeenotes.in/physics/current-electricity/previous-year-questions/>
+- [Resistance, Resistivity, and Temperature Dependence](physics/current-electricity/resistance/index.md) — <https://jeenotes.in/physics/current-electricity/resistance/>
+- [Wheatstone Bridge and Meter Bridge](physics/current-electricity/wheatstone-bridge/index.md) — <https://jeenotes.in/physics/current-electricity/wheatstone-bridge/>
+- [Davisson-Germer Experiment - Proving Matter Waves](physics/dual-nature/davisson-germer/index.md) — <https://jeenotes.in/physics/dual-nature/davisson-germer/>
+- [de Broglie Hypothesis - Matter Waves Revolution](physics/dual-nature/de-broglie/index.md) — <https://jeenotes.in/physics/dual-nature/de-broglie/>
+- [Dual Nature of Matter and Radiation Formula Sheet](physics/dual-nature/formula-sheet/index.md) — <https://jeenotes.in/physics/dual-nature/formula-sheet/>
+- [Dual Nature of Matter and Radiation](physics/dual-nature/index.md) — <https://jeenotes.in/physics/dual-nature/>
+- [Photoelectric Effect - Einstein's Revolutionary Equation](physics/dual-nature/photoelectric-effect/index.md) — <https://jeenotes.in/physics/dual-nature/photoelectric-effect/>
+- [Dual Nature of Radiation & Matter — Previous Year Questions (JEE Main 2026)](physics/dual-nature/previous-year-questions/index.md) — <https://jeenotes.in/physics/dual-nature/previous-year-questions/>
+- [AC Circuits - Alternating Current Fundamentals](physics/electromagnetic-induction/ac-circuits/index.md) — <https://jeenotes.in/physics/electromagnetic-induction/ac-circuits/>
+- [Faraday's Laws of Electromagnetic Induction](physics/electromagnetic-induction/faradays-law/index.md) — <https://jeenotes.in/physics/electromagnetic-induction/faradays-law/>
+- [Electromagnetic Induction & AC Formula Sheet](physics/electromagnetic-induction/formula-sheet/index.md) — <https://jeenotes.in/physics/electromagnetic-induction/formula-sheet/>
+- [Electromagnetic Induction and AC](physics/electromagnetic-induction/index.md) — <https://jeenotes.in/physics/electromagnetic-induction/>
+- [LCR Circuits - Impedance and Resonance](physics/electromagnetic-induction/lcr-circuits/index.md) — <https://jeenotes.in/physics/electromagnetic-induction/lcr-circuits/>
+- [Lenz's Law - The Opposition Principle](physics/electromagnetic-induction/lenzs-law/index.md) — <https://jeenotes.in/physics/electromagnetic-induction/lenzs-law/>
+- [Motional EMF - EMF in Moving Conductors](physics/electromagnetic-induction/motional-emf/index.md) — <https://jeenotes.in/physics/electromagnetic-induction/motional-emf/>
+- [Mutual Inductance - Wireless Energy Transfer](physics/electromagnetic-induction/mutual-inductance/index.md) — <https://jeenotes.in/physics/electromagnetic-induction/mutual-inductance/>
+- [Electromagnetic Induction Previous Year Questions (JEE Main 2026)](physics/electromagnetic-induction/previous-year-questions/index.md) — <https://jeenotes.in/physics/electromagnetic-induction/previous-year-questions/>
+- [Self Inductance - The Electromagnetic Inertia](physics/electromagnetic-induction/self-inductance/index.md) — <https://jeenotes.in/physics/electromagnetic-induction/self-inductance/>
+- [Transformers - Power Transmission Revolution](physics/electromagnetic-induction/transformers/index.md) — <https://jeenotes.in/physics/electromagnetic-induction/transformers/>
+- [Maxwell's Displacement Current](physics/electromagnetic-waves/displacement-current/index.md) — <https://jeenotes.in/physics/electromagnetic-waves/displacement-current/>
+- [Electromagnetic Spectrum and Wave Properties](physics/electromagnetic-waves/em-spectrum/index.md) — <https://jeenotes.in/physics/electromagnetic-waves/em-spectrum/>
+- [Properties of Electromagnetic Waves](physics/electromagnetic-waves/em-wave-properties/index.md) — <https://jeenotes.in/physics/electromagnetic-waves/em-wave-properties/>
+- [Electromagnetic Waves Formula Sheet](physics/electromagnetic-waves/formula-sheet/index.md) — <https://jeenotes.in/physics/electromagnetic-waves/formula-sheet/>
+- [Electromagnetic Waves](physics/electromagnetic-waves/index.md) — <https://jeenotes.in/physics/electromagnetic-waves/>
+- [Electromagnetic Waves: JEE Main 2026 Previous Year Questions](physics/electromagnetic-waves/previous-year-questions/index.md) — <https://jeenotes.in/physics/electromagnetic-waves/previous-year-questions/>
+- [Diode Characteristics and Rectifiers](physics/electronic-devices/diode-rectifier/index.md) — <https://jeenotes.in/physics/electronic-devices/diode-rectifier/>
+- [Electronic Devices Formula Sheet](physics/electronic-devices/formula-sheet/index.md) — <https://jeenotes.in/physics/electronic-devices/formula-sheet/>
+- [Electronic Devices](physics/electronic-devices/index.md) — <https://jeenotes.in/physics/electronic-devices/>
+- [Basic Logic Gates and Truth Tables](physics/electronic-devices/logic-gates/index.md) — <https://jeenotes.in/physics/electronic-devices/logic-gates/>
+- [p-n Junction Formation and Depletion Region](physics/electronic-devices/pn-junction/index.md) — <https://jeenotes.in/physics/electronic-devices/pn-junction/>
+- [Semiconductor Electronics Previous Year Questions (JEE Main 2026)](physics/electronic-devices/previous-year-questions/index.md) — <https://jeenotes.in/physics/electronic-devices/previous-year-questions/>
+- [Semiconductors and Band Theory](physics/electronic-devices/semiconductors/index.md) — <https://jeenotes.in/physics/electronic-devices/semiconductors/>
+- [Special Purpose Diodes - LED, Photodiode, Solar Cell](physics/electronic-devices/special-diodes/index.md) — <https://jeenotes.in/physics/electronic-devices/special-diodes/>
+- [Transistor as Amplifier and Switch](physics/electronic-devices/transistor/index.md) — <https://jeenotes.in/physics/electronic-devices/transistor/>
+- [Zener Diode and Voltage Regulation](physics/electronic-devices/zener-diode/index.md) — <https://jeenotes.in/physics/electronic-devices/zener-diode/>
+- [Capacitors and Capacitance](physics/electrostatics/capacitors/index.md) — <https://jeenotes.in/physics/electrostatics/capacitors/>
+- [Electric Charges and Coulomb's Law](physics/electrostatics/electric-charges/index.md) — <https://jeenotes.in/physics/electrostatics/electric-charges/>
+- [Electric Dipole](physics/electrostatics/electric-dipole/index.md) — <https://jeenotes.in/physics/electrostatics/electric-dipole/>
+- [Electric Field](physics/electrostatics/electric-field/index.md) — <https://jeenotes.in/physics/electrostatics/electric-field/>
+- [Electric Potential and Potential Energy](physics/electrostatics/electric-potential/index.md) — <https://jeenotes.in/physics/electrostatics/electric-potential/>
+- [Electrostatics Formula Sheet](physics/electrostatics/formula-sheet/index.md) — <https://jeenotes.in/physics/electrostatics/formula-sheet/>
+- [Gauss's Law](physics/electrostatics/gauss-law/index.md) — <https://jeenotes.in/physics/electrostatics/gauss-law/>
+- [Electrostatics](physics/electrostatics/index.md) — <https://jeenotes.in/physics/electrostatics/>
+- [Electrostatics Previous Year Questions (JEE Main 2026)](physics/electrostatics/previous-year-questions/index.md) — <https://jeenotes.in/physics/electrostatics/previous-year-questions/>
+- [Important JEE Experiments - Quick Reference](physics/experimental-skills/common-experiments/index.md) — <https://jeenotes.in/physics/experimental-skills/common-experiments/>
+- [Experimental Skills Formula Sheet](physics/experimental-skills/formula-sheet/index.md) — <https://jeenotes.in/physics/experimental-skills/formula-sheet/>
+- [Experimental Skills](physics/experimental-skills/index.md) — <https://jeenotes.in/physics/experimental-skills/>
+- [Experimental Skills Previous Year Questions (JEE Main 2026)](physics/experimental-skills/previous-year-questions/index.md) — <https://jeenotes.in/physics/experimental-skills/previous-year-questions/>
+- [Screw Gauge: Least Count, Zero Error & Readings](physics/experimental-skills/screw-gauge/index.md) — <https://jeenotes.in/physics/experimental-skills/screw-gauge/>
+- [Vernier Caliper - Measurement and Least Count](physics/experimental-skills/vernier-caliper/index.md) — <https://jeenotes.in/physics/experimental-skills/vernier-caliper/>
+- [Acceleration due to Gravity and Its Variation](physics/gravitation/acceleration-gravity/index.md) — <https://jeenotes.in/physics/gravitation/acceleration-gravity/>
+- [Escape Velocity](physics/gravitation/escape-velocity/index.md) — <https://jeenotes.in/physics/gravitation/escape-velocity/>
+- [Gravitation Formula Sheet](physics/gravitation/formula-sheet/index.md) — <https://jeenotes.in/physics/gravitation/formula-sheet/>
+- [Gravitational Field and Potential](physics/gravitation/gravitational-field-potential/index.md) — <https://jeenotes.in/physics/gravitation/gravitational-field-potential/>
+- [Gravitation](physics/gravitation/index.md) — <https://jeenotes.in/physics/gravitation/>
+- [Kepler's Laws of Planetary Motion](physics/gravitation/keplers-laws/index.md) — <https://jeenotes.in/physics/gravitation/keplers-laws/>
+- [Gravitation Previous Year Questions (JEE Main 2026)](physics/gravitation/previous-year-questions/index.md) — <https://jeenotes.in/physics/gravitation/previous-year-questions/>
+- [Satellite Motion: Orbital Velocity, Time Period, and Energy](physics/gravitation/satellites/index.md) — <https://jeenotes.in/physics/gravitation/satellites/>
+- [Newton's Law of Universal Gravitation](physics/gravitation/universal-gravitation/index.md) — <https://jeenotes.in/physics/gravitation/universal-gravitation/>
+- [Circular Motion](physics/kinematics/circular-motion/index.md) — <https://jeenotes.in/physics/kinematics/circular-motion/>
+- [Kinematics Formula Sheet](physics/kinematics/formula-sheet/index.md) — <https://jeenotes.in/physics/kinematics/formula-sheet/>
+- [Frame of Reference](physics/kinematics/frame-of-reference/index.md) — <https://jeenotes.in/physics/kinematics/frame-of-reference/>
+- [Graphical Analysis](physics/kinematics/graphical-analysis/index.md) — <https://jeenotes.in/physics/kinematics/graphical-analysis/>
+- [Kinematics for JEE: Equations, Graphs & Notes](physics/kinematics/index.md) — <https://jeenotes.in/physics/kinematics/>
+- [Kinematic Equations](physics/kinematics/kinematic-equations/index.md) — <https://jeenotes.in/physics/kinematics/kinematic-equations/>
+- [Motion in a Straight Line](physics/kinematics/motion-1d/index.md) — <https://jeenotes.in/physics/kinematics/motion-1d/>
+- [Motion in a Plane](physics/kinematics/motion-2d/index.md) — <https://jeenotes.in/physics/kinematics/motion-2d/>
+- [Kinematics Previous Year Questions (JEE Main 2026)](physics/kinematics/previous-year-questions/index.md) — <https://jeenotes.in/physics/kinematics/previous-year-questions/>
+- [Projectile Motion](physics/kinematics/projectile-motion/index.md) — <https://jeenotes.in/physics/kinematics/projectile-motion/>
+- [Relative Velocity](physics/kinematics/relative-velocity/index.md) — <https://jeenotes.in/physics/kinematics/relative-velocity/>
+- [Degrees of Freedom and Law of Equipartition of Energy](physics/kinetic-theory/degrees-freedom/index.md) — <https://jeenotes.in/physics/kinetic-theory/degrees-freedom/>
+- [Kinetic Theory of Gases Formula Sheet](physics/kinetic-theory/formula-sheet/index.md) — <https://jeenotes.in/physics/kinetic-theory/formula-sheet/>
+- [Ideal Gas Equation and Gas Laws](physics/kinetic-theory/ideal-gas-equation/index.md) — <https://jeenotes.in/physics/kinetic-theory/ideal-gas-equation/>
+- [Kinetic Theory of Gases](physics/kinetic-theory/index.md) — <https://jeenotes.in/physics/kinetic-theory/>
+- [Kinetic Theory: Basic Postulates and Assumptions](physics/kinetic-theory/kinetic-theory-assumptions/index.md) — <https://jeenotes.in/physics/kinetic-theory/kinetic-theory-assumptions/>
+- [Mean Free Path and Molecular Collisions](physics/kinetic-theory/mean-free-path/index.md) — <https://jeenotes.in/physics/kinetic-theory/mean-free-path/>
+- [Molecular Speeds: RMS, Average, and Most Probable](physics/kinetic-theory/molecular-speeds/index.md) — <https://jeenotes.in/physics/kinetic-theory/molecular-speeds/>
+- [Kinetic Theory of Gases Previous Year Questions (JEE Main 2026)](physics/kinetic-theory/previous-year-questions/index.md) — <https://jeenotes.in/physics/kinetic-theory/previous-year-questions/>
+- [Circular Motion Dynamics - Centripetal Force](physics/laws-of-motion/circular-dynamics/index.md) — <https://jeenotes.in/physics/laws-of-motion/circular-dynamics/>
+- [Laws of Motion Formula Sheet](physics/laws-of-motion/formula-sheet/index.md) — <https://jeenotes.in/physics/laws-of-motion/formula-sheet/>
+- [Friction - Static and Kinetic](physics/laws-of-motion/friction/index.md) — <https://jeenotes.in/physics/laws-of-motion/friction/>
+- [Impulse and Conservation of Momentum](physics/laws-of-motion/impulse-momentum/index.md) — <https://jeenotes.in/physics/laws-of-motion/impulse-momentum/>
+- [Laws of Motion](physics/laws-of-motion/index.md) — <https://jeenotes.in/physics/laws-of-motion/>
+- [Newton's First Law - Law of Inertia](physics/laws-of-motion/newtons-first-law/index.md) — <https://jeenotes.in/physics/laws-of-motion/newtons-first-law/>
+- [Newton's Second Law - Force and Momentum](physics/laws-of-motion/newtons-second-law/index.md) — <https://jeenotes.in/physics/laws-of-motion/newtons-second-law/>
+- [Newton's Third Law - Action and Reaction](physics/laws-of-motion/newtons-third-law/index.md) — <https://jeenotes.in/physics/laws-of-motion/newtons-third-law/>
+- [Laws of Motion (NLM) — JEE Main PYQ with Solutions & Practice](physics/laws-of-motion/previous-year-questions/index.md) — <https://jeenotes.in/physics/laws-of-motion/previous-year-questions/>
+- [Ampere's Circuital Law: The Elegant Shortcut](physics/magnetism/amperes-law/index.md) — <https://jeenotes.in/physics/magnetism/amperes-law/>
+- [Biot-Savart Law: The Foundation of Magnetic Fields](physics/magnetism/biot-savart-law/index.md) — <https://jeenotes.in/physics/magnetism/biot-savart-law/>
+- [Force on Current-Carrying Conductors: Electromagnetism in Action](physics/magnetism/force-current-conductor/index.md) — <https://jeenotes.in/physics/magnetism/force-current-conductor/>
+- [Lorentz Force: When Charges Dance in Magnetic Fields](physics/magnetism/force-moving-charge/index.md) — <https://jeenotes.in/physics/magnetism/force-moving-charge/>
+- [Magnetic Effects of Current and Magnetism Formula Sheet](physics/magnetism/formula-sheet/index.md) — <https://jeenotes.in/physics/magnetism/formula-sheet/>
+- [Moving Coil Galvanometer: The Art of Measuring Current](physics/magnetism/galvanometer/index.md) — <https://jeenotes.in/physics/magnetism/galvanometer/>
+- [Magnetic Effects of Current and Magnetism](physics/magnetism/index.md) — <https://jeenotes.in/physics/magnetism/>
+- [Magnetic Dipole: The Atomic Compass](physics/magnetism/magnetic-dipole/index.md) — <https://jeenotes.in/physics/magnetism/magnetic-dipole/>
+- [Magnetic Materials: Para, Dia, and Ferromagnetism](physics/magnetism/magnetic-materials/index.md) — <https://jeenotes.in/physics/magnetism/magnetic-materials/>
+- [Magnetism Previous Year Questions (JEE Main 2026)](physics/magnetism/previous-year-questions/index.md) — <https://jeenotes.in/physics/magnetism/previous-year-questions/>
+- [Diffraction](physics/optics/diffraction/index.md) — <https://jeenotes.in/physics/optics/diffraction/>
+- [Optics Formula Sheet](physics/optics/formula-sheet/index.md) — <https://jeenotes.in/physics/optics/formula-sheet/>
+- [Optics](physics/optics/index.md) — <https://jeenotes.in/physics/optics/>
+- [Interference - Young's Double Slit & Thin Films](physics/optics/interference/index.md) — <https://jeenotes.in/physics/optics/interference/>
+- [Optical Instruments - Microscope, Telescope & Human Eye](physics/optics/optical-instruments/index.md) — <https://jeenotes.in/physics/optics/optical-instruments/>
+- [Polarization - Malus Law, Brewster's Angle & Transverse Waves](physics/optics/polarization/index.md) — <https://jeenotes.in/physics/optics/polarization/>
+- [Ray & Wave Optics — Previous Year Questions (JEE Main 2026)](physics/optics/previous-year-questions/index.md) — <https://jeenotes.in/physics/optics/previous-year-questions/>
+- [Prism - Dispersion, Deviation & Rainbow Physics](physics/optics/prism/index.md) — <https://jeenotes.in/physics/optics/prism/>
+- [Reflection and Refraction](physics/optics/reflection-refraction/index.md) — <https://jeenotes.in/physics/optics/reflection-refraction/>
+- [Reflection of Light - Laws and Mirror Systems](physics/optics/reflection/index.md) — <https://jeenotes.in/physics/optics/reflection/>
+- [Refraction of Light - Snell's Law and Total Internal Reflection](physics/optics/refraction/index.md) — <https://jeenotes.in/physics/optics/refraction/>
+- [Thin Lens Formula - Lens Power, Magnification & Combinations](physics/optics/thin-lens/index.md) — <https://jeenotes.in/physics/optics/thin-lens/>
+- [Thin Lenses](physics/optics/thin-lenses/index.md) — <https://jeenotes.in/physics/optics/thin-lenses/>
+- [Wave Optics - Huygens Principle & Wavefronts](physics/optics/wave-optics/index.md) — <https://jeenotes.in/physics/optics/wave-optics/>
+- [Doppler Effect](physics/oscillations-waves/doppler-effect/index.md) — <https://jeenotes.in/physics/oscillations-waves/doppler-effect/>
+- [Oscillations and Waves Formula Sheet](physics/oscillations-waves/formula-sheet/index.md) — <https://jeenotes.in/physics/oscillations-waves/formula-sheet/>
+- [Oscillations and Waves](physics/oscillations-waves/index.md) — <https://jeenotes.in/physics/oscillations-waves/>
+- [Oscillations & Waves Previous Year Questions (JEE Main 2026)](physics/oscillations-waves/previous-year-questions/index.md) — <https://jeenotes.in/physics/oscillations-waves/previous-year-questions/>
+- [Energy in Simple Harmonic Motion](physics/oscillations-waves/shm-energy/index.md) — <https://jeenotes.in/physics/oscillations-waves/shm-energy/>
+- [Simple Harmonic Motion (SHM)](physics/oscillations-waves/simple-harmonic-motion/index.md) — <https://jeenotes.in/physics/oscillations-waves/simple-harmonic-motion/>
+- [Superposition of Waves](physics/oscillations-waves/superposition-waves/index.md) — <https://jeenotes.in/physics/oscillations-waves/superposition-waves/>
+- [Wave Motion](physics/oscillations-waves/wave-motion/index.md) — <https://jeenotes.in/physics/oscillations-waves/wave-motion/>
+- [Bernoulli's Theorem and Applications](physics/properties-solids-liquids/bernoullis/index.md) — <https://jeenotes.in/physics/properties-solids-liquids/bernoullis/>
+- [Elastic Moduli](physics/properties-solids-liquids/elastic-moduli/index.md) — <https://jeenotes.in/physics/properties-solids-liquids/elastic-moduli/>
+- [Fluid Pressure and Pascal's Law](physics/properties-solids-liquids/fluid-pressure/index.md) — <https://jeenotes.in/physics/properties-solids-liquids/fluid-pressure/>
+- [Properties of Solids and Liquids Formula Sheet](physics/properties-solids-liquids/formula-sheet/index.md) — <https://jeenotes.in/physics/properties-solids-liquids/formula-sheet/>
+- [Properties of Solids and Liquids](physics/properties-solids-liquids/index.md) — <https://jeenotes.in/physics/properties-solids-liquids/>
+- [Mechanical Properties of Solids & Liquids — Previous Year Questions (JEE Main 2026)](physics/properties-solids-liquids/previous-year-questions/index.md) — <https://jeenotes.in/physics/properties-solids-liquids/previous-year-questions/>
+- [Stress and Strain](physics/properties-solids-liquids/stress-strain/index.md) — <https://jeenotes.in/physics/properties-solids-liquids/stress-strain/>
+- [Surface Tension and Capillarity](physics/properties-solids-liquids/surface-tension/index.md) — <https://jeenotes.in/physics/properties-solids-liquids/surface-tension/>
+- [Viscosity and Stokes' Law](physics/properties-solids-liquids/viscosity/index.md) — <https://jeenotes.in/physics/properties-solids-liquids/viscosity/>
+- [Angular Momentum](physics/rotational-motion/angular-momentum/index.md) — <https://jeenotes.in/physics/rotational-motion/angular-momentum/>
+- [Centre of Mass](physics/rotational-motion/centre-of-mass/index.md) — <https://jeenotes.in/physics/rotational-motion/centre-of-mass/>
+- [Rotational Motion Formula Sheet](physics/rotational-motion/formula-sheet/index.md) — <https://jeenotes.in/physics/rotational-motion/formula-sheet/>
+- [Rotational Motion](physics/rotational-motion/index.md) — <https://jeenotes.in/physics/rotational-motion/>
+- [Moment of Inertia](physics/rotational-motion/moment-of-inertia/index.md) — <https://jeenotes.in/physics/rotational-motion/moment-of-inertia/>
+- [Parallel and Perpendicular Axis Theorems](physics/rotational-motion/parallel-perpendicular-theorems/index.md) — <https://jeenotes.in/physics/rotational-motion/parallel-perpendicular-theorems/>
+- [Rotational Motion — Previous Year Questions (JEE Main 2026)](physics/rotational-motion/previous-year-questions/index.md) — <https://jeenotes.in/physics/rotational-motion/previous-year-questions/>
+- [Rolling Motion](physics/rotational-motion/rolling-motion/index.md) — <https://jeenotes.in/physics/rotational-motion/rolling-motion/>
+- [Torque](physics/rotational-motion/torque/index.md) — <https://jeenotes.in/physics/rotational-motion/torque/>
+- [Entropy and Irreversibility](physics/thermodynamics/entropy/index.md) — <https://jeenotes.in/physics/thermodynamics/entropy/>
+- [First Law of Thermodynamics](physics/thermodynamics/first-law/index.md) — <https://jeenotes.in/physics/thermodynamics/first-law/>
+- [Thermodynamics Formula Sheet](physics/thermodynamics/formula-sheet/index.md) — <https://jeenotes.in/physics/thermodynamics/formula-sheet/>
+- [Heat Engines and Carnot Cycle](physics/thermodynamics/heat-engines/index.md) — <https://jeenotes.in/physics/thermodynamics/heat-engines/>
+- [Thermodynamics](physics/thermodynamics/index.md) — <https://jeenotes.in/physics/thermodynamics/>
+- [Thermodynamics — Previous Year Questions (JEE Main 2026)](physics/thermodynamics/previous-year-questions/index.md) — <https://jeenotes.in/physics/thermodynamics/previous-year-questions/>
+- [PV Diagrams and Cyclic Processes](physics/thermodynamics/pv-diagrams/index.md) — <https://jeenotes.in/physics/thermodynamics/pv-diagrams/>
+- [Second Law of Thermodynamics](physics/thermodynamics/second-law/index.md) — <https://jeenotes.in/physics/thermodynamics/second-law/>
+- [Specific Heat and Molar Heat Capacity](physics/thermodynamics/specific-heat/index.md) — <https://jeenotes.in/physics/thermodynamics/specific-heat/>
+- [Thermodynamic Processes](physics/thermodynamics/thermodynamic-processes/index.md) — <https://jeenotes.in/physics/thermodynamics/thermodynamic-processes/>
+- [Zeroth Law of Thermodynamics](physics/thermodynamics/zeroth-law/index.md) — <https://jeenotes.in/physics/thermodynamics/zeroth-law/>
+- [Dimensional Analysis](physics/units-measurements/dimensional-analysis/index.md) — <https://jeenotes.in/physics/units-measurements/dimensional-analysis/>
+- [Dimensional Formulas](physics/units-measurements/dimensions/index.md) — <https://jeenotes.in/physics/units-measurements/dimensions/>
+- [Errors in Measurement](physics/units-measurements/errors/index.md) — <https://jeenotes.in/physics/units-measurements/errors/>
+- [Units and Measurements Formula Sheet](physics/units-measurements/formula-sheet/index.md) — <https://jeenotes.in/physics/units-measurements/formula-sheet/>
+- [Units and Measurements](physics/units-measurements/index.md) — <https://jeenotes.in/physics/units-measurements/>
+- [Units & Measurements Previous Year Questions (JEE Main 2026)](physics/units-measurements/previous-year-questions/index.md) — <https://jeenotes.in/physics/units-measurements/previous-year-questions/>
+- [SI Units - International System of Units](physics/units-measurements/si-units/index.md) — <https://jeenotes.in/physics/units-measurements/si-units/>
+- [Significant Figures](physics/units-measurements/significant-figures/index.md) — <https://jeenotes.in/physics/units-measurements/significant-figures/>
+- [Collisions](physics/work-energy-power/collisions/index.md) — <https://jeenotes.in/physics/work-energy-power/collisions/>
+- [Conservation of Mechanical Energy](physics/work-energy-power/conservation-energy/index.md) — <https://jeenotes.in/physics/work-energy-power/conservation-energy/>
+- [Work, Energy and Power Formula Sheet](physics/work-energy-power/formula-sheet/index.md) — <https://jeenotes.in/physics/work-energy-power/formula-sheet/>
+- [Work, Energy and Power](physics/work-energy-power/index.md) — <https://jeenotes.in/physics/work-energy-power/>
+- [Kinetic Energy](physics/work-energy-power/kinetic-energy/index.md) — <https://jeenotes.in/physics/work-energy-power/kinetic-energy/>
+- [Potential Energy](physics/work-energy-power/potential-energy/index.md) — <https://jeenotes.in/physics/work-energy-power/potential-energy/>
+- [Power](physics/work-energy-power/power/index.md) — <https://jeenotes.in/physics/work-energy-power/power/>
+- [Work, Energy & Power — JEE Main Previous Year Questions with Solutions](physics/work-energy-power/previous-year-questions/index.md) — <https://jeenotes.in/physics/work-energy-power/previous-year-questions/>
+- [Vertical Circular Motion](physics/work-energy-power/vertical-circular-motion/index.md) — <https://jeenotes.in/physics/work-energy-power/vertical-circular-motion/>
+- [Work Done by Forces](physics/work-energy-power/work-done/index.md) — <https://jeenotes.in/physics/work-energy-power/work-done/>
+- [Work-Energy Theorem](physics/work-energy-power/work-energy-theorem/index.md) — <https://jeenotes.in/physics/work-energy-power/work-energy-theorem/>

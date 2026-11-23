@@ -1,0 +1,127 @@
+/* ============================================================
+   HappyChases Notes — design-system tokens
+   Source of truth: Paper, "HappyChases Notes — Design System
+   (JEE · NEET · UPSC · CGPSC)", page 02 Colour / 03 Typography.
+
+   Loaded BEFORE v2.css on purpose: --font-display, --font-body
+   and --font-mono exist in both systems, and because v2.css
+   comes second its values win, so nothing re-skins today.
+   Deleting the old :root block in v2.css switches this layer on.
+
+   --radius-sm (4px) and --radius-md (8px) are deliberately NOT
+   here. jeenotes never defines them, so animations.css renders
+   those corners square today; defining them would change that.
+   They land with the rest of the system at remap.
+
+   Per-site: only --color-accent, --color-accent-deep and
+   --color-accent-tint differ. Here they point at JEE yellow.
+   ============================================================ */
+
+:root {
+  /* surfaces — identical on all four sites */
+  --color-page: #FFFFFF;
+  --color-paper: #F7F6F2;
+  --color-rule: #E4E2DC;
+  --color-rule-strong: #15191B;
+
+  /* ink */
+  --color-ink: #15191B;
+  --color-ink-muted: #5A6166;
+  --color-ink-inverse: #FFFFFF;
+
+  /* links */
+  --color-link: #1D3FA6;
+  --color-link-soft: #E6EAF7;
+
+  /* answer states — never exam-coloured */
+  --color-correct: #1F6B3A;
+  --color-correct-soft: #E1EEE5;
+  --color-wrong: #A32319;
+  --color-wrong-soft: #F7E3E0;
+
+  /* TestGuru surface */
+  --color-tg-plaster: #F6F4EF;
+
+  /* exam highlighters — one per site, the fold and the mark */
+  --color-jee: #FFE14D;
+  --color-jee-deep: #7A5C00;
+  --color-jee-tint: #FFFADF;
+  --color-neet: #A6EB8F;
+  --color-neet-deep: #1F6B3A;
+  --color-neet-tint: #EFFBEB;
+  --color-upsc: #FFB65C;
+  --color-upsc-deep: #9A4A00;
+  --color-upsc-tint: #FFF2E2;
+  --color-cgpsc: #FFA3CB;
+  --color-cgpsc-deep: #A3245E;
+  --color-cgpsc-tint: #FFEEF6;
+
+  /* unclaimed slots, in order, for sites 5-7 */
+  --color-reserve-sky: #8FD3FF;
+  --color-reserve-sky-deep: #0B5A8A;
+  --color-reserve-sky-tint: #EBF7FF;
+  --color-reserve-lilac: #C9B8FF;
+  --color-reserve-lilac-deep: #5B3FA0;
+  --color-reserve-lilac-tint: #F5F2FF;
+  --color-reserve-mint: #7FE3CF;
+  --color-reserve-mint-deep: #0F6656;
+  --color-reserve-mint-tint: #E8FAF6;
+
+  /* this site's colour — the only three lines that differ per site */
+  --color-accent: var(--color-jee);
+  --color-accent-deep: var(--color-jee-deep);
+  --color-accent-tint: var(--color-jee-tint);
+
+  /* type families — v2.css still wins these three until the swap */
+  --font-display: "Literata";
+  --font-body: "IBM Plex Sans";
+  --font-mono: "IBM Plex Mono";
+  --font-hindi: "IBM Plex Sans Devanagari";
+
+  /* type scale — desktop; mobile sizes live in the media queries */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-read: 18px;
+  --text-lg: 21px;
+  --text-xl: 28px;
+  --text-2xl: 38px;
+  --text-3xl: 52px;
+  --text-display: 80px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0em;
+  --tracking-label: 0.1em;
+
+  --leading-tight: 20px;
+  --leading-body: 26px;
+  --leading-read: 31px;
+
+  --opacity-disabled: 40%;
+  --opacity-muted: 60%;
+
+  /* layout */
+  --breakpoint-sm: 390px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1440px;
+  --container-prose: 700px;
+  --container-page: 1240px;
+
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 24px;
+  --spacing-6: 32px;
+  --spacing-7: 48px;
+  --spacing-8: 64px;
+  --spacing-9: 96px;
+
+  --radius-none: 0px;
+  --radius-full: 999px;
+}

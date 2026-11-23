@@ -1,0 +1,985 @@
+---
+title: "JEE Main 2026 — 6 April Shift 1 (Mock Test)"
+source: "https://jeenotes.in/mock-tests/jee-main-2026-apr-6-shift-1/"
+description: "Attempt the full JEE Main 2026 6 April Shift 1 paper online — timed, auto-scored with the official NTA answer key and worked solutions."
+html: "../../../offline/mock-tests/jee-main-2026-apr-6-shift-1/index.html"
+extracted: "2026-11-23"
+---
+
+> Attempt the full JEE Main 2026 6 April Shift 1 paper online — timed, auto-scored with the official NTA answer key and worked solutions.
+
+Loading test…
+
+<details class="mock-paper-text prose katex-lazy"><summary>Browse all 75 questions &amp; solutions (text version)</summary><p>JEE Main 2026 · 06 Apr · Shift 1 — 75 questions,
+180 minutes.
+Marking: +4 for a correct answer,
+-1 for an incorrect one.
+Answer key is the official NTA final key; worked solutions are ours.</p><section class="mock-q" id="q-1"><h3>Question 1 · Mathematics</h3><p>Let $[\cdot]$ denote the greatest integer function. If the domain of the function $f(x) = \sin^{-1}\left(\dfrac{x + [x]}{3}\right)$ is $[\alpha, \beta)$, then $\alpha^2 + \beta^2$ is equal to:</p><ol type="A"><li>2</li><li>5</li><li>10</li><li>13</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — 5</p><p>$\sin^{-1}(t)$ needs $-1 \le t \le 1$, so</p>$$-3 \le x + [x] \le 3.$$<p>Check each integer strip:</p><ul><li>$x \in [-1, 0)$, $[x] = -1$: $x + [x] = x - 1 \in [-2,-1)$, valid $\Rightarrow$ all of $[-1,0)$.</li><li>$x \in [0, 1)$, $[x] = 0$: $x + [x] = x \in [0,1)$, valid.</li><li>$x \in [1, 2)$, $[x] = 1$: $x + [x] = x + 1 \in [2,3)$, valid $\Rightarrow$ all of $[1,2)$.</li><li>$x \in [2, 3)$, $[x] = 2$: $x + [x] \ge 4 &gt; 3$, invalid.</li><li>$x &lt; -1$: $x + [x] &lt; -2$ soon drops below $-3$, invalid.</li></ul><p>Combining the valid strips gives the domain $[-1, 2)$, so $\alpha = -1,\ \beta = 2$ and</p>$$\alpha^2 + \beta^2 = 1 + 4 = 5.$$<p><strong>Answer:</strong> B (5)</p></details></section><section class="mock-q" id="q-2"><h3>Question 2 · Mathematics</h3><p>Let one root of the quadratic equation in $x$: $(k^2 - 15k + 27)x^2 + 9(k-1)x + 18 = 0$ be twice the other. Then the length of the latus rectum of the parabola $y^2 = 6kx$ is equal to:</p><ol type="A"><li>4</li><li>6</li><li>8</li><li>12</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option D — 12</p><p>Let the roots be $r$ and $2r$, and $A=k^2-15k+27$. Then</p>$$3r=-\frac{9(k-1)}{A},\qquad 2r^2=\frac{18}{A}.$$<p>From the first, $r=-\dfrac{3(k-1)}{A}$; substitute into the second:</p>$$2\cdot\frac{9(k-1)^2}{A^2}=\frac{18}{A}\;\Longrightarrow\;(k-1)^2=A=k^2-15k+27.$$<p></p>$$k^2-2k+1=k^2-15k+27\;\Longrightarrow\;13k=26\;\Longrightarrow\;k=2.$$<p>(At $k=2$: $x^2+9x+18=0$ has roots $-3,-6$, indeed $-6=2(-3)$.)</p><p>Parabola: $y^2=6kx=12x$, so latus rectum $=12$.</p><p><strong>Answer:</strong> D (12)</p></details></section><section class="mock-q" id="q-3"><h3>Question 3 · Mathematics</h3><p>Let $e_1$ and $e_2$ be two distinct roots of the equation $x^2 - ax + 2 = 0$. Let the sets $\{a \in \mathbb{R} : e_1 \text{ and } e_2 \text{ are the eccentricities of hyperbolas}\} = (\alpha, \beta)$, and $\{a \in \mathbb{R} : e_1 \text{ and } e_2 \text{ are the eccentricities of an ellipse and a hyperbola, respectively}\} = (\gamma, \infty)$. Then $\alpha^2 + \beta^2 + \gamma^2$ is equal to:</p><ol type="A"><li>18</li><li>22</li><li>26</li><li>34</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option C — 26</p><p>Let $f(x)=x^2-ax+2$, so $e_1+e_2=a$, $e_1e_2=2$. Distinct real roots need $a^2-8&gt;0$; since the product is $2&gt;0$, both roots share the sign of $a$.</p><p><strong>Both are hyperbola eccentricities</strong> ($e_1,e_2&gt;1$): need $f(1)&gt;0$, vertex $&gt;1$, and real roots:</p>$$f(1)=3-a&gt;0\Rightarrow a&lt;3,\quad \tfrac{a}{2}&gt;1\Rightarrow a&gt;2,\quad a&gt;2\sqrt2.$$<p>So $a\in(2\sqrt2,3)$, giving $\alpha=2\sqrt2,\ \beta=3$.</p><p><strong>Ellipse and hyperbola</strong> (one root in $(0,1)$, other $&gt;1$): need $f(1)&lt;0$:</p>$$3-a&lt;0\Rightarrow a&gt;3.$$<p>So the set is $(3,\infty)$, giving $\gamma=3$.</p>$$\alpha^2+\beta^2+\gamma^2=8+9+9=26.$$<p><strong>Answer:</strong> C (26)</p></details></section><section class="mock-q" id="q-4"><h3>Question 4 · Mathematics</h3><p>Let the set of all values of $k \in \mathbb{R}$ such that the equation $z(\bar{z} + 2 + i) + k(2 + 3i) = 0$, $z \in \mathbb{C}$, has at least one solution, be the interval $[\alpha, \beta]$. Then $9(\alpha + \beta)$ is equal to:</p><ol type="A"><li>$-10$</li><li>$-8$</li><li>$10\sqrt{13}$</li><li>$8\sqrt{13}$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — $-10$</p><p>Let $z = x + iy$, so $z\bar z = x^2 + y^2$. Expanding:</p>$$z\bar z + z(2+i) + k(2+3i) = 0$$<p></p>$$x^2 + y^2 + (x+iy)(2+i) + k(2+3i) = 0$$<p></p>$$x^2 + y^2 + (2x - y) + i(x + 2y) + 2k + 3ki = 0$$<p>Separate real and imaginary parts:</p>$$\text{Real:}\quad x^2 + y^2 + 2x - y + 2k = 0$$<p></p>$$\text{Imag:}\quad x + 2y + 3k = 0 \;\Rightarrow\; x = -2y - 3k$$<p>Substitute into the real equation:</p>$$(-2y-3k)^2 + y^2 + 2(-2y-3k) - y + 2k = 0$$<p></p>$$5y^2 + (12k - 5)y + (9k^2 - 4k) = 0$$<p>For a real solution $y$ to exist, the discriminant must be non-negative:</p>$$(12k-5)^2 - 20(9k^2 - 4k) \geq 0$$<p></p>$$-36k^2 - 40k + 25 \geq 0 \;\Rightarrow\; 36k^2 + 40k - 25 \leq 0$$<p>The endpoints $\alpha, \beta$ are the roots, so by Vieta:</p>$$\alpha + \beta = -\frac{40}{36} = -\frac{10}{9}$$
+
+$$9(\alpha + \beta) = 9 \cdot \left(-\frac{10}{9}\right) = -10$$<p><strong>Answer:</strong> A</p></details></section><section class="mock-q" id="q-5"><h3>Question 5 · Mathematics</h3><p>The value of $1^3 - 2^3 + 3^3 - \ldots + 15^3$ is:</p><ol type="A"><li>1706</li><li>1856</li><li>1982</li><li>2403</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — 1856</p><p>Group the 15 terms as $(1^3 - 2^3) + (3^3 - 4^3) + \dots + (13^3 - 14^3) + 15^3$.</p><p>Each odd cube minus the next even cube uses $a^3 - b^3 = (a-b)(a^2+ab+b^2)$ with $a - b = -1$, but it is cleaner to compute directly. Split into odd and even cubes:</p>$$\underbrace{(1^3 + 3^3 + \dots + 15^3)}_{\text{odd}} - \underbrace{(2^3 + 4^3 + \dots + 14^3)}_{\text{even}}.$$<p>Sum of all cubes to $15$: $\left(\dfrac{15\cdot 16}{2}\right)^2 = 120^2 = 14400.$</p><p>Even cubes: $2^3(1^3 + \dots + 7^3) = 8\left(\dfrac{7\cdot 8}{2}\right)^2 = 8\cdot 784 = 6272.$</p><p>Odd cubes $= 14400 - 6272 = 8128$. Therefore the alternating sum is</p>$$8128 - 6272 = 1856.$$<p><strong>Answer:</strong> B (1856)</p></details></section><section class="mock-q" id="q-6"><h3>Question 6 · Mathematics</h3><p>The sum of the first ten terms of an A.P. is 160 and the sum of the first two terms of a G.P. is 8. If the first term of the A.P. is equal to the common ratio of the G.P. and the first term of the G.P. is equal to the common difference of the A.P., then the sum of all possible values of the first term of the G.P. is:</p><ol type="A"><li>$\dfrac{34}{9}$</li><li>$\dfrac{34}{13}$</li><li>$\dfrac{32}{9}$</li><li>$\dfrac{32}{13}$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — $\dfrac{34}{9}$</p><p>Let the A.P. have first term $A$ and common difference $D$. Let the G.P. have first term $g$ and common ratio $r$.</p><p>Given links: $A = r$ and $g = D$.</p><p>Sum of first ten A.P. terms:</p>$$\frac{10}{2}(2A + 9D) = 160 \;\Rightarrow\; 2A + 9D = 32.$$<p>Sum of first two G.P. terms with $g = D$, $r = A$:</p>$$g + gr = D(1 + A) = 8.$$<p>From the first equation $A = \dfrac{32 - 9D}{2}$. Substituting:</p>$$D\left(1 + \frac{32 - 9D}{2}\right) = 8 \;\Rightarrow\; D(34 - 9D) = 16 \;\Rightarrow\; 9D^2 - 34D + 16 = 0.$$<p>The first term of the G.P. is $g = D$, so the sum of all possible values of $g$ is the sum of the roots of this quadratic:</p>$$D_1 + D_2 = \frac{34}{9}.$$<p><strong>Answer:</strong> A ($\dfrac{34}{9}$)</p></details></section><section class="mock-q" id="q-7"><h3>Question 7 · Mathematics</h3><p>The number of 4-letter words, with or without meaning, each consisting of two vowels and two consonants that can be formed from the letters of the word INCONSEQUENTIAL, without repeating any letter, is:</p><ol type="A"><li>2670</li><li>2840</li><li>2920</li><li>3600</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option D — 3600</p><p>List the <strong>distinct</strong> letters of INCONSEQUENTIAL.</p><ul><li>Distinct vowels: $A, E, I, O, U$ — that is $5$ vowels.</li><li>Distinct consonants: $C, L, N, Q, S, T$ — that is $6$ consonants.</li></ul><p>Since no letter may be repeated, choose $2$ distinct vowels and $2$ distinct consonants, then arrange all $4$ chosen letters:</p>$$\binom{5}{2}\binom{6}{2}\,4! = 10 \times 15 \times 24 = 3600.$$<p><strong>Answer:</strong> D (3600)</p></details></section><section class="mock-q" id="q-8"><h3>Question 8 · Mathematics</h3><p>If the coefficients of the middle terms in the binomial expansions of $(1 + \alpha x)^{26}$ and $(1 - \alpha x)^{28}$, $\alpha \neq 0$, are equal, then the value of $\alpha$ is:</p><ol type="A"><li>1</li><li>$\dfrac{14}{13}$</li><li>$\dfrac{27}{7}$</li><li>$\dfrac{7}{27}$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option D — $\dfrac{7}{27}$</p><p>$(1 + \alpha x)^{26}$ has $27$ terms, so the single middle term is the $14$th ($r = 13$):</p>$$\text{coeff} = \binom{26}{13}\alpha^{13}.$$<p>$(1 - \alpha x)^{28}$ has $29$ terms, so the middle term is the $15$th ($r = 14$):</p>$$\text{coeff} = \binom{28}{14}(-\alpha)^{14} = \binom{28}{14}\alpha^{14}.$$<p>Equating:</p>$$\binom{26}{13}\alpha^{13} = \binom{28}{14}\alpha^{14} \;\Rightarrow\; \alpha = \frac{\binom{26}{13}}{\binom{28}{14}}.$$<p>Now $\dbinom{28}{14} = \dbinom{26}{13}\cdot\dfrac{27\cdot 28}{14\cdot 14} = \dbinom{26}{13}\cdot\dfrac{756}{196} = \dbinom{26}{13}\cdot\dfrac{27}{7}.$</p><p>Therefore</p>$$\alpha = \frac{1}{27/7} = \frac{7}{27}.$$<p><strong>Answer:</strong> D ($\tfrac{7}{27}$)</p></details></section><section class="mock-q" id="q-9"><h3>Question 9 · Mathematics</h3><p>A data consists of 20 observations $x_1, x_2, \ldots, x_{20}$. If $\sum_{i=1}^{20}(x_i + 5)^2 = 2500$ and $\sum_{i=1}^{20}(x_i - 5)^2 = 100$, then the ratio of mean to standard deviation of this data is:</p><ol type="A"><li>2:1</li><li>3:1</li><li>3:2</li><li>4:1</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — 3:1</p><p><strong>Subtract</strong> the two sums:</p>$$\sum\big[(x_i+5)^2 - (x_i-5)^2\big] = \sum 20x_i = 2500 - 100 = 2400,$$<p></p>$$\Rightarrow \sum x_i = 120 \Rightarrow \bar{x} = \dfrac{120}{20} = 6.$$<p><strong>Add</strong> the two sums:</p>$$\sum\big[(x_i+5)^2 + (x_i-5)^2\big] = \sum\big(2x_i^2 + 50\big) = 2\sum x_i^2 + 1000 = 2600,$$<p></p>$$\Rightarrow \sum x_i^2 = 800.$$<p><strong>Variance:</strong></p>$$\sigma^2 = \dfrac{\sum x_i^2}{20} - \bar{x}^2 = \dfrac{800}{20} - 36 = 40 - 36 = 4 \Rightarrow \sigma = 2.$$
+
+$$\dfrac{\bar{x}}{\sigma} = \dfrac{6}{2} = 3 = 3:1.$$<p><strong>Answer:</strong> B</p></details></section><section class="mock-q" id="q-10"><h3>Question 10 · Mathematics</h3><p>A bag contains $(N + 1)$ coins $-$ $N$ fair coins, and one coin with 'Head' on both sides. A coin is selected at random and tossed. If the probability of getting 'Head' is $\dfrac{9}{16}$, then $N$ is equal to:</p><ol type="A"><li>5</li><li>7</li><li>8</li><li>9</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — 7</p><p>Each coin is chosen with probability $\dfrac{1}{N+1}$. A fair coin gives Head with probability $\tfrac{1}{2}$; the double-headed coin gives Head with probability $1$.</p>$$P(\text{Head}) = \dfrac{N\cdot \tfrac{1}{2} + 1\cdot 1}{N+1} = \dfrac{\tfrac{N}{2} + 1}{N+1} = \dfrac{N+2}{2(N+1)}.$$<p>Set equal to $\dfrac{9}{16}$:</p>$$\dfrac{N+2}{2(N+1)} = \dfrac{9}{16} \Rightarrow 16(N+2) = 18(N+1)$$<p></p>$$32 + 16N = 18N + 18 \Rightarrow 2N = 14 \Rightarrow N = 7.$$<p><strong>Answer:</strong> B</p></details></section><section class="mock-q" id="q-11"><h3>Question 11 · Mathematics</h3><p>If the eccentricity $e$ of the hyperbola $\dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1$, passing through $(6, 4\sqrt{3})$, satisfies $15(e^2 + 1) = 34e$, then the length of the latus rectum of the hyperbola $\dfrac{x^2}{b^2} - \dfrac{y^2}{2(a^2 + 1)} = 1$ is:</p><ol type="A"><li>10</li><li>20</li><li>25</li><li>30</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — 10</p><p>Solve $15e^2-34e+15=0$:</p>$$e=\frac{34\pm\sqrt{34^2-900}}{30}=\frac{34\pm16}{30}=\frac{5}{3}\ \text{or}\ \frac{3}{5}.$$<p>For a hyperbola $e&gt;1$, so $e=\dfrac{5}{3}$, giving $\dfrac{b^2}{a^2}=e^2-1=\dfrac{16}{9}$.</p><p>Through $(6,4\sqrt3)$, i.e. $y^2=48$:</p>$$\frac{36}{a^2}-\frac{48}{b^2}=1.$$<p>With $b^2=\dfrac{16a^2}{9}$, $\dfrac{48}{b^2}=\dfrac{27}{a^2}$, so $\dfrac{36-27}{a^2}=1\Rightarrow a^2=9,\ b^2=16$.</p><p>New hyperbola: $\dfrac{x^2}{16}-\dfrac{y^2}{20}=1$ (since $2(a^2+1)=20$). Latus rectum:</p>$$\frac{2\cdot 20}{\sqrt{16}}=\frac{40}{4}=10.$$<p><strong>Answer:</strong> A (10)</p></details></section><section class="mock-q" id="q-12"><h3>Question 12 · Mathematics</h3><p>Let chord $PQ$ of length $3\sqrt{13}$ of the parabola $y^2 = 12x$ be such that the ordinates of points $P$ and $Q$ are in the ratio $1:2$. If the chord $PQ$ subtends an angle $\alpha$ at the focus of the parabola, then $\sin \alpha$ is equal to:</p><ol type="A"><li>$\dfrac{3}{5}$</li><li>$\dfrac{4}{5}$</li><li>$\dfrac{5}{13}$</li><li>$\dfrac{12}{13}$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — $\dfrac{3}{5}$</p><p>For $y^2=12x$, take points $(3t^2,6t)$; focus $S=(3,0)$. Let $P$ correspond to $t$ and $Q$ to $2t$ (ordinates $6t:12t=1:2$).</p>$$P=(3t^2,6t),\quad Q=(12t^2,12t).$$<p></p>$$PQ^2=(9t^2)^2+(6t)^2=81t^4+36t^2=(3\sqrt{13})^2=117.$$<p></p>$$9t^4+4t^2-13=0\Rightarrow (t^2-1)(9t^2+13)=0\Rightarrow t^2=1.$$<p>Take $t=1$: $P=(3,6),\ Q=(12,12)$.</p>$$\vec{SP}=(0,6),\qquad \vec{SQ}=(9,12).$$<p></p>$$\sin\alpha=\frac{|\,0\cdot12-6\cdot9\,|}{|SP|\,|SQ|}=\frac{54}{6\cdot15}=\frac{54}{90}=\frac{3}{5}.$$<p><strong>Answer:</strong> A ($\dfrac{3}{5}$)</p></details></section><section class="mock-q" id="q-13"><h3>Question 13 · Mathematics</h3><p>Let $0 &lt; \alpha &lt; 1$, $\beta = \dfrac{1}{3\alpha}$ and $\tan^{-1}(1 - \alpha) + \tan^{-1}(1 - \beta) = \dfrac{\pi}{4}$. Then $6(\alpha + \beta)$ is equal to:</p><ol type="A"><li>6</li><li>7</li><li>8</li><li>9</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — 7</p><p>Let $u = 1-\alpha$ and $v = 1-\beta$. Taking $\tan$ of both sides,</p>$$\frac{u+v}{1-uv} = \tan\frac{\pi}{4} = 1 \quad\Longrightarrow\quad u+v = 1 - uv.$$<p>Compute each piece. First,</p>$$u+v = 2 - (\alpha+\beta).$$<p>Next, since $\alpha\beta = \alpha\cdot\dfrac{1}{3\alpha} = \dfrac13$,</p>$$uv = (1-\alpha)(1-\beta) = 1 - (\alpha+\beta) + \alpha\beta = \frac43 - (\alpha+\beta).$$<p>So $1 - uv = (\alpha+\beta) - \dfrac13$. Substituting into $u+v = 1-uv$:</p>$$2 - (\alpha+\beta) = (\alpha+\beta) - \frac13 \quad\Longrightarrow\quad 2(\alpha+\beta) = \frac{7}{3} \quad\Longrightarrow\quad \alpha+\beta = \frac{7}{6}.$$<p>(For $\alpha+\beta = \tfrac76$ with $\alpha\beta = \tfrac13$, we get $\alpha = \tfrac12,\ \beta = \tfrac23$, which satisfies $0&lt;\alpha&lt;1$.)</p><p>Therefore</p>$$6(\alpha+\beta) = 6\cdot\frac{7}{6} = 7.$$<p><strong>Answer:</strong> B</p></details></section><section class="mock-q" id="q-14"><h3>Question 14 · Mathematics</h3><p>Let $S = \{\theta \in (-2\pi, 2\pi) : \cos\theta + 1 = \sqrt{3}\sin\theta\}$. Then $\sum_{\theta \in S}\theta$ is equal to:</p><ol type="A"><li>$-\dfrac{2\pi}{3}$</li><li>$-\dfrac{4\pi}{3}$</li><li>$\dfrac{2\pi}{3}$</li><li>$\dfrac{4\pi}{3}$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — $-\dfrac{4\pi}{3}$</p><p>Rewrite the equation as a single sinusoid:</p>$$\sqrt{3}\sin\theta - \cos\theta = 1 \quad\Longrightarrow\quad 2\sin\!\left(\theta - \frac{\pi}{6}\right) = 1 \quad\Longrightarrow\quad \sin\!\left(\theta - \frac{\pi}{6}\right) = \frac12.$$<p>Thus</p>$$\theta - \frac{\pi}{6} = \frac{\pi}{6} + 2k\pi \quad\text{or}\quad \theta - \frac{\pi}{6} = \frac{5\pi}{6} + 2k\pi,$$<p>giving</p>$$\theta = \frac{\pi}{3} + 2k\pi \quad\text{or}\quad \theta = \pi + 2k\pi.$$<p>Collecting the values in $(-2\pi, 2\pi)$:</p>$$\theta = \frac{\pi}{3},\ -\frac{5\pi}{3} \quad\text{and}\quad \theta = \pi,\ -\pi.$$<p>Summing,</p>$$\sum_{\theta\in S}\theta = \frac{\pi}{3} - \frac{5\pi}{3} + \pi - \pi = -\frac{4\pi}{3}.$$<p><strong>Answer:</strong> B</p></details></section><section class="mock-q" id="q-15"><h3>Question 15 · Mathematics</h3><p>Let the image of the point $P(1, 6, a)$ in the line $L : \dfrac{x}{1} = \dfrac{y-1}{2} = \dfrac{z-a+1}{b}$, $b &gt; 0$, be $\left(\dfrac{a}{3}, 0, a + c\right)$. If $S(\alpha, \beta, \gamma)$, $\alpha &gt; 0$, is the point on $L$ such that the distance of $S$ from the foot of perpendicular from the point $P$ on $L$ is $2\sqrt{14}$, then $\alpha + \beta + \gamma$ is equal to:</p><ol type="A"><li>19</li><li>20</li><li>21</li><li>22</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option C — 21</p><p>The foot $M$ is the midpoint of $P$ and its image, and $M$ lies on $L$ with $\vec{PM}\perp(1,2,b)$. Writing $M$ on $L$ as $(0,1,a-1)+u(1,2,b)$ and imposing the perpendicularity and midpoint conditions gives two families; the constraint $b&gt;0$ selects</p>$$a = 3,\quad b = 3,\quad c = 4,\quad u = 1$$<p>So $L : (0,1,2) + u(1,2,3)$ with $|(1,2,3)| = \sqrt{14}$, and the foot is $M = (1,3,5)$.</p><p>For $S$ at distance $2\sqrt{14}$ from $M$: $|u_S - 1|\sqrt{14} = 2\sqrt{14} \implies u_S = 3$ or $u_S = -1$.</p>$$u_S = 3 \Rightarrow S = (3, 7, 11)\ (\alpha&gt;0);\qquad u_S = -1 \Rightarrow S = (-1,-1,-1)$$<p>Taking $\alpha &gt; 0$: $S = (3,7,11)$, so $\alpha + \beta + \gamma = 21$.</p><p><strong>Answer:</strong> C (21)</p></details></section><section class="mock-q" id="q-16"><h3>Question 16 · Mathematics</h3><p>Let a line $L$ be perpendicular to both the lines $L_1 : \dfrac{x+1}{3} = \dfrac{y+3}{5} = \dfrac{z+5}{7}$ and $L_2 : \dfrac{x-2}{1} = \dfrac{y-4}{4} = \dfrac{z-6}{7}$. If $\theta$ is the acute angle between the lines $L$ and $L_3 : \dfrac{x-\frac{8}{7}}{2} = \dfrac{y-\frac{4}{7}}{1} = \dfrac{z}{2}$, then $\tan\theta$ is equal to:</p><ol type="A"><li>$\dfrac{3}{2}\sqrt{2}$</li><li>$\dfrac{5}{2}\sqrt{2}$</li><li>$\dfrac{5}{3}\sqrt{2}$</li><li>$\dfrac{4}{3}\sqrt{2}$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — $\dfrac{5}{2}\sqrt{2}$</p><p>Direction of $L$ is $\vec{d_1}\times\vec{d_2}$ with $\vec{d_1}=(3,5,7)$, $\vec{d_2}=(1,4,7)$:</p>$$\vec{d} = (3,5,7)\times(1,4,7) = (7,\ -14,\ 7) \parallel (1,-2,1)$$<p>With $L_3$ direction $\vec{d_3} = (2,1,2)$:</p>$$\cos\theta = \frac{|(1)(2)+(-2)(1)+(1)(2)|}{\sqrt{6}\,\sqrt{9}} = \frac{2}{3\sqrt{6}}$$
+
+$$\sin\theta = \sqrt{1 - \frac{4}{54}} = \sqrt{\frac{50}{54}} = \frac{5\sqrt{2}}{3\sqrt{6}}$$
+
+$$\tan\theta = \frac{\sin\theta}{\cos\theta} = \frac{5\sqrt{2}}{2} = \frac{5}{2}\sqrt{2}$$<p><strong>Answer:</strong> B ($\frac{5}{2}\sqrt{2}$)</p></details></section><section class="mock-q" id="q-17"><h3>Question 17 · Mathematics</h3><p>The value of $\displaystyle\lim_{x \to 0}\left(\dfrac{x^2 \sin^2 x}{x^2 - \sin^2 x}\right)$ is:</p><ol type="A"><li>2</li><li>3</li><li>4</li><li>6</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — 3</p><p>Use $\sin x = x - \dfrac{x^3}{6} + O(x^5)$.</p><p><strong>Denominator:</strong></p>$$x^2 - \sin^2 x = x^2 - \left(x^2 - \dfrac{x^4}{3} + O(x^6)\right) = \dfrac{x^4}{3} + O(x^6)$$<p><strong>Numerator:</strong></p>$$x^2 \sin^2 x = x^2\left(x^2 + O(x^4)\right) = x^4 + O(x^6)$$<p>Therefore</p>$$\lim_{x\to 0}\dfrac{x^4 + O(x^6)}{\tfrac{x^4}{3} + O(x^6)} = \dfrac{1}{\tfrac13} = 3$$<p><strong>Answer:</strong> B</p></details></section><section class="mock-q" id="q-18"><h3>Question 18 · Mathematics</h3><p>The value of the integral $\displaystyle\int_{-\frac{\pi}{4}}^{\frac{\pi}{4}}\left(\dfrac{32\cos^4 x}{1 + e^{\sin x}}\right)dx$ is:</p><ol type="A"><li>$4\pi + 2$</li><li>$3\pi + 8$</li><li>$3\pi + 4$</li><li>$4\pi + 3$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — $3\pi + 8$</p><p>Use the <strong>king property</strong> $\int_{-a}^{a} \dfrac{g(x)}{1+e^{h(x)}}\,dx = \int_0^a g(x)\,dx$ whenever $g$ is even and $h$ is odd. Here $g(x) = 32\cos^4 x$ is even and $h(x) = \sin x$ is odd, so</p>$$I = \int_0^{\pi/4} 32\cos^4 x\,dx.$$<p><strong>Reduce the power.</strong> Using $\cos^4 x = \dfrac{3}{8} + \dfrac{\cos 2x}{2} + \dfrac{\cos 4x}{8}$,</p>$$32\cos^4 x = 12 + 16\cos 2x + 4\cos 4x.$$<p>Integrate over $[0,\pi/4]$:</p>$$\int_0^{\pi/4} 12\,dx = 3\pi,\quad \int_0^{\pi/4} 16\cos 2x\,dx = 8\sin\frac{\pi}{2} = 8,\quad \int_0^{\pi/4} 4\cos 4x\,dx = \sin\pi = 0.$$<p>Therefore $I = 3\pi + 8$.</p><p><strong>Answer:</strong> B</p></details></section><section class="mock-q" id="q-19"><h3>Question 19 · Mathematics</h3><p>The area of the region $\{(x, y) : 0 \le y \le 6 - x, \; y^2 \ge 4x - 3, \; x \ge 0\}$ is:</p><ol type="A"><li>8</li><li>9</li><li>12</li><li>15</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — 9</p><p>Rewrite the constraints in terms of $x$ for a fixed $y \ge 0$: the line gives $x \le 6 - y$, and $y^2 \ge 4x - 3$ gives $x \le \dfrac{y^2 + 3}{4}$ (the region <strong>left</strong> of the parabola $x = \tfrac{y^2+3}{4}$, vertex $(\tfrac34,0)$). With $x \ge 0$, integrate over $y$.</p><p><strong>Where line meets parabola.</strong> Set $6 - y = \dfrac{y^2+3}{4}$:</p>$$24 - 4y = y^2 + 3 \implies y^2 + 4y - 21 = 0 \implies (y-3)(y+7) = 0 \implies y = 3.$$<p>For $0 \le y \le 3$ the parabola bound $\tfrac{y^2+3}{4}$ is the smaller (e.g. at $y=0$: $0.75 &lt; 6$); for $3 \le y \le 6$ the line bound $6 - y$ is smaller (line hits $x=0$ at $y=6$).</p><p><strong>Split and integrate.</strong></p>$$\text{Area} = \int_0^3 \frac{y^2 + 3}{4}\,dy + \int_3^6 (6 - y)\,dy.$$<p></p>$$\int_0^3 \frac{y^2+3}{4}\,dy = \frac{1}{4}\left(9 + 9\right) = \frac{18}{4} = \frac{9}{2},\qquad \int_3^6 (6 - y)\,dy = \left[6y - \frac{y^2}{2}\right]_3^6 = \frac{9}{2}.$$<p>Total area $= \dfrac{9}{2} + \dfrac{9}{2} = 9.$</p><p><strong>Answer:</strong> 9</p></details></section><section class="mock-q" id="q-20"><h3>Question 20 · Mathematics</h3><p>Let $e$ be the base of natural logarithm and let $f : \{1, 2, 3, 4\} \to \{1, e, e^2, e^3\}$ and $g : \{1, e, e^2, e^3\} \to \left\{1, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}\right\}$ be two bijective functions such that $f$ is strictly decreasing and $g$ is strictly increasing. If $\phi(x) = \left[f^{-1}\left\{g^{-1}\left(\frac{1}{2}\right)\right\}\right]^x$, then the area of the region $R = \{(x, y) : x^2 \le y \le \phi(x), \; 0 \le x \le 1\}$ is:</p><ol type="A"><li>$\dfrac{3 - \log_e(2)}{3\log_e(2)}$</li><li>$\dfrac{1}{3\log_e(2)}$</li><li>$3 + \log_e(2)$</li><li>$\dfrac{3 + \log_e(2)}{2 + \log_e(3)}$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — $\dfrac{3 - \log_e(2)}{3\log_e(2)}$</p><p><strong>Pin down the bijections.</strong>
+Strictly increasing $g$ maps the smallest input to the smallest output:</p>$$g(1)=\tfrac14,\ g(e)=\tfrac13,\ g(e^2)=\tfrac12,\ g(e^3)=1 \implies g^{-1}\!\left(\tfrac12\right) = e^2.$$<p>Strictly decreasing $f$ maps the smallest input to the largest output:</p>$$f(1)=e^3,\ f(2)=e^2,\ f(3)=e,\ f(4)=1 \implies f^{-1}(e^2) = 2.$$<p>So the base is $2$ and $\phi(x) = 2^x$.</p><p><strong>Set up the area.</strong> The two curves $y=x^2$ and $y=2^x$ satisfy $2^x \ge x^2$ on $[0,1]$, so</p>$$R = \int_0^1 \left(2^x - x^2\right)dx.$$<p><strong>Evaluate.</strong></p>$$\int_0^1 2^x\,dx = \frac{2^x}{\ln 2}\Big|_0^1 = \frac{2-1}{\ln 2} = \frac{1}{\ln 2},\qquad \int_0^1 x^2\,dx = \frac{1}{3}.$$<p></p>$$R = \frac{1}{\ln 2} - \frac{1}{3} = \frac{3 - \ln 2}{3\ln 2}.$$<p><strong>Answer:</strong> A</p></details></section><section class="mock-q" id="q-21"><h3>Question 21 · Mathematics · Numerical</h3><p>Let $A = \begin{bmatrix} -1 &amp; 1 &amp; -1 \\ 1 &amp; 0 &amp; 1 \\ 0 &amp; 0 &amp; 1 \end{bmatrix}$ satisfy $A^2 + \alpha\left(adj(adj(A))\right) + \beta\left(adj(A)\left(adj(adj(A))\right)\right) = \begin{bmatrix} 2 &amp; -2 &amp; 2 \\ -2 &amp; 0 &amp; -1 \\ 0 &amp; 0 &amp; -1 \end{bmatrix}$ for some $\alpha, \beta \in \mathbb{R}$. Then $(\alpha - \beta)^2$ is equal to ________.</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+4</p><p>Compute $\det A$ by expanding along the last row:</p>$$\det A = 1 \cdot \big((-1)(0) - (1)(1)\big) = -1.$$<p>Use the $3\times 3$ identities $\operatorname{adj}(\operatorname{adj}A) = (\det A)\,A = -A$ and $\operatorname{adj}A = (\det A)A^{-1}$, so</p>$$\operatorname{adj}A \cdot \operatorname{adj}(\operatorname{adj}A) = (\det A)A^{-1}\cdot(\det A)A = (\det A)^2 I = I.$$<p>The equation becomes</p>$$A^2 + \alpha(-A) + \beta I = \text{RHS} \implies A^2 - \alpha A + \beta I = \text{RHS}.$$<p>Now</p>$$A^2 = \begin{bmatrix} 2 &amp; -1 &amp; 1 \\ -1 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix}.$$<p>Match entries with the RHS $\begin{bmatrix} 2 &amp; -2 &amp; 2 \\ -2 &amp; 0 &amp; -1 \\ 0 &amp; 0 &amp; -1 \end{bmatrix}$:</p><ul><li>$(1,1)$: $2 - \alpha(-1) + \beta = 2 \Rightarrow \alpha + \beta = 0$.</li><li>$(2,2)$: $1 - \alpha(0) + \beta = 0 \Rightarrow \beta = -1$, hence $\alpha = 1$.</li></ul><p>Check $(1,2)$: $-1 - \alpha(1) + 0 = -1 - 1 = -2$ ✓, and $(3,3)$: $1 - \alpha(1) + \beta = 1 - 1 - 1 = -1$ ✓.</p><p>Therefore</p>$$(\alpha - \beta)^2 = (1 - (-1))^2 = 4.$$<p><strong>Answer:</strong> 4</p></details></section><section class="mock-q" id="q-22"><h3>Question 22 · Mathematics · Numerical</h3><p>Let the centre of the circle $x^2 + y^2 + 2gx + 2fy + 25 = 0$ be in the first quadrant and lie on the line $2x - y = 4$. Let the area of an equilateral triangle inscribed in the circle be $27\sqrt{3}$. Then the square of the length of the chord of the circle on the line $x = 1$ is ________.</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+80</p><p>Let the centre be $(h,k)=(-g,-f)$ with $h,k&gt;0$ and $2h-k=4$. Radius $R^2=g^2+f^2-25=h^2+k^2-25$.</p><p>An equilateral triangle inscribed in a circle of radius $R$ has side $R\sqrt3$ and area</p>$$\frac{\sqrt3}{4}(R\sqrt3)^2=\frac{3\sqrt3}{4}R^2=27\sqrt3\;\Longrightarrow\;R^2=36.$$<p>So $h^2+k^2=61$. With $k=2h-4$:</p>$$h^2+(2h-4)^2=61\Rightarrow 5h^2-16h-45=0\Rightarrow h=5,\ k=6.$$<p>Chord on $x=1$: distance from centre $(5,6)$ is $|5-1|=4$, so</p>$$\text{chord}^2=4(R^2-d^2)=4(36-16)=80.$$<p><strong>Answer:</strong> 80</p></details></section><section class="mock-q" id="q-23"><h3>Question 23 · Mathematics · Numerical</h3><p>If $\vec{a} = \hat{i} + \hat{j} + \hat{k}$, $\vec{b} = \hat{j} - \hat{k}$ and $\vec{c}$ be three vectors such that $\vec{a} \times \vec{c} = \vec{b}$ and $\vec{a} \cdot \vec{c} = 3$, then $\vec{c} \cdot (\vec{a} - 2\vec{b})$ is equal to ________.</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+3</p><p>We need $\vec c\cdot(\vec a - 2\vec b) = \vec c\cdot\vec a - 2\,\vec c\cdot\vec b$.</p><p>The first term is given: $\vec c\cdot\vec a = 3$.</p><p>For $\vec c\cdot\vec b$, use $\vec b = \vec a\times\vec c$ and the scalar triple product identity:</p>$$\vec c\cdot\vec b = \vec c\cdot(\vec a\times\vec c) = 0,$$<p>since $\vec a\times\vec c$ is perpendicular to $\vec c$.</p><p>Therefore</p>$$\vec c\cdot(\vec a - 2\vec b) = 3 - 2(0) = 3.$$<p><strong>Answer:</strong> 3</p></details></section><section class="mock-q" id="q-24"><h3>Question 24 · Mathematics · Numerical</h3><p>For the functions $f(\theta) = \alpha \tan^2\theta + \beta \cot^2\theta$, and $g(\theta) = \alpha \sin^2\theta + \beta \cos^2\theta$, $\alpha &gt; \beta &gt; 0$, let $\min_{0 &lt; \theta &lt; \frac{\pi}{2}} f(\theta) = \max_{0 &lt; \theta &lt; \pi} g(\theta)$. If the first term of a G.P. is $\left(\dfrac{\alpha}{2\beta}\right)$, its common ratio is $\left(\dfrac{2\beta}{\alpha}\right)$ and the sum of its first 10 terms is $\dfrac{m}{n}$, $\gcd(m, n) = 1$, then $m + n$ is equal to ________.</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+1279</p><p>For $f(\theta) = \alpha\tan^2\theta + \beta\cot^2\theta$, by AM–GM</p>$$f(\theta) \ge 2\sqrt{\alpha\beta}, \qquad \min f = 2\sqrt{\alpha\beta}.$$<p>For $g(\theta) = \alpha\sin^2\theta + \beta\cos^2\theta = \beta + (\alpha - \beta)\sin^2\theta$ with $\alpha &gt; \beta$, the maximum over $0 &lt; \theta &lt; \pi$ occurs at $\sin^2\theta = 1$:</p>$$\max g = \alpha.$$<p>Setting them equal:</p>$$2\sqrt{\alpha\beta} = \alpha \;\Rightarrow\; 4\alpha\beta = \alpha^2 \;\Rightarrow\; \alpha = 4\beta.$$<p>Then first term $= \dfrac{\alpha}{2\beta} = 2$ and ratio $= \dfrac{2\beta}{\alpha} = \dfrac{1}{2}$.</p>$$S_{10} = 2\cdot\frac{1 - (1/2)^{10}}{1 - 1/2} = 4\left(1 - \frac{1}{1024}\right) = \frac{1023}{256}.$$<p>Here $m = 1023$, $n = 256$, so $m + n = 1279$.</p><p><strong>Answer:</strong> 1279</p></details></section><section class="mock-q" id="q-25"><h3>Question 25 · Mathematics · Numerical</h3><p>Let $y = y(x)$ be the solution of the differential equation $\left(x^2 - x\sqrt{x^2 - 1}\right)dy + \left(y\left(x - \sqrt{x^2 - 1}\right) - x\right)dx = 0$, $x \ge 1$. If $y(1) = 1$, then the greatest integer less than $y(\sqrt{5})$ is ________.</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+3</p><p>Write the equation in derivative form:</p>$$x\left(x - \sqrt{x^2-1}\right)\frac{dy}{dx} + y\left(x - \sqrt{x^2-1}\right) = x.$$<p>Divide by $\left(x - \sqrt{x^2-1}\right)$:</p>$$x\frac{dy}{dx} + y = \frac{x}{x - \sqrt{x^2-1}}.$$<p>Rationalize the right side (multiply by $\frac{x + \sqrt{x^2-1}}{x + \sqrt{x^2-1}}$, and $x^2-(x^2-1)=1$):</p>$$x\frac{dy}{dx} + y = x\left(x + \sqrt{x^2-1}\right) = x^2 + x\sqrt{x^2-1}.$$<p>The left side is an <strong>exact derivative</strong>, $x\frac{dy}{dx} + y = \dfrac{d}{dx}(xy)$, so</p>$$\frac{d}{dx}(xy) = x^2 + x\sqrt{x^2-1}.$$<p>Integrate (note $\int x\sqrt{x^2-1}\,dx = \tfrac13 (x^2-1)^{3/2}$):</p>$$xy = \frac{x^3}{3} + \frac{1}{3}\left(x^2-1\right)^{3/2} + C.$$<p><strong>Apply $y(1)=1$:</strong> $\;1 = \frac13 + 0 + C \Rightarrow C = \frac23.$</p><p>At $x=\sqrt5$: $x^3 = 5\sqrt5$ and $(x^2-1)^{3/2} = 4^{3/2}=8$, so</p>$$\sqrt5\,y(\sqrt5) = \frac{5\sqrt5}{3} + \frac{8}{3} + \frac23 = \frac{5\sqrt5 + 10}{3}.$$
+
+$$y(\sqrt5) = \frac{5\sqrt5 + 10}{3\sqrt5} = \frac{5 + 2\sqrt5}{3} \approx \frac{5 + 4.472}{3} \approx 3.157.$$<p>The greatest integer less than $3.157$ is $3$.</p><p><strong>Answer:</strong> 3</p></details></section><section class="mock-q" id="q-26"><h3>Question 26 · Physics</h3><p>The density $\rho$ of a uniform cylinder is determined by measuring its mass $m$, length $l$ and diameter $d$. The measured values of $m$, $l$ and $d$ are $97.42 \pm 0.02$ g, $8.35 \pm 0.05$ mm and $20.20 \pm 0.02$ mm, respectively. Calculated percentage fractional error in $\rho$ is ________.</p><ol type="A"><li>0.63%</li><li>0.82%</li><li>0.72%</li><li>0.25%</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — 0.82%</p><p>For a cylinder, $\rho = \dfrac{m}{V} = \dfrac{m}{\frac{\pi}{4} d^2 l} = \dfrac{4m}{\pi d^2 l}$.</p><p>The maximum fractional error adds contributions from each measured quantity:</p>$$\frac{\Delta \rho}{\rho} = \frac{\Delta m}{m} + 2\,\frac{\Delta d}{d} + \frac{\Delta l}{l}$$<p>Substituting the values:</p>$$\frac{\Delta \rho}{\rho} = \frac{0.02}{97.42} + 2\cdot\frac{0.02}{20.20} + \frac{0.05}{8.35}$$
+
+$$= 0.000205 + 0.001980 + 0.005988 = 0.008173$$
+
+$$\frac{\Delta \rho}{\rho} \times 100 = 0.817\% \approx 0.82\%$$<p><strong>Answer:</strong> B ($0.82\%$)</p></details></section><section class="mock-q" id="q-27"><h3>Question 27 · Physics</h3><p>The potential energy of a particle changes with distance $x$ from a fixed origin as $V = \dfrac{A\sqrt{x}}{x + B}$, where $A$ and $B$ are constant with appropriate dimensions. The dimensions of $AB$ are ________.</p><ol type="A"><li>$[M^1 L^{5/2} T^{-2}]$</li><li>$[M^{3/2} L^{5/2} T^{-2}]$</li><li>$[M^1 L^2 T^{-2}]$</li><li>$[M^1 L^{7/2} T^{-2}]$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option D — $[M^1 L^{7/2} T^{-2}]$</p><p>Since $x$ and $B$ are added, $B$ must have the dimension of length:</p>$$[B] = [L]$$<p>$V$ is a potential energy, so $[V] = [M L^2 T^{-2}]$. From the expression:</p>$$[V] = \frac{[A]\,[L]^{1/2}}{[L]} = [A]\,[L]^{-1/2}$$
+
+$$[A] = [V]\,[L]^{1/2} = [M L^2 T^{-2}][L^{1/2}] = [M L^{5/2} T^{-2}]$$<p>Therefore:</p>$$[AB] = [M L^{5/2} T^{-2}]\,[L] = [M L^{7/2} T^{-2}]$$<p><strong>Answer:</strong> D ($[M^1 L^{7/2} T^{-2}]$)</p></details></section><section class="mock-q" id="q-28"><h3>Question 28 · Physics</h3><p>The rain drop of mass 1 g, starts with zero velocity from a height of 1 km. It hits the ground with a speed of 5 m/s. The work done by the unknown resistive force is ________ J. (take $g = 10$ m/s$^2$)</p><ol type="A"><li>$-8.75$</li><li>$-8.35$</li><li>$-9.55$</li><li>$-9.98$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option D — $-9.98$</p><p>Data: $m = 1\ \text{g} = 10^{-3}\ \text{kg}$, $h = 1\ \text{km} = 1000\ \text{m}$, $v = 5\ \text{m/s}$.</p><p><strong>Work-energy theorem</strong> (gravity + resistive force):</p>$$W_{grav} + W_{res} = \Delta KE = \tfrac{1}{2}mv^2$$<p><strong>Work by gravity:</strong></p>$$W_{grav} = mgh = (10^{-3})(10)(1000) = 10\ \text{J}$$<p><strong>Change in kinetic energy:</strong></p>$$\Delta KE = \tfrac{1}{2}(10^{-3})(5)^2 = 0.0125\ \text{J}$$<p><strong>Resistive work:</strong></p>$$W_{res} = \Delta KE - W_{grav} = 0.0125 - 10 = -9.9875 \approx -9.98\ \text{J}$$<p><strong>Answer:</strong> D ($-9.98$)</p></details></section><section class="mock-q" id="q-29"><h3>Question 29 · Physics</h3><p>Two blocks ($P$ and $Q$) with respectively masses 2 kg and 1.5 kg are joined by a massless thread. These blocks are mounted on a frictionless pulley which is fixed on the edge of a cube ($S$), as shown in the figure below. Block $P$ is positioned on the top surface which has no friction and block $Q$ is in contact with side-surface, having coefficient friction $\mu$. The cube ($S$) moves towards the right with acceleration of $\dfrac{g}{2}$, where $g$ is gravitational acceleration. During this movement the block $P$ and $Q$ remain stationary. The value of $\mu$ is ________. (take $g = 10$ m/s$^2$) [figure: a cube S with block P (2 kg) on its frictionless top connected over a corner pulley to block Q (1.5 kg) pressed against the right vertical side face]</p><ol type="A"><li>0.33</li><li>0.67</li><li>1</li><li>0.5</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — 0.67</p></details></section><section class="mock-q" id="q-30"><h3>Question 30 · Physics</h3><p>A lift of mass 1600 kg is supported by thick iron wire. If the maximum stress which the wire can withstand is $4 \times 10^8$ N/m$^2$ and its radius is 4 mm, then maximum acceleration the lift can take is ________ m/s$^2$. (take $g = 10$ m/s$^2$ and $\pi = 3.14$)</p><ol type="A"><li>2.56</li><li>3.89</li><li>4.32</li><li>5.16</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — 2.56</p><p>Maximum tension the wire can bear:</p>$$T_{\max} = \sigma_{\max} \cdot A = \sigma_{\max} \cdot \pi r^2$$<p></p>$$T_{\max} = 4 \times 10^8 \times 3.14 \times (4 \times 10^{-3})^2 = 4 \times 10^8 \times 5.024 \times 10^{-5} = 20096\ \text{N}$$<p>For an accelerating lift, $T = m(g + a)$:</p>$$a_{\max} = \frac{T_{\max}}{m} - g = \frac{20096}{1600} - 10 = 12.56 - 10 = 2.56\ \text{m/s}^2$$<p><strong>Answer:</strong> A (2.56)</p></details></section><section class="mock-q" id="q-31"><h3>Question 31 · Physics</h3><p>A solid sphere of radius 4 cm and mass 5 kg is rotating (rotation axis is passing through the centre of the sphere) with an angular velocity of 1200 rpm. It is brought to rest in 10 s by applying a constant torque. The torque applied and the number of rotations it made before it comes to rest are ________ and ________ respectively.</p><ol type="A"><li>$0.128\pi$ Nm, 100</li><li>$0.0128\pi$ Nm, 50</li><li>$0.128\pi$ Nm, 50</li><li>$0.0128\pi$ Nm, 100</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option D — $0.0128\pi$ Nm, 100</p><p><strong>Moment of inertia</strong> ($R = 0.04$ m, $m = 5$ kg):</p>$$I = \frac{2}{5}mR^2 = \frac{2}{5}(5)(0.04)^2 = 3.2\times10^{-3}\ \text{kg·m}^2$$<p><strong>Initial angular velocity:</strong></p>$$\omega_0 = 1200\ \text{rpm} = \frac{1200\times 2\pi}{60} = 40\pi\ \text{rad/s}$$<p><strong>Angular deceleration</strong> (to rest in 10 s):</p>$$\alpha = \frac{\omega_0}{t} = \frac{40\pi}{10} = 4\pi\ \text{rad/s}^2$$<p><strong>Torque:</strong></p>$$\tau = I\alpha = 3.2\times10^{-3}\times 4\pi = 0.0128\pi\ \text{Nm}$$<p><strong>Number of rotations</strong> (uniform deceleration, average $\omega = \omega_0/2$):</p>$$\theta = \frac{\omega_0}{2}\,t = \frac{40\pi}{2}\times 10 = 200\pi\ \text{rad} \implies N = \frac{200\pi}{2\pi} = 100$$<p><strong>Answer:</strong> D ($0.0128\pi$ Nm, 100)</p></details></section><section class="mock-q" id="q-32"><h3>Question 32 · Physics</h3><p>A smooth inclined plane ends in a vertical circular loop, as shown in the figure. A small body is released from height $h$ as shown. If the body exerts a force of three times its weight on the plane at the highest point of circle then the height $h = \alpha R$. The value of $\alpha$ is ________. [figure: an inclined ramp from height h leading into a vertical circular loop of radius R]</p><ol type="A"><li>2</li><li>4</li><li>3</li><li>6</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — 4</p></details></section><section class="mock-q" id="q-33"><h3>Question 33 · Physics</h3><p>The position of center of mass of three masses 2 kg, 3 kg and 15 kg placed with respect to mid point ($p$) of normal bisector, as shown in the figure is ________. [figure: an isosceles triangle with 15 kg at apex, 2 kg at bottom-left, 3 kg at bottom-right; two equal sides of 10 m each meeting at apex with 120 degrees; p is the midpoint of the base on the normal bisector below the apex]</p><ol type="A"><li>$\left(\dfrac{\sqrt{3}}{4}, 1.25\right)$</li><li>$\left(\dfrac{\sqrt{3}}{4}, 1.0\right)$</li><li>$(0, 0)$</li><li>$(1.25, 0)$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — $\left(\dfrac{\sqrt{3}}{4}, 1.25\right)$</p></details></section><section class="mock-q" id="q-34"><h3>Question 34 · Physics</h3><p>The two wires $A$ and $B$ of equal cross-section but of different materials are joined together. The ratio of Young's modulus of wire $A$ and wire $B$ is $20/11$. When the joined wire is kept under certain tension the elongations in the wires $A$ and $B$ are equal. If the length of wire $A$ is 2.2 m, then the length of wire $B$ is ________ m.</p><ol type="A"><li>1.1</li><li>2.22</li><li>1.21</li><li>4.44</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option C — 1.21</p><p>The wires are in series, so they carry the same tension $F$ and have the same area $A$. Elongation:</p>$$\Delta L = \frac{F L}{A Y}$$<p>Equal elongations ($\Delta L_A = \Delta L_B$) give:</p>$$\frac{L_A}{Y_A} = \frac{L_B}{Y_B} \implies L_B = L_A \cdot \frac{Y_B}{Y_A}$$<p>Given $\dfrac{Y_A}{Y_B} = \dfrac{20}{11}$, so $\dfrac{Y_B}{Y_A} = \dfrac{11}{20}$:</p>$$L_B = 2.2 \times \frac{11}{20} = 1.21\ \text{m}$$<p><strong>Answer:</strong> C (1.21)</p></details></section><section class="mock-q" id="q-35"><h3>Question 35 · Physics</h3><p>Two closed vessels of same volume are joined through a narrow tube and both vessels are filled with air of pressure 90 kPa and temperature 400 K. Keeping the temperature of one vessel constant at 400 K the second vessel temperature is raised to 500 K. The final pressure in the vessels is ________ kPa.</p><ol type="A"><li>100</li><li>120</li><li>90</li><li>105</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — 100</p><p>Let each vessel have volume $V$. Initially both are at $P_0 = 90\,\text{kPa}$ and $T = 400\,\text{K}$, so the total number of moles is:</p>$$n = \frac{P_0 V}{R (400)} + \frac{P_0 V}{R (400)} = \frac{2 P_0 V}{400\,R}$$<p>The vessels stay connected, so after heating they share a common final pressure $P$. Vessel 1 remains at 400 K and vessel 2 is raised to 500 K:</p>$$n = \frac{P V}{400\,R} + \frac{P V}{500\,R}$$<p>Since the total moles are conserved, equate the two expressions and cancel $V/R$:</p>$$\frac{2 P_0}{400} = \frac{P}{400} + \frac{P}{500}$$
+
+$$\frac{2(90)}{400} = P\left(\frac{1}{400} + \frac{1}{500}\right) = P\left(\frac{9}{2000}\right)$$
+
+$$0.45 = P \times \frac{9}{2000} \quad\Rightarrow\quad P = 0.45 \times \frac{2000}{9} = 100\,\text{kPa}$$<p><strong>Answer:</strong> A (100)</p></details></section><section class="mock-q" id="q-36"><h3>Question 36 · Physics</h3><p>In interference experiment the path difference between two interfering waves at a point $A$ on the screen is $\lambda/3$, where $\lambda$ is the wavelength of these waves, and at another point $B$ the path difference is $\lambda/6$. The ratio of intensities at points $A$ and $B$ is ________.</p><ol type="A"><li>3</li><li>4</li><li>1/3</li><li>1/4</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option C — 1/3</p><p>Phase difference from path difference: $\phi = \dfrac{2\pi}{\lambda}\,\Delta x$, and for two equal-amplitude waves</p>$$I = 4I_0\cos^2\!\left(\frac{\phi}{2}\right).$$<p>At $A$: $\Delta x = \dfrac{\lambda}{3} \Rightarrow \phi_A = \dfrac{2\pi}{3} \Rightarrow \dfrac{\phi_A}{2} = 60^\circ$</p>$$I_A = 4I_0\cos^2 60^\circ = 4I_0 \cdot \tfrac{1}{4} = I_0.$$<p>At $B$: $\Delta x = \dfrac{\lambda}{6} \Rightarrow \phi_B = \dfrac{\pi}{3} \Rightarrow \dfrac{\phi_B}{2} = 30^\circ$</p>$$I_B = 4I_0\cos^2 30^\circ = 4I_0 \cdot \tfrac{3}{4} = 3I_0.$$<p>Ratio:</p>$$\frac{I_A}{I_B} = \frac{I_0}{3I_0} = \frac{1}{3}.$$<p><strong>Answer:</strong> C ($1/3$)</p></details></section><section class="mock-q" id="q-37"><h3>Question 37 · Physics</h3><p>A particle is executing simple harmonic motion. Its amplitude is $A$ and time period is 5 sec. The time required by it to move from $x = A$ to $x = \dfrac{A}{\sqrt{2}}$ is ________ sec.</p><ol type="A"><li>1/4</li><li>5/4</li><li>5/8</li><li>3/8</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option C — 5/8</p><p>Start the motion from the extreme position, so use $x = A\cos(\omega t)$ with $x = A$ at $t = 0$.</p>$$\omega = \frac{2\pi}{T} = \frac{2\pi}{5}\ \text{rad/s}$$<p>At $x = \dfrac{A}{\sqrt{2}}$:</p>$$A\cos(\omega t) = \frac{A}{\sqrt{2}} \implies \cos(\omega t) = \frac{1}{\sqrt{2}} \implies \omega t = \frac{\pi}{4}$$<p>Therefore:</p>$$t = \frac{\pi/4}{\omega} = \frac{\pi/4}{2\pi/5} = \frac{5}{8}\ \text{s}$$<p><strong>Answer:</strong> $\dfrac{5}{8}$</p></details></section><section class="mock-q" id="q-38"><h3>Question 38 · Physics</h3><p>A thin half ring of radius 35 cm is uniformly charged with a total charge of $Q$ coulomb. If the magnitude of the electric field at centre of the half ring is 100 V/m, then the value of $Q$ is ________ nC. ($\epsilon_0 = 8.85 \times 10^{-12}$ C$^2$/Nm$^2$ and $\pi = 3.14$)</p><ol type="A"><li>2.14</li><li>2.44</li><li>3.25</li><li>0.7</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — 2.14</p><p>For a uniformly charged semicircular ring, the field at the centre is directed along the axis of symmetry. With linear charge density $\lambda = \dfrac{Q}{\pi R}$:</p>$$E = \frac{1}{4\pi\epsilon_0}\cdot\frac{2\lambda}{R} = \frac{2\lambda}{4\pi\epsilon_0 R}$$<p>Substitute $\lambda = \dfrac{Q}{\pi R}$:</p>$$E = \frac{2Q}{4\pi\epsilon_0\,\pi R^2} = \frac{Q}{2\pi^2\epsilon_0 R^2}$$<p>Solve for $Q$:</p>$$Q = 2\pi^2\epsilon_0 R^2 E = 2(3.14)^2(8.85\times10^{-12})(0.35)^2(100)$$
+
+$$Q \approx 2.14\times10^{-9}\ \text{C} = 2.14\ \text{nC}$$<p><strong>Answer:</strong> A (2.14)</p></details></section><section class="mock-q" id="q-39"><h3>Question 39 · Physics</h3><p>The maximum rated power of the LED is 2 mW and it is used in the circuit with input voltage of 5 V as shown in the figure below. The current through resistance $R_S$ is 0.5 mA. The minimum value of the resistance of $R_S$, to ensure that the LED is not damaged is ________ k$\Omega$. [figure: a 5 V source in series with $R_S$, feeding a parallel combination of a 1 k$\Omega$ resistor R (with a Zener diode branch) and a 2 mW LED]</p><ol type="A"><li>6</li><li>2</li><li>4</li><li>5</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — 2</p></details></section><section class="mock-q" id="q-40"><h3>Question 40 · Physics</h3><p>A point light source emits E.M. waves in free space. A detector, placed at a distance of $L$ m, measures the intensity as $I_0$. The detector is now shifted to another location on the same spherical surface ensuring the angle between original location and new location as $45^\circ$. The measured intensity at new location will be ________.</p><ol type="A"><li>$\dfrac{I_0}{4}$</li><li>$I_0$</li><li>$\dfrac{I_0}{\sqrt{2}}$</li><li>$\dfrac{I_0}{2}$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — $I_0$</p><p>For an isotropic point source, the emitted power $P$ spreads uniformly over a sphere, so the intensity depends only on the distance $r$ from the source:</p>$$I = \frac{P}{4\pi r^2}$$<p>Both the original and the new detector positions lie on the <strong>same spherical surface</strong>, meaning they are at the same distance $r = L$ from the source. The angular separation of $45^\circ$ only moves the detector along the sphere and does not change $r$.</p>$$I_{\text{new}} = \frac{P}{4\pi L^2} = I_0$$<p><strong>Answer:</strong> $I_0$</p></details></section><section class="mock-q" id="q-41"><h3>Question 41 · Physics</h3><p>A spherical interface lens of radius $R$ separates two media of refractive indices 1 and 1.4 respectively as shown in the figure below. A point source is placed at a distance of $4R$ in front of spherical interface. The magnitude of the magnification of point source image is ________. [figure: point source p at distance 4R from a convex spherical interface of radius R, medium $n_1 = 1$ on left, $n_2 = 1.4$ on right]</p><ol type="A"><li>1.66</li><li>2.33</li><li>2.66</li><li>1.33</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — 1.66</p></details></section><section class="mock-q" id="q-42"><h3>Question 42 · Physics</h3><p>A small cube of side 1 mm is placed at the centre of a circular loop of radius 10 cm carrying a current of 2 A. The magnetic energy stored inside the cube is $\alpha \times 10^{-14}$ J. The value of $\alpha$ is ________. ($\mu_0 = 4\pi \times 10^{-7}$ Tm/A, $\pi = 3.14$)</p><ol type="A"><li>6.28</li><li>$6.28 \times 10^{-6}$</li><li>628</li><li>$6.28 \times 10^{-4}$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — 6.28</p><p>Magnetic field at the centre of the loop:</p>$$B = \frac{\mu_0 I}{2R} = \frac{4\pi\times10^{-7}\times 2}{2\times 0.10} = 4\pi\times10^{-6} = 1.256\times10^{-5}\ \text{T}$$<p>Magnetic energy density:</p>$$u = \frac{B^2}{2\mu_0} = \frac{(4\pi\times10^{-6})^2}{2\times 4\pi\times10^{-7}} = \frac{16\pi^2\times10^{-12}}{8\pi\times10^{-7}} = 2\pi\times10^{-5}\ \text{J/m}^3$$<p>Volume of the cube: $V = (10^{-3})^3 = 10^{-9}\ \text{m}^3$. Energy stored:</p>$$U = uV = 2\pi\times10^{-5}\times10^{-9} = 2\pi\times10^{-14} = 6.28\times10^{-14}\ \text{J}$$<p>Hence $\alpha = 6.28$.</p><p><strong>Answer:</strong> A ($6.28$)</p></details></section><section class="mock-q" id="q-43"><h3>Question 43 · Physics</h3><p>An inductor of inductance 10 mH having resistance of 100 $\Omega$ is connected to battery of E.M.F. 1.0 V through a switch as shown in the figure below. After switch is closed, the ratio of instantaneous voltages across the inductor when the current passing through it is 2 mA and 4 mA is ________. [figure: a series circuit of an inductor (10 mH) and a battery with a switch]</p><ol type="A"><li>4/3</li><li>3/4</li><li>5/3</li><li>3/5</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — 4/3</p><p>By Kirchhoff’s voltage law, the emf equals the drop across the coil’s resistance plus the voltage across the ideal inductor. The voltage appearing across the inductor (the back-emf term) is:</p>$$V_L = E - iR$$<p>At $i = 2$ mA:</p>$$V_{L,1} = 1.0 - (2\times10^{-3})(100) = 1.0 - 0.2 = 0.8\ \text{V}$$<p>At $i = 4$ mA:</p>$$V_{L,2} = 1.0 - (4\times10^{-3})(100) = 1.0 - 0.4 = 0.6\ \text{V}$$
+
+$$\frac{V_{L,1}}{V_{L,2}} = \frac{0.8}{0.6} = \frac{4}{3}$$<p><strong>Answer:</strong> 4/3</p></details></section><section class="mock-q" id="q-44"><h3>Question 44 · Physics</h3><p>The ratio of momentum of the photons of the $1^{st}$ and $2^{nd}$ line of Balmer series of Hydrogen atoms is $\alpha/\beta$. The possible values of $\alpha$ and $\beta$ are:-</p><ol type="A"><li>27 and 20</li><li>3 and 16</li><li>5 and 36</li><li>20 and 27</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option D — 20 and 27</p><p>Photon momentum $p = E/c \propto \bar{\nu}$ (wavenumber). For the Balmer series ($n_f = 2$):</p>$$\bar{\nu} = R\left(\frac{1}{2^2} - \frac{1}{n^2}\right)$$<p><strong>1st line</strong> ($n = 3$):</p>$$\bar{\nu}_1 = R\left(\frac{1}{4} - \frac{1}{9}\right) = R\cdot\frac{5}{36}$$<p><strong>2nd line</strong> ($n = 4$):</p>$$\bar{\nu}_2 = R\left(\frac{1}{4} - \frac{1}{16}\right) = R\cdot\frac{3}{16}$$<p><strong>Ratio:</strong></p>$$\frac{p_1}{p_2} = \frac{5/36}{3/16} = \frac{5 \times 16}{36 \times 3} = \frac{80}{108} = \frac{20}{27}$$<p>So $\alpha = 20,\ \beta = 27$.</p><p><strong>Answer:</strong> D</p></details></section><section class="mock-q" id="q-45"><h3>Question 45 · Physics</h3><p>A LCR series circuit driven with $E_{rms} = 90$ V at frequency $f_d = 30$ Hz has resistance $R = 80\ \Omega$, an inductance with inductive reactance $X_L = 20.0\ \Omega$ and capacitance with capacitive reactance $X_C = 80.0\ \Omega$. The power factor of the circuit is ________.</p><ol type="A"><li>0.8</li><li>0.64</li><li>0.9</li><li>0.5</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — 0.8</p><p><strong>Net reactance:</strong></p>$$X = X_L - X_C = 20.0 - 80.0 = -60\ \Omega$$<p><strong>Impedance:</strong></p>$$Z = \sqrt{R^2 + (X_L - X_C)^2} = \sqrt{80^2 + (-60)^2} = \sqrt{6400 + 3600} = \sqrt{10000} = 100\ \Omega$$<p><strong>Power factor:</strong></p>$$\cos\phi = \frac{R}{Z} = \frac{80}{100} = 0.8$$<p>(The driving voltage and frequency are not needed for the power factor.)</p><p><strong>Answer:</strong> A — $0.8$</p></details></section><section class="mock-q" id="q-46"><h3>Question 46 · Physics · Numerical</h3><p>Refer to the circuit diagram given below. The heat generated across the 6 $\Omega$ resistance in 100 second is $\dfrac{\alpha}{100}$ J. The value of $\alpha$ is ________. (Nearest integer) [figure: circuit with a 6 $\Omega$ resistor in series with a 3 V cell on top branch, a 3 $\Omega$ resistor on left branch, a 4 $\Omega$ resistor in the middle branch, and a 2 V cell on the bottom branch]</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+3477</p></details></section><section class="mock-q" id="q-47"><h3>Question 47 · Physics · Numerical</h3><p>An unpolarized light of intensity $I_0$ passes through polarizer and then through a certain optically active solution and finally through analyser. If the angle between analyser and polariser is $0^\circ$ and intensity of light emerged from analyser is $\dfrac{3}{8}I_0$, the angle of rotation of the light by the solution with respect to analyser is ________ degrees.</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+30</p><p>Unpolarized light through the polarizer:</p>$$I_1 = \frac{I_0}{2}.$$<p>The optically active solution rotates the plane of polarization by angle $\theta$. Since the analyser is parallel to the polarizer ($0^\circ$), the angle between the (rotated) polarization plane and the analyser axis is $\theta$. By Malus’s law:</p>$$I = I_1\cos^2\theta = \frac{I_0}{2}\cos^2\theta.$$<p>Set equal to the given output:</p>$$\frac{I_0}{2}\cos^2\theta = \frac{3}{8}I_0 \implies \cos^2\theta = \frac{3}{4} \implies \cos\theta = \frac{\sqrt3}{2}.$$
+
+$$\theta = 30^\circ.$$<p><strong>Answer:</strong> 30</p></details></section><section class="mock-q" id="q-48"><h3>Question 48 · Physics · Numerical</h3><p>The energy released when $\dfrac{7}{17.13}$ kg of $_3^7\text{Li}$ is converted into $_2^4\text{He}$ by proton bombardment is $\alpha \times 10^{32}$ eV. The value of $\alpha$ is ________. (Nearest integer) (Mass of $_3^7\text{Li} = 7.0183$ u, mass of $_2^4\text{He} = 4.004$ u, mass of proton = 1.008 u and 1 u = 931 MeV/c$^2$ and Avogadro number = $6.0 \times 10^{23}$)</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+6</p><p><strong>Reaction:</strong> $_3^7\text{Li} + {}_1^1\text{p} \rightarrow 2\,{}_2^4\text{He}$</p><p><strong>Step 1 — Mass defect per reaction:</strong></p>$$\Delta m = (7.0183 + 1.008) - 2(4.004) = 8.0263 - 8.008 = 0.0183\ \text{u}$$<p><strong>Step 2 — Energy per reaction:</strong></p>$$E_1 = 0.0183 \times 931 = 17.04\ \text{MeV} = 1.704 \times 10^{7}\ \text{eV}$$<p><strong>Step 3 — Number of Li nuclei</strong> in $\dfrac{7}{17.13}\ \text{kg} = 408.64\ \text{g}$:</p>$$N = \frac{408.64}{7.0183} \times 6.0 \times 10^{23} \approx 3.49 \times 10^{25}$$<p><strong>Step 4 — Total energy</strong> (one Li consumed per reaction):</p>$$E = N \times E_1 = 3.49 \times 10^{25} \times 1.704 \times 10^{7} \approx 5.95 \times 10^{32}\ \text{eV}$$<p>So $\alpha \approx 5.95 \Rightarrow 6$ (nearest integer).</p><p><strong>Answer:</strong> 6</p></details></section><section class="mock-q" id="q-49"><h3>Question 49 · Physics · Numerical</h3><p>A three coulomb charge moves from the point $(0, -2, -5)$ to the point $(5, 1, 2)$ in an electric field expressed as $\vec{E} = 2x\hat{i} + 3y^2\hat{j} + 4k\hat{k}$ N/C. The work done in moving the charge is ________ J.</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+186</p><p>Work done by the electric force:</p>$$W = q\int \vec{E}\cdot d\vec{l} = q\left[\int_{0}^{5} 2x\,dx + \int_{-2}^{1} 3y^2\,dy + \int_{-5}^{2} 4\,dz\right]$$<p>Evaluate each integral:</p>$$\int_{0}^{5} 2x\,dx = \big[x^2\big]_0^5 = 25$$
+
+$$\int_{-2}^{1} 3y^2\,dy = \big[y^3\big]_{-2}^{1} = 1-(-8) = 9$$
+
+$$\int_{-5}^{2} 4\,dz = 4\big[z\big]_{-5}^{2} = 4(7) = 28$$<p>Sum $= 25 + 9 + 28 = 62$. With $q = 3$ C:</p>$$W = 3\times 62 = 186\ \text{J}$$<p><strong>Answer:</strong> 186</p></details></section><section class="mock-q" id="q-50"><h3>Question 50 · Physics · Numerical</h3><p>A certain gas is isothermally compressed to $\left(\dfrac{1}{3}\right)^{rd}$ of its initial volume ($V_0 = 3$ litre) by applying required pressure. If the bulk modulus of the gas is $3 \times 10^5$ N/m$^2$, the magnitude of work done on the gas is ________ J.</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+600</p><p>From the definition of bulk modulus $B = -V\dfrac{dP}{dV}$ (taken constant), integrating gives the excess pressure needed at volume $V$:</p>$$P = -B\ln\!\left(\frac{V}{V_0}\right)$$<p>Work done on the gas during compression from $V_0$ to $V_f = V_0/3$:</p>$$W = \int_{V_f}^{V_0} P\, dV = -B\int_{V_f}^{V_0}\ln\!\left(\frac{V}{V_0}\right) dV$$<p>Evaluating the integral gives:</p>$$W = B V_0\left(\frac{2}{3} - \frac{1}{3}\ln 3\right)$$<p>With $B = 3 \times 10^5$ and $V_0 = 3 \times 10^{-3}\ \text{m}^3$ (so $BV_0 = 900$):</p>$$W = 900\left(0.6667 - 0.3662\right) = 900 \times 0.3005 \approx 270\ \text{J}$$<p><strong>Answer:</strong> 270</p></details></section><section class="mock-q" id="q-51"><h3>Question 51 · Chemistry</h3><p>An oxide of iron contains 69.9% iron, its empirical formula, is: (Given : Molar mass of Fe and O are 56 and 16 g mol$^{-1}$ respectively.)</p><ol type="A"><li>FeO</li><li>$\text{Fe}_2\text{O}_3$</li><li>$\text{Fe}_3\text{O}_4$</li><li>$\text{FeO}_3$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — $\text{Fe}_2\text{O}_3$</p><p><strong>Step 1 — Mass of each element in 100 g:</strong></p><ul><li>Fe $= 69.9\ \text{g}$, O $= 100 - 69.9 = 30.1\ \text{g}$</li></ul><p><strong>Step 2 — Convert to moles:</strong></p>$$n_\text{Fe} = \frac{69.9}{56} \approx 1.248, \qquad n_\text{O} = \frac{30.1}{16} \approx 1.881$$<p><strong>Step 3 — Simplest ratio</strong> (divide by smallest):</p>$$\text{Fe} : \text{O} = \frac{1.248}{1.248} : \frac{1.881}{1.248} = 1 : 1.507 \approx 2 : 3$$<p>Empirical formula $= \text{Fe}_2\text{O}_3$ (check: %Fe $= \tfrac{112}{160} = 70.0\%$).</p><p><strong>Answer:</strong> B</p></details></section><section class="mock-q" id="q-52"><h3>Question 52 · Chemistry</h3><p>If shortest wavelength of hydrogen atom in Lyman series is $x$, then longest wavelength in Balmer series of $\text{He}^+$ is:</p><ol type="A"><li>$\dfrac{9x}{5}$</li><li>$\dfrac{36x}{5}$</li><li>$\dfrac{x}{4}$</li><li>$\dfrac{5x}{9}$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — $\dfrac{9x}{5}$</p><p><strong>Shortest wavelength, Lyman (H):</strong> transition $n = \infty \to 1$, $Z = 1$:</p>$$\dfrac{1}{x} = R\cdot 1^2\left(\dfrac{1}{1^2} - 0\right) = R \quad\Rightarrow\quad R = \dfrac{1}{x}$$<p><strong>Longest wavelength, Balmer ($\text{He}^+$):</strong> smallest energy gap $n = 3 \to 2$, $Z = 2$:</p>$$\dfrac{1}{\lambda} = R\cdot 2^2\left(\dfrac{1}{2^2} - \dfrac{1}{3^2}\right) = 4R\left(\dfrac{1}{4} - \dfrac{1}{9}\right) = 4R\cdot\dfrac{5}{36} = \dfrac{5R}{9}$$<p>Therefore:</p>$$\lambda = \dfrac{9}{5R} = \dfrac{9}{5}\cdot\dfrac{1}{R} = \dfrac{9x}{5}$$<p><strong>Answer:</strong> $\dfrac{9x}{5}$</p></details></section><section class="mock-q" id="q-53"><h3>Question 53 · Chemistry</h3><p>Match the LIST-I with LIST-II. LIST-I (Orbital): A. 2s; B. 3s; C. 3p; D. 4d. LIST-II (Radial nodes and nodal plane): I. 1 Radial node + two nodal planes; II. 1 Radial node + one nodal plane; III. 2 Radial nodes + No nodal plane; IV. 1 Radial node + No nodal plane. Choose the correct answer from the options given below:</p><ol type="A"><li>A-IV, B-I, C-III, D-II</li><li>A-IV, B-II, C-III, D-I</li><li>A-III, B-I, C-IV, D-II</li><li>A-IV, B-III, C-II, D-I</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option D — A-IV, B-III, C-II, D-I</p><p>Use <strong>radial nodes</strong> $= n - l - 1$ and <strong>nodal planes</strong> (angular nodes) $= l$.</p><table><thead><tr><th>Orbital</th><th>$n$</th><th>$l$</th><th>Radial nodes $=n-l-1$</th><th>Nodal planes $=l$</th><th>LIST-II</th></tr></thead><tbody><tr><td>A. 2s</td><td>2</td><td>0</td><td>$1$</td><td>$0$</td><td>IV</td></tr><tr><td>B. 3s</td><td>3</td><td>0</td><td>$2$</td><td>$0$</td><td>III</td></tr><tr><td>C. 3p</td><td>3</td><td>1</td><td>$1$</td><td>$1$</td><td>II</td></tr><tr><td>D. 4d</td><td>4</td><td>2</td><td>$1$</td><td>$2$</td><td>I</td></tr></tbody></table><p>Matching: A-IV, B-III, C-II, D-I.</p><p><strong>Answer:</strong> D</p></details></section><section class="mock-q" id="q-54"><h3>Question 54 · Chemistry</h3><p>The pairs among $A = [\text{SO}_3^{2-}, \text{CO}_3^{2-}]$, $B = [\text{O}_2^{2-}, \text{F}_2]$, $C = [\text{CN}^-, \text{CO}]$, $D = [\text{NH}_3, \text{H}_3\text{O}^+]$ and $E = [\text{MnO}_4^{2-}, \text{CrO}_4^{2-}]$ that do not have similar Lewis dot structure are:</p><ol type="A"><li>A, B and E</li><li>A and E</li><li>B, C and D</li><li>C and D</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — A and E</p><p>Two species have a “similar” Lewis dot structure only when they are <strong>isoelectronic</strong> (same number of valence electrons) and therefore share the same bonding pattern, lone-pair count, and geometry. Count the valence electrons for each pair:</p><ul><li><strong>A</strong> $[\text{SO}_3^{2-}, \text{CO}_3^{2-}]$: $\text{CO}_3^{2-}$ has $4+3(6)+2 = 24$ valence electrons — trigonal planar ($sp^2$), central C carries <strong>no lone pair</strong>. $\text{SO}_3^{2-}$ has $6+3(6)+2 = 26$ valence electrons — pyramidal ($sp^3$), central S carries <strong>one lone pair</strong>. Different electron count, geometry and lone-pair count — <strong>NOT similar.</strong></li><li><strong>B</strong> $[\text{O}_2^{2-}, \text{F}_2]$: both have $14$ valence electrons — one single bond and three lone pairs on each atom. Isoelectronic — <strong>similar.</strong></li><li><strong>C</strong> $[\text{CN}^-, \text{CO}]$: both have $10$ valence electrons — a triple bond and one lone pair on each atom. Isoelectronic — <strong>similar.</strong></li><li><strong>D</strong> $[\text{NH}_3, \text{H}_3\text{O}^+]$: both have $8$ valence electrons — pyramidal with one lone pair on the central atom. Isoelectronic — <strong>similar.</strong></li><li><strong>E</strong> $[\text{MnO}_4^{2-}, \text{CrO}_4^{2-}]$: both are tetrahedral $+6$ oxoanions, but they are <strong>not isoelectronic</strong> — $\text{CrO}_4^{2-}$ has a $d^0$ centre while $\text{MnO}_4^{2-}$ has one extra electron ($d^1$). The electron distributions of the two Lewis structures therefore differ — <strong>NOT similar.</strong></li></ul><p>Only pairs <strong>A</strong> and <strong>E</strong> fail to share a similar Lewis dot structure.</p><p><strong>Answer:</strong> B (A and E)</p></details></section><section class="mock-q" id="q-55"><h3>Question 55 · Chemistry</h3><p>Arrange the following isothermal processes in order of the magnitude of the work $(p - V)$ involved between states 1 and 2. A. Expansion in single stage $w_A$; B. Expansion in multi stages $w_B$; C. Compression in single stage $w_C$; D. Compression in multi stages $w_D$. Choose the correct option.</p><ol type="A"><li>$|w_B| &gt; |w_A| &gt; |w_C| &gt; |w_D|$</li><li>$|w_C| &gt; |w_D| &gt; |w_A| &gt; |w_B|$</li><li>$|w_C| &gt; |w_D| &gt; |w_B| &gt; |w_A|$</li><li>$|w_B| &gt; |w_A| &gt; |w_D| &gt; |w_C|$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option C — $|w_C| &gt; |w_D| &gt; |w_B| &gt; |w_A|$</p><p>For an isothermal gas moving between the same two states, the work magnitude depends on the external pressure profile.</p><p><strong>Expansion (1 → 2, gas pushes out):</strong></p><ul><li>Single stage against the low final pressure $p_2$: $|w_A| = p_2(V_2 - V_1)$ — smallest expansion work.</li><li>Multi stage / reversible (external pressure tracks the gas): $|w_B| = nRT\ln\dfrac{V_2}{V_1}$ — larger.</li></ul><p><strong>Compression (2 → 1, surroundings push in):</strong></p><ul><li>Multi stage / reversible: $|w_D| = nRT\ln\dfrac{V_2}{V_1} = |w_B|$ — minimum compression work.</li><li>Single stage against the high pressure $p_1$: $|w_C| = p_1(V_2 - V_1)$ — maximum.</li></ul><p>So the ranking is:</p>$$|w_C| &gt; |w_B| = |w_D| &gt; |w_A|$$<p>The single-stage compression is largest and the single-stage expansion is smallest. Among the choices, this matches:</p>$$|w_C| &gt; |w_D| &gt; |w_B| &gt; |w_A|$$<p><strong>Answer:</strong> C</p></details></section><section class="mock-q" id="q-56"><h3>Question 56 · Chemistry</h3><p>When 0.25 moles of a non-volatile, non-ionizable solute was dissolved in 1 mole of a solvent the vapor pressure of solution was $x$ % of vapor pressure of pure solvent. What is $x$ %?</p><ol type="A"><li>50%</li><li>60%</li><li>70%</li><li>80%</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option D — 80%</p><p>By Raoult’s law for a non-volatile solute, the vapour pressure of the solution equals the mole fraction of the solvent times the pure-solvent vapour pressure:</p>$$p_{\text{soln}} = x_{\text{solvent}}\, p^\circ.$$<p></p>$$x_{\text{solvent}} = \frac{n_{\text{solvent}}}{n_{\text{solvent}}+n_{\text{solute}}} = \frac{1}{1+0.25} = \frac{1}{1.25} = 0.80.$$<p></p>$$\frac{p_{\text{soln}}}{p^\circ} = 0.80 = 80\%.$$<p><strong>Answer:</strong> D (80%)</p></details></section><section class="mock-q" id="q-57"><h3>Question 57 · Chemistry</h3><p>One mole each of He and A(g) are taken in a 10 L closed flask and heated to 400 K to establish the following equilibrium. $A(g) \rightleftharpoons B(g)$. $K_c$ for this reaction at 400 K is 4.0. The partial pressures (in atm) of He and B(g) are respectively (at equilibrium). (Assume He, A(g) and B(g) behave as ideal gases) (Given : R = 0.082 L atm K$^{-1}$ mol$^{-1}$)</p><ol type="A"><li>3.28, 2.624</li><li>2.624, 3.28</li><li>3.28, 0.656</li><li>0.656, 6.56</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — 3.28, 2.624</p><p>Let $x$ mol of A convert to B. In the 10 L flask:</p>$$[A] = \frac{1-x}{10}, \qquad [B] = \frac{x}{10}$$
+
+$$K_c = \frac{[B]}{[A]} = \frac{x}{1-x} = 4 \implies x = 0.8\ \text{mol}$$<p><strong>Moles at equilibrium:</strong> He $= 1$, B $= 0.8$.</p><p><strong>Partial pressures</strong> from $p = \dfrac{nRT}{V}$ with $\dfrac{RT}{V} = \dfrac{0.082 \times 400}{10} = 3.28$ atm/mol:</p>$$p_{\text{He}} = 1 \times 3.28 = 3.28\ \text{atm}$$<p></p>$$p_{B} = 0.8 \times 3.28 = 2.624\ \text{atm}$$<p><strong>Answer:</strong> A (3.28, 2.624)</p></details></section><section class="mock-q" id="q-58"><h3>Question 58 · Chemistry</h3><p>Consider the following data. Electrolyte $\Lambda^\circ_m$ (S cm$^2$ mol$^{-1}$): $\text{BaCl}_2 = x_1$; $\text{H}_2\text{SO}_4 = x_2$; $\text{HCl} = x_3$. $\text{BaSO}_4$ is sparingly soluble in water. If the conductivity of the saturated $\text{BaSO}_4$ solution is $x$ S cm$^{-1}$ then the solubility product of $\text{BaSO}_4$ can be given as (Here $\Lambda_m = \Lambda^\circ_m$):</p><ol type="A"><li>$\dfrac{10^6 x^2}{a^2(x_1 + x_2 - 2x_3)^2}$</li><li>$\dfrac{x^2}{(x_1 + x_2 - 2x_3)^2}$</li><li>$\dfrac{a^2(x_1 + x_2 - 2x_3)^2}{10^6 x^2}$</li><li>$\dfrac{x^2}{(x_1 + x_2 + 2x_3)^2}$</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — $\dfrac{10^6 x^2}{a^2(x_1 + x_2 - 2x_3)^2}$</p><p><strong>Kohlrausch’s law</strong> builds $\text{BaSO}_4$ from the given electrolytes:</p>$$\Lambda^\circ_m(\text{BaSO}_4) = \Lambda^\circ_m(\text{BaCl}_2) + \Lambda^\circ_m(\text{H}_2\text{SO}_4) - 2\,\Lambda^\circ_m(\text{HCl}) = x_1 + x_2 - 2x_3$$<p>(The $2\,\text{Cl}^-$ and $2\,\text{H}^+$ cancel, leaving $\text{Ba}^{2+} + \text{SO}_4^{2-}$.)</p><p><strong>Molar conductivity</strong> links conductivity $x$ (S cm$^{-1}$) to solubility $S$ (mol L$^{-1}$). The factor $1000$ converts litres to cm$^3$:</p>$$\Lambda_m = \frac{1000\,x}{S} \implies S = \frac{1000\,x}{x_1 + x_2 - 2x_3}\ \text{mol L}^{-1}$$<p><strong>Solubility product</strong> ($1{:}1$ salt, $S = [\text{Ba}^{2+}] = [\text{SO}_4^{2-}]$):</p>$$K_{sp} = [\text{Ba}^{2+}][\text{SO}_4^{2-}] = S^2 = \frac{(1000\,x)^2}{(x_1 + x_2 - 2x_3)^2} = \frac{10^6\,x^2}{(x_1 + x_2 - 2x_3)^2}$$<p>This is the expression in option A. (Option B drops the $10^6$ litre-to-cm$^3$ conversion; option C is its reciprocal $1/K_{sp}$; option D uses the wrong Kohlrausch combination $x_1 + x_2 + 2x_3$.)</p><p><strong>Answer:</strong> A</p></details></section><section class="mock-q" id="q-59"><h3>Question 59 · Chemistry</h3><p>Given below are two statements: Statement I: Aluminium is more electropositive than thallium as the standard electrode potential value of $E^\circ_{\text{Al}^{3+}/\text{Al}}$ is negative and $E^\circ_{\text{Tl}^{3+}/\text{Tl}}$ is positive. Statement II: The sum of first three ionization enthalpies of boron is very high when compared to that of aluminium. Due to this reason boron forms covalent compounds only and aluminium forms $\text{Al}^{3+}$ ion. In the light of the above statements, choose the correct answer from the options given below:</p><ol type="A"><li>Both Statement I and Statement II are true</li><li>Both Statement I and Statement II are false</li><li>Statement I is true but Statement II is false</li><li>Statement I is false but Statement II is true</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — Both Statement I and Statement II are true</p><p><strong>Statement I:</strong> A more negative reduction potential means a more electropositive (more easily oxidised) metal. Here $E^\circ_{\text{Al}^{3+}/\text{Al}} = -1.66\ \text{V}$ (negative) while $E^\circ_{\text{Tl}^{3+}/\text{Tl}}$ is positive. Hence aluminium is more electropositive than thallium. <strong>True.</strong></p><p><strong>Statement II:</strong> The sum of the first three ionization enthalpies of boron ($\Delta_i H_1 + \Delta_i H_2 + \Delta_i H_3$) is much larger than that of aluminium because of boron’s very small size. This large energy cannot be compensated by lattice/hydration energy, so boron cannot form $\text{B}^{3+}$ and bonds covalently, whereas aluminium readily forms $\text{Al}^{3+}$. This is the standard NCERT reasoning. <strong>True.</strong></p><p>Both statements are true.</p><p><strong>Answer:</strong> A</p></details></section><section class="mock-q" id="q-60"><h3>Question 60 · Chemistry</h3><p>The correct statements among the following are. A. Basic vanadium oxide is used in the manufacture of $\text{H}_2\text{SO}_4$. B. The spin-only magnetic moment value of the transition metal halide employed in Ziegler-Natta polymerization is 2.84 BM. C. The p-block metal compound employed in Ziegler-Natta polymerization has the metal in +3 oxidation state. D. The number of electrons present in the outer most 'd' orbital of metal halide employed in Wacker process is 8. Choose the correct answer from the options given below:</p><ol type="A"><li>A and B Only</li><li>A, C and D Only</li><li>C and D Only</li><li>B, C and D Only</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option C — C and D Only</p><p><strong>A.</strong> The catalyst in the contact process is $\text{V}_2\text{O}_5$, which is <strong>acidic (amphoteric)</strong>, not basic. <strong>Incorrect.</strong></p><p><strong>B.</strong> Ziegler–Natta uses a titanium halide ($\text{TiCl}_4/\text{TiCl}_3$). The spin-only moment</p>$$\mu = \sqrt{n(n+2)}\ \text{BM}$$<p>gives $2.84$ BM only for $n = 2$ ($d^2$). Ti in $\text{TiCl}_4$ is $d^0$ ($\mu = 0$) and in $\text{TiCl}_3$ is $d^1$ ($\mu = 1.73$). Neither is $2.84$ BM. <strong>Incorrect.</strong></p><p><strong>C.</strong> The p-block co-catalyst is triethylaluminium $\text{Al}(\text{C}_2\text{H}_5)_3$, where Al is in the $+3$ state. <strong>Correct.</strong></p><p><strong>D.</strong> The Wacker process uses $\text{PdCl}_2$. For $\text{Pd}^{2+}$:</p>$$\text{Pd}^{2+}: [\text{Kr}]\,4d^{8}\ \Rightarrow\ 8\ d\text{-electrons}$$<p><strong>Correct.</strong></p><p>Correct statements: <strong>C and D</strong>.</p><p><strong>Answer:</strong> C</p></details></section><section class="mock-q" id="q-61"><h3>Question 61 · Chemistry</h3><p>Match the LIST-I with LIST-II. LIST-I (Electronic configuration of tetrahedral metal ion): A. $d^2$; B. $d^4$; C. $d^6$; D. $d^8$. LIST-II (Crystal Field Stabilization Energy $\Delta_t$): I. $-0.6$; II. $-0.8$; III. $-1.2$; IV. $-0.4$. Choose the correct answer from the options given below:</p><ol type="A"><li>A-III, B-IV, C-II, D-I</li><li>A-III, B-I, C-IV, D-II</li><li>A-III, B-IV, C-I, D-II</li><li>A-II, B-I, C-IV, D-III</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option C — A-III, B-IV, C-I, D-II</p><p>In a tetrahedral field the $e$ orbitals lie lower ($-0.6\,\Delta_t$ each) and the $t_2$ orbitals higher ($+0.4\,\Delta_t$ each). Tetrahedral complexes are high spin, and the $e$ set (2 orbitals) fills first, then $t_2$ (3 orbitals).</p>$$\text{A: } d^2 = e^2 \Rightarrow 2(-0.6) = -1.2\,\Delta_t \Rightarrow \text{III}$$
+
+$$\text{B: } d^4 = e^2 t_2^2 \Rightarrow 2(-0.6)+2(+0.4) = -0.4\,\Delta_t \Rightarrow \text{IV}$$
+
+$$\text{C: } d^6 = e^3 t_2^3 \Rightarrow 3(-0.6)+3(+0.4) = -0.6\,\Delta_t \Rightarrow \text{I}$$
+
+$$\text{D: } d^8 = e^4 t_2^4 \Rightarrow 4(-0.6)+4(+0.4) = -0.8\,\Delta_t \Rightarrow \text{II}$$<p>So A-III, B-IV, C-I, D-II.</p><p><strong>Answer:</strong> C (A-III, B-IV, C-I, D-II)</p></details></section><section class="mock-q" id="q-62"><h3>Question 62 · Chemistry</h3><p>Which of the following are true about the energy of the given d-orbitals of a tetrahedral complex? A. $d_{xy} = d_{xz} &gt; d_{x^2-y^2}$; B. $d_{xy} = d_{yz} &gt; d_{z^2}$; C. $d_{x^2-y^2} &gt; d_{z^2} &gt; d_{xz}$; D. $d_{x^2-y^2} = d_{z^2} &lt; d_{xz}$. Choose the correct answer from the given below:</p><ol type="A"><li>A, B and D only</li><li>A and B only</li><li>B and D only</li><li>B, C and D only</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option A — A, B and D only</p><p>In a tetrahedral field the splitting is inverted relative to octahedral: the $t_2$ set $(d_{xy}, d_{yz}, d_{xz})$ is <strong>higher</strong> in energy, while the $e$ set $(d_{x^2-y^2}, d_{z^2})$ is <strong>lower</strong>. Within each set the orbitals are degenerate.</p>$$e\text{-set: } d_{x^2-y^2} = d_{z^2} \quad (\text{lower}), \qquad t_2\text{-set: } d_{xy} = d_{yz} = d_{xz} \quad (\text{higher})$$<ul><li><strong>A.</strong> $d_{xy} = d_{xz}\ (t_2) &gt; d_{x^2-y^2}\ (e)$ — TRUE.</li><li><strong>B.</strong> $d_{xy} = d_{yz}\ (t_2) &gt; d_{z^2}\ (e)$ — TRUE.</li><li><strong>C.</strong> claims $d_{x^2-y^2} &gt; d_{z^2}$, but these are degenerate ($=$), so FALSE.</li><li><strong>D.</strong> $d_{x^2-y^2} = d_{z^2}\ (e) &lt; d_{xz}\ (t_2)$ — TRUE.</li></ul><p>So A, B and D are correct.</p><p><strong>Answer:</strong> A (A, B and D only)</p></details></section><section class="mock-q" id="q-63"><h3>Question 63 · Chemistry</h3><p>$R_f$ value for 2-methylpropene in a solvent system (Ethyl acetate + ether) is 0.42. 2-methylpropene is treated with dilute $\text{H}_2\text{SO}_4$ to give major organic product (X). $R_f$ value for (X) in the same solvent system under identical condition will be:</p><ol type="A"><li>0.42</li><li>0.82</li><li>0.62</li><li>0.12</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option D — 0.12</p><p><strong>Reaction:</strong> acid-catalysed hydration (Markovnikov) of 2-methylpropene:</p>$$\text{(CH}_3\text{)}_2\text{C}=\text{CH}_2 \xrightarrow{\text{dil. H}_2\text{SO}_4} \text{(CH}_3\text{)}_3\text{C-OH}$$<p>The product (X) is <strong>2-methylpropan-2-ol</strong> (<em>tert</em>-butanol), which carries a polar $-\text{OH}$ group and is therefore far more polar than the parent alkene.</p><p><strong>Chromatography reasoning:</strong> In normal-phase (silica) TLC, a more polar compound adsorbs more strongly to the polar stationary phase and travels a shorter distance, so it has a <strong>lower $R_f$</strong>. Since (X) is more polar than 2-methylpropene, its $R_f$ must be smaller than 0.42.</p><p>Among the options, only $0.12 &lt; 0.42$.</p><p><strong>Answer:</strong> D</p></details></section><section class="mock-q" id="q-64"><h3>Question 64 · Chemistry</h3><p>Given below are two statements: Statement I: 2,6-diethylcyclohexanone and 6-methyl-2-n-propylcyclohexanone are metamers. Statement II: 2,2,6,6-tetramethylcyclohexanone exhibits keto-enol tautomerism. In the light of the above statements, choose the correct answer from the options given below:</p><ol type="A"><li>Both Statement I and Statement II are true</li><li>Both Statement I and Statement II are false</li><li>Statement I is true but Statement II is false</li><li>Statement I is false but Statement II is true</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option C — Statement I is true but Statement II is false</p><p><strong>Statement I — check molecular formulas.</strong> Cyclohexanone is $\text{C}_6\text{H}_{10}\text{O}$. Each ring substituent replaces one H.</p><ul><li>2,6-diethylcyclohexanone: add two $-\text{C}_2\text{H}_5$ groups $\Rightarrow \text{C}_6\text{H}_8\text{O}(\text{C}_2\text{H}_5)_2 = \text{C}_{10}\text{H}_{18}\text{O}$</li><li>6-methyl-2-n-propylcyclohexanone: add $-\text{CH}_3$ and $-\text{C}_3\text{H}_7 \Rightarrow \text{C}_6\text{H}_8\text{O}(\text{CH}_3)(\text{C}_3\text{H}_7) = \text{C}_{10}\text{H}_{18}\text{O}$</li></ul><p>Same molecular formula, same functional group (ketone), but a different distribution of alkyl groups around the carbonyl — this is exactly <strong>metamerism</strong>. <strong>Statement I is TRUE.</strong></p><p><strong>Statement II — check for $\alpha$-hydrogens.</strong> Keto–enol tautomerism requires at least one $\alpha$-hydrogen. In 2,2,6,6-tetramethylcyclohexanone, both $\alpha$-carbons (C-2 and C-6) are fully substituted by methyl groups, so <strong>there are no $\alpha$-hydrogens</strong>. Hence no enol can form. <strong>Statement II is FALSE.</strong></p><p><strong>Answer:</strong> C</p></details></section><section class="mock-q" id="q-65"><h3>Question 65 · Chemistry</h3><p>Given below are two statements: Statement I: Methane can be prepared by decarboxylation of sodium ethanoate, Kolbe's electrolysis of sodium acetate and reaction of $\text{CH}_3\text{MgBr}$ with water. Statement II: Methane cannot be prepared from unsaturated hydrocarbons and by Wurtz reaction. In the light of the above statements, choose the correct answer from the options given below:</p><ol type="A"><li>Both Statement I and Statement II are true</li><li>Both Statement I and Statement II are false</li><li>Statement I is true but Statement II is false</li><li>Statement I is false but Statement II is true</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option D — Statement I is false but Statement II is true</p><p><strong>Check Statement I:</strong></p><ul><li>Decarboxylation (soda-lime): $\text{CH}_3\text{COONa} + \text{NaOH} \xrightarrow{\Delta} \text{CH}_4 + \text{Na}_2\text{CO}_3$ — gives methane. ✓</li><li>$\text{CH}_3\text{MgBr} + \text{H}_2\text{O} \rightarrow \text{CH}_4 + \text{Mg(OH)Br}$ — gives methane. ✓</li><li><strong>Kolbe’s electrolysis</strong> of sodium acetate: $2\,\text{CH}_3\text{COO}^- \rightarrow \text{CH}_3\text{-CH}_3 + 2\text{CO}_2 + 2e^-$ — gives <strong>ethane, not methane</strong>. ✗</li></ul><p>So Statement I is <strong>false</strong>.</p><p><strong>Check Statement II:</strong></p><ul><li>Wurtz reaction couples two alkyl halides, so the smallest possible product is ethane; it <strong>cannot</strong> give methane.</li><li>Hydrogenation of unsaturated hydrocarbons (e.g. $\text{CH}_2\text{=CH}_2 \to \text{C}_2\text{H}_6$) also cannot yield methane.</li></ul><p>So Statement II is <strong>true</strong>.</p><p>Statement I false, Statement II true.</p><p><strong>Answer:</strong> D</p></details></section><section class="mock-q" id="q-66"><h3>Question 66 · Chemistry</h3><p>Given below are two statements: Statement I: 3-phenylpropene reacts with HBr and gives secondary alkyl bromide having a chiral carbon atom as the major product. Statement II: Aryl chlorides and aryl cyanides can be prepared by Sandmeyer reaction as well as Gattermann reaction. In the light of the above statements, choose the correct answer from the options given below:</p><ol type="A"><li>Both Statement I and Statement II are true</li><li>Both Statement I and Statement II are false</li><li>Statement I is true but Statement II is false</li><li>Statement I is false but Statement II is true</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option C — Statement I is true but Statement II is false</p><p><strong>Statement I:</strong> 3-phenylpropene is allylbenzene, $\text{C}_6\text{H}_5\text{-}\text{CH}_2\text{-}\text{CH}=\text{CH}_2$. Markovnikov addition of HBr places Br on the more substituted internal carbon:</p>$$\text{C}_6\text{H}_5\text{-CH}_2\text{-CH}=\text{CH}_2 + \text{HBr} \rightarrow \text{C}_6\text{H}_5\text{-CH}_2\text{-}\underset{\text{Br}}{\text{CH}}\text{-CH}_3$$<p>The Br-bearing carbon carries four different groups ($\text{-Br}$, $\text{-H}$, $\text{-CH}_3$, $\text{-CH}_2\text{C}_6\text{H}_5$), so it is a chiral secondary bromide. <strong>True.</strong></p><p><strong>Statement II:</strong> Both routes start from a diazonium salt. Sandmeyer uses cuprous salts ($\text{Cu}_2\text{Cl}_2$ for Ar-Cl, CuCN for Ar-CN); Gattermann uses copper powder with HCl (Ar-Cl) or with KCN/Cu (Ar-CN). Both give aryl chlorides and aryl cyanides. <strong>True.</strong></p><p>Both statements are true.</p><p><strong>Answer:</strong> A</p></details></section><section class="mock-q" id="q-67"><h3>Question 67 · Chemistry</h3><p>Consider the following sequence of reactions: a tertiary alcohol (cyclohexane ring bearing an -OH and a gem-dimethyl/quaternary carbon as drawn) $\xrightarrow[\text{(ii) } H^+, PhCOOH]{\text{(i) } Cu/573K} P$. The major product P is: [figure: reactant is a cyclohexane-type structure with an -OH group and an adjacent quaternary carbon shown by a crossed bond; options are various cyclohexane carboxylic acid / ester structures]</p><ol type="A"><li>a cyclohexane ring with a -COOH group adjacent to the quaternary (crossed) carbon</li><li>a cyclohexane ring with a -COOH group meta to the quaternary (crossed) carbon</li><li>a cyclohexane carboxylic acid esterified with a tert-butyl group</li><li>a cyclohexane carboxylic acid esterified with a 2-methylallyl (methallyl) group</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — a cyclohexane ring with a -COOH group meta to the quaternary (crossed) carbon</p></details></section><section class="mock-q" id="q-68"><h3>Question 68 · Chemistry</h3><p>Arrange the following compounds according to increasing order of boiling points. $n\text{-}C_4H_9OH$ (A), $n\text{-}C_4H_9NH_2$ (B), $n\text{-}C_4H_{10}$ (C) and $C_2H_5NHC_2H_5$ (D).</p><ol type="A"><li>C &lt; B &lt; A &lt; D</li><li>D &lt; C &lt; B &lt; A</li><li>C &lt; D &lt; B &lt; A</li><li>D &lt; B &lt; A &lt; C</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option C — C &lt; D &lt; B &lt; A</p><p>Boiling point is governed by the strength of intermolecular forces (mainly hydrogen bonding here), for molecules of comparable molar mass:</p><ul><li><strong>C — $n\text{-}C_4H_{10}$ (butane):</strong> only weak London dispersion forces, no H-bonding $\Rightarrow$ lowest bp ($\approx 0\,^\circ\text{C}$).</li><li><strong>D — $C_2H_5NHC_2H_5$ (diethylamine):</strong> a secondary amine with one $\text{N–H}$, so weak $\text{N}\cdots\text{H–N}$ hydrogen bonding ($\approx 56\,^\circ\text{C}$).</li><li><strong>B — $n\text{-}C_4H_9NH_2$ (butan-1-amine):</strong> a primary amine with two $\text{N–H}$ bonds, giving stronger H-bonding than a secondary amine ($\approx 78\,^\circ\text{C}$).</li><li><strong>A — $n\text{-}C_4H_9OH$ (butan-1-ol):</strong> $\text{O–H}$ is more polar than $\text{N–H}$, so alcohols H-bond most strongly $\Rightarrow$ highest bp ($\approx 118\,^\circ\text{C}$).</li></ul><p>Increasing order: $C &lt; D &lt; B &lt; A$.</p><p><strong>Answer:</strong> C</p></details></section><section class="mock-q" id="q-69"><h3>Question 69 · Chemistry</h3><p>Match the LIST-I with LIST-II. LIST-I (Deficiency Disease): A. Scurvy; B. Convulsions; C. Cheilosis; D. Xerophthalmia. LIST-II (Vitamin): I. Pyridoxine; II. Vitamin A; III. Ascorbic Acid; IV. Riboflavin. Choose the correct answer from the options given below:</p><ol type="A"><li>A-I, B-III, C-II, D-IV</li><li>A-I, B-III, C-IV, D-II</li><li>A-III, B-I, C-IV, D-II</li><li>A-III, B-I, C-II, D-IV</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option C — A-III, B-I, C-IV, D-II</p><p>Link each deficiency disease to the vitamin whose lack causes it:</p><ul><li><strong>Scurvy</strong> $\leftarrow$ deficiency of <strong>Ascorbic acid</strong> (Vit C) $\Rightarrow$ III</li><li><strong>Convulsions</strong> $\leftarrow$ deficiency of <strong>Pyridoxine</strong> ($\text{B}_6$) $\Rightarrow$ I</li><li><strong>Cheilosis</strong> $\leftarrow$ deficiency of <strong>Riboflavin</strong> ($\text{B}_2$) $\Rightarrow$ IV</li><li><strong>Xerophthalmia</strong> $\leftarrow$ deficiency of <strong>Vitamin A</strong> $\Rightarrow$ II</li></ul><p>So A-III, B-I, C-IV, D-II.</p><p><strong>Answer:</strong> C</p></details></section><section class="mock-q" id="q-70"><h3>Question 70 · Chemistry</h3><p>Match the LIST-I with LIST-II. LIST-I (Amino acid): A. Glutamine; B. Lysine; C. Tyrosine; D. Serine. LIST-II (Positive reaction/Test for functional group present in side chain of amino acid): I. Hinsberg's test; II. Neutral FeCl$_3$ test; III. Ceric ammonium nitrate test; IV. Hoffman bromamide degradation. Choose the correct answer from the options given below:</p><ol type="A"><li>A-IV, B-II, C-I, D-III</li><li>A-IV, B-I, C-II, D-III</li><li>A-III, B-II, C-I, D-IV</li><li>A-IV, B-I, C-III, D-II</li></ol><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+Option B — A-IV, B-I, C-II, D-III</p><p>Identify the side-chain functional group and its characteristic test:</p><ul><li><strong>Glutamine</strong> — side chain has an <strong>amide</strong> ($-\text{CONH}_2$) $\Rightarrow$ <strong>Hofmann bromamide degradation</strong> (IV)</li><li><strong>Lysine</strong> — side chain has a <strong>primary amine</strong> ($-\text{NH}_2$) $\Rightarrow$ <strong>Hinsberg’s test</strong> (I)</li><li><strong>Tyrosine</strong> — side chain has a <strong>phenolic $-\text{OH}$</strong> $\Rightarrow$ <strong>neutral $\text{FeCl}_3$ test</strong> (II)</li><li><strong>Serine</strong> — side chain has a <strong>primary alcohol</strong> ($-\text{CH}_2\text{OH}$) $\Rightarrow$ <strong>ceric ammonium nitrate test</strong> (III)</li></ul><p>So A-IV, B-I, C-II, D-III.</p><p><strong>Answer:</strong> B</p></details></section><section class="mock-q" id="q-71"><h3>Question 71 · Chemistry · Numerical</h3><p>First and second ionization enthalpies of lithium are 520 kJ mol$^{-1}$ and 7297 kJ mol$^{-1}$ respectively. Energy required to convert 3.5 mg lithium (g) into $\text{Li}^{2+}$ (g) $[\text{Li}(g) \to \text{Li}^{2+}(g)]$ is ________ kJ mol$^{-1}$. (nearest integer) [Molar mass of Li = 7 g mol$^{-1}$]</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+4</p><p>The process $\text{Li}(g) \to \text{Li}^{2+}(g)$ removes two electrons, so the molar energy is the sum of the first two ionization enthalpies:</p>$$\Delta E = IE_1 + IE_2 = 520 + 7297 = 7817\ \text{kJ mol}^{-1}$$<p>The requested unit is <strong>kJ mol$^{-1}$</strong> (a per-mole quantity), so the given mass of 3.5 mg does not change the molar answer.</p><p><strong>Answer:</strong> 7817</p></details></section><section class="mock-q" id="q-72"><h3>Question 72 · Chemistry · Numerical</h3><p>Consider the following sequence of reactions: an azobenzene-type substrate (Ph$-$N$=$N$-$NH$-$Ph drawn) $\xrightarrow[\text{(ii) Aniline (in excess) (iii) Warm 40-45}^\circ\text{C (iv) Cool, acetic acid}]{\text{(i) HCl}}$ Yellow Product (X). The percentage of nitrogen in the yellow product (X) formed is ________ %. (Nearest Integer) (Given Molar mass in g mol$^{-1}$ H:1, C:12, N:14) [figure: starting material drawn as 1,3-diphenyltriazene / diazoamino compound Ph-N=N-NH-Ph]</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+21</p></details></section><section class="mock-q" id="q-73"><h3>Question 73 · Chemistry · Numerical</h3><p>4.7 g of phenol is heated with Zn to give product X. If this reaction goes to 60% completion then the number of moles of compound X formed will be ________ $\times 10^{-2}$. (Nearest Integer) (Given molar mass in g mol$^{-1}$ : H:1, C:12, O:16)</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+3</p><p>Heating phenol with zinc dust reduces the C–OH bond, giving <strong>benzene</strong> as product X:</p>$$C_6H_5OH + Zn \longrightarrow C_6H_6 + ZnO$$<p><strong>Moles of phenol taken:</strong> molar mass of phenol $= 6(12)+6(1)+16 = 94\ \text{g mol}^{-1}$</p>$$n_{\text{phenol}} = \dfrac{4.7}{94} = 0.05\ \text{mol}$$<p>The stoichiometry is $1:1$, so at 100% completion $0.05$ mol of benzene would form. At <strong>60% completion</strong>:</p>$$n_X = 0.05 \times 0.60 = 0.03\ \text{mol} = 3 \times 10^{-2}\ \text{mol}$$<p><strong>Answer:</strong> 3</p></details></section><section class="mock-q" id="q-74"><h3>Question 74 · Chemistry · Numerical</h3><p>Sucrose hydrolyses in acidic medium into glucose and fructose by first order rate law with $t_{1/2} = 3$ hour. The percentage of sucrose remaining after 6 hours is ________. (Nearest integer) (Given : log 2 = 0.3010 and log 3 = 0.4771)</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+25</p><p>The reaction is first order, so the fraction remaining after $n$ half-lives is $(1/2)^n$.</p><p>Number of half-lives in 6 hours:</p>$$n = \frac{6}{t_{1/2}} = \frac{6}{3} = 2$$<p>Fraction remaining:</p>$$\left(\frac{1}{2}\right)^{2} = \frac{1}{4} = 0.25$$<p>Percentage remaining:</p>$$0.25 \times 100 = 25\%$$<p><strong>Answer:</strong> 25</p></details></section><section class="mock-q" id="q-75"><h3>Question 75 · Chemistry · Numerical</h3><p>Consider the reaction $X \rightleftharpoons Y$ at 300 K. If $\Delta H^\theta$ and K are 28.40 kJ mol$^{-1}$ and $1.8 \times 10^{-7}$ at the same temperature, then the magnitude of $\Delta S^\theta$ for the reaction in J K$^{-1}$ mol$^{-1}$ is ________. (Nearest integer) (Given : R = 8.3 J K$^{-1}$ mol$^{-1}$, ln 10 = 2.3, log 3 = 0.48, log 2 = 0.30)</p><details><summary>Answer &amp; solution</summary><p><strong>Answer:</strong>
+34</p><p>First find $\Delta G^\theta$ from the equilibrium constant:</p>$$\Delta G^\theta = -RT\ln K$$<p>Evaluate $\ln K = 2.303\log(1.8\times10^{-7})$ using the given logs:</p>$$\log 1.8 = \log 2 + 2\log 3 - 1 = 0.30 + 0.96 - 1 = 0.26$$
+
+$$\log K = 0.26 - 7 = -6.74 \implies \ln K = 2.3 \times (-6.74) = -15.5$$
+
+$$\Delta G^\theta = -(8.3)(300)(-15.5) = 38{,}600 \text{ J mol}^{-1}$$<p>Now use $\Delta G^\theta = \Delta H^\theta - T\Delta S^\theta$:</p>$$\Delta S^\theta = \frac{\Delta H^\theta - \Delta G^\theta}{T} = \frac{28{,}400 - 38{,}600}{300} = -34 \text{ J K}^{-1}\text{mol}^{-1}$$<p>Magnitude $= 34$.</p><p><strong>Answer:</strong> 34</p></details></section></details>
+
+---
+
+## Extracted page code (interactive scripts & widgets)
+
+
+### inline-script-11
+
+```js
+window.MOCK_DATA={date:"2026-04-06",duration_min:180,marking:{correct:4,incorrect:-1},questions:[{correct_index:1,correct_value:"5",id:"6952782136",options:["2","5","10","13"],solution:`$\\sin^{-1}(t)$ needs $-1 \\le t \\le 1$, so
+$$-3 \\le x + [x] \\le 3.$$
+
+Check each integer strip:
+
+- $x \\in [-1, 0)$, $[x] = -1$: $x + [x] = x - 1 \\in [-2,-1)$, valid $\\Rightarrow$ all of $[-1,0)$.
+- $x \\in [0, 1)$, $[x] = 0$: $x + [x] = x \\in [0,1)$, valid.
+- $x \\in [1, 2)$, $[x] = 1$: $x + [x] = x + 1 \\in [2,3)$, valid $\\Rightarrow$ all of $[1,2)$.
+- $x \\in [2, 3)$, $[x] = 2$: $x + [x] \\ge 4 > 3$, invalid.
+- $x < -1$: $x + [x] < -2$ soon drops below $-3$, invalid.
+
+Combining the valid strips gives the domain $[-1, 2)$, so $\\alpha = -1,\\ \\beta = 2$ and
+$$\\alpha^2 + \\beta^2 = 1 + 4 = 5.$$
+
+**Answer:** B (5)`,statement:"Let $[\\cdot]$ denote the greatest integer function. If the domain of the function $f(x) = \\sin^{-1}\\left(\\dfrac{x + [x]}{3}\\right)$ is $[\\alpha, \\beta)$, then $\\alpha^2 + \\beta^2$ is equal to:",subject:"Mathematics",type:"mcq"},{correct_index:3,correct_value:"12",id:"6952782137",options:["4","6","8","12"],solution:`Let the roots be $r$ and $2r$, and $A=k^2-15k+27$. Then
+$$3r=-\\frac{9(k-1)}{A},\\qquad 2r^2=\\frac{18}{A}.$$
+From the first, $r=-\\dfrac{3(k-1)}{A}$; substitute into the second:
+$$2\\cdot\\frac{9(k-1)^2}{A^2}=\\frac{18}{A}\\;\\Longrightarrow\\;(k-1)^2=A=k^2-15k+27.$$
+$$k^2-2k+1=k^2-15k+27\\;\\Longrightarrow\\;13k=26\\;\\Longrightarrow\\;k=2.$$
+(At $k=2$: $x^2+9x+18=0$ has roots $-3,-6$, indeed $-6=2(-3)$.)
+
+Parabola: $y^2=6kx=12x$, so latus rectum $=12$.
+
+**Answer:** D (12)`,statement:"Let one root of the quadratic equation in $x$: $(k^2 - 15k + 27)x^2 + 9(k-1)x + 18 = 0$ be twice the other. Then the length of the latus rectum of the parabola $y^2 = 6kx$ is equal to:",subject:"Mathematics",type:"mcq"},{correct_index:2,correct_value:"26",id:"6952782138",options:["18","22","26","34"],solution:`Let $f(x)=x^2-ax+2$, so $e_1+e_2=a$, $e_1e_2=2$. Distinct real roots need $a^2-8>0$; since the product is $2>0$, both roots share the sign of $a$.
+
+**Both are hyperbola eccentricities** ($e_1,e_2>1$): need $f(1)>0$, vertex $>1$, and real roots:
+$$f(1)=3-a>0\\Rightarrow a<3,\\quad \\tfrac{a}{2}>1\\Rightarrow a>2,\\quad a>2\\sqrt2.$$
+So $a\\in(2\\sqrt2,3)$, giving $\\alpha=2\\sqrt2,\\ \\beta=3$.
+
+**Ellipse and hyperbola** (one root in $(0,1)$, other $>1$): need $f(1)<0$:
+$$3-a<0\\Rightarrow a>3.$$
+So the set is $(3,\\infty)$, giving $\\gamma=3$.
+
+$$\\alpha^2+\\beta^2+\\gamma^2=8+9+9=26.$$
+
+**Answer:** C (26)`,statement:"Let $e_1$ and $e_2$ be two distinct roots of the equation $x^2 - ax + 2 = 0$. Let the sets $\\{a \\in \\mathbb{R} : e_1 \\text{ and } e_2 \\text{ are the eccentricities of hyperbolas}\\} = (\\alpha, \\beta)$, and $\\{a \\in \\mathbb{R} : e_1 \\text{ and } e_2 \\text{ are the eccentricities of an ellipse and a hyperbola, respectively}\\} = (\\gamma, \\infty)$. Then $\\alpha^2 + \\beta^2 + \\gamma^2$ is equal to:",subject:"Mathematics",type:"mcq"},{correct_index:0,correct_value:"$-10$",id:"6952782139",options:["$-10$","$-8$","$10\\sqrt{13}$","$8\\sqrt{13}$"],solution:`Let $z = x + iy$, so $z\\bar z = x^2 + y^2$. Expanding:
+$$z\\bar z + z(2+i) + k(2+3i) = 0$$
+$$x^2 + y^2 + (x+iy)(2+i) + k(2+3i) = 0$$
+$$x^2 + y^2 + (2x - y) + i(x + 2y) + 2k + 3ki = 0$$
+
+Separate real and imaginary parts:
+$$\\text{Real:}\\quad x^2 + y^2 + 2x - y + 2k = 0$$
+$$\\text{Imag:}\\quad x + 2y + 3k = 0 \\;\\Rightarrow\\; x = -2y - 3k$$
+
+Substitute into the real equation:
+$$(-2y-3k)^2 + y^2 + 2(-2y-3k) - y + 2k = 0$$
+$$5y^2 + (12k - 5)y + (9k^2 - 4k) = 0$$
+
+For a real solution $y$ to exist, the discriminant must be non-negative:
+$$(12k-5)^2 - 20(9k^2 - 4k) \\geq 0$$
+$$-36k^2 - 40k + 25 \\geq 0 \\;\\Rightarrow\\; 36k^2 + 40k - 25 \\leq 0$$
+
+The endpoints $\\alpha, \\beta$ are the roots, so by Vieta:
+$$\\alpha + \\beta = -\\frac{40}{36} = -\\frac{10}{9}$$
+
+$$9(\\alpha + \\beta) = 9 \\cdot \\left(-\\frac{10}{9}\\right) = -10$$
+
+**Answer:** A`,statement:"Let the set of all values of $k \\in \\mathbb{R}$ such that the equation $z(\\bar{z} + 2 + i) + k(2 + 3i) = 0$, $z \\in \\mathbb{C}$, has at least one solution, be the interval $[\\alpha, \\beta]$. Then $9(\\alpha + \\beta)$ is equal to:",subject:"Mathematics",type:"mcq"},{correct_index:1,correct_value:"1856",id:"6952782140",options:["1706","1856","1982","2403"],solution:`Group the 15 terms as $(1^3 - 2^3) + (3^3 - 4^3) + \\dots + (13^3 - 14^3) + 15^3$.
+
+Each odd cube minus the next even cube uses $a^3 - b^3 = (a-b)(a^2+ab+b^2)$ with $a - b = -1$, but it is cleaner to compute directly. Split into odd and even cubes:
+
+$$\\underbrace{(1^3 + 3^3 + \\dots + 15^3)}_{\\text{odd}} - \\underbrace{(2^3 + 4^3 + \\dots + 14^3)}_{\\text{even}}.$$
+
+Sum of all cubes to $15$: $\\left(\\dfrac{15\\cdot 16}{2}\\right)^2 = 120^2 = 14400.$
+
+Even cubes: $2^3(1^3 + \\dots + 7^3) = 8\\left(\\dfrac{7\\cdot 8}{2}\\right)^2 = 8\\cdot 784 = 6272.$
+
+Odd cubes $= 14400 - 6272 = 8128$. Therefore the alternating sum is
+$$8128 - 6272 = 1856.$$
+
+**Answer:** B (1856)`,statement:"The value of $1^3 - 2^3 + 3^3 - \\ldots + 15^3$ is:",subject:"Mathematics",type:"mcq"},{correct_index:0,correct_value:"$\\dfrac{34}{9}$",id:"6952782141",options:["$\\dfrac{34}{9}$","$\\dfrac{34}{13}$","$\\dfrac{32}{9}$","$\\dfrac{32}{13}$"],solution:`Let the A.P. have first term $A$ and common difference $D$. Let the G.P. have first term $g$ and common ratio $r$.
+
+Given links: $A = r$ and $g = D$.
+
+Sum of first ten A.P. terms:
+$$\\frac{10}{2}(2A + 9D) = 160 \\;\\Rightarrow\\; 2A + 9D = 32.$$
+
+Sum of first two G.P. terms with $g = D$, $r = A$:
+$$g + gr = D(1 + A) = 8.$$
+
+From the first equation $A = \\dfrac{32 - 9D}{2}$. Substituting:
+$$D\\left(1 + \\frac{32 - 9D}{2}\\right) = 8 \\;\\Rightarrow\\; D(34 - 9D) = 16 \\;\\Rightarrow\\; 9D^2 - 34D + 16 = 0.$$
+
+The first term of the G.P. is $g = D$, so the sum of all possible values of $g$ is the sum of the roots of this quadratic:
+$$D_1 + D_2 = \\frac{34}{9}.$$
+
+**Answer:** A ($\\dfrac{34}{9}$)`,statement:"The sum of the first ten terms of an A.P. is 160 and the sum of the first two terms of a G.P. is 8. If the first term of the A.P. is equal to the common ratio of the G.P. and the first term of the G.P. is equal to the common difference of the A.P., then the sum of all possible values of the first term of the G.P. is:",subject:"Mathematics",type:"mcq"},{correct_index:3,correct_value:"3600",id:"6952782142",options:["2670","2840","2920","3600"],solution:`List the **distinct** letters of INCONSEQUENTIAL.
+
+- Distinct vowels: $A, E, I, O, U$ — that is $5$ vowels.
+- Distinct consonants: $C, L, N, Q, S, T$ — that is $6$ consonants.
+
+Since no letter may be repeated, choose $2$ distinct vowels and $2$ distinct consonants, then arrange all $4$ chosen letters:
+
+$$\\binom{5}{2}\\binom{6}{2}\\,4! = 10 \\times 15 \\times 24 = 3600.$$
+
+**Answer:** D (3600)`,statement:"The number of 4-letter words, with or without meaning, each consisting of two vowels and two consonants that can be formed from the letters of the word INCONSEQUENTIAL, without repeating any letter, is:",subject:"Mathematics",type:"mcq"},{correct_index:3,correct_value:"$\\dfrac{7}{27}$",id:"6952782143",options:["1","$\\dfrac{14}{13}$","$\\dfrac{27}{7}$","$\\dfrac{7}{27}$"],solution:`$(1 + \\alpha x)^{26}$ has $27$ terms, so the single middle term is the $14$th ($r = 13$):
+
+$$\\text{coeff} = \\binom{26}{13}\\alpha^{13}.$$
+
+$(1 - \\alpha x)^{28}$ has $29$ terms, so the middle term is the $15$th ($r = 14$):
+
+$$\\text{coeff} = \\binom{28}{14}(-\\alpha)^{14} = \\binom{28}{14}\\alpha^{14}.$$
+
+Equating:
+
+$$\\binom{26}{13}\\alpha^{13} = \\binom{28}{14}\\alpha^{14} \\;\\Rightarrow\\; \\alpha = \\frac{\\binom{26}{13}}{\\binom{28}{14}}.$$
+
+Now $\\dbinom{28}{14} = \\dbinom{26}{13}\\cdot\\dfrac{27\\cdot 28}{14\\cdot 14} = \\dbinom{26}{13}\\cdot\\dfrac{756}{196} = \\dbinom{26}{13}\\cdot\\dfrac{27}{7}.$
+
+Therefore
+
+$$\\alpha = \\frac{1}{27/7} = \\frac{7}{27}.$$
+
+**Answer:** D ($\\tfrac{7}{27}$)`,statement:`If the coefficients of the middle terms in the binomial expansions of $(1 + \\alpha x)^{26}$ and $(1 - \\alpha x)^{28}$, $\\alpha \\neq 0$, are equal, then the value of $\\alpha$ is:`,subject:"Mathematics",type:"mcq"},{correct_index:1,correct_value:"3:1",id:"6952782144",options:["2:1","3:1","3:2","4:1"],solution:`**Subtract** the two sums:
+$$\\sum\\big[(x_i+5)^2 - (x_i-5)^2\\big] = \\sum 20x_i = 2500 - 100 = 2400,$$
+$$\\Rightarrow \\sum x_i = 120 \\Rightarrow \\bar{x} = \\dfrac{120}{20} = 6.$$
+
+**Add** the two sums:
+$$\\sum\\big[(x_i+5)^2 + (x_i-5)^2\\big] = \\sum\\big(2x_i^2 + 50\\big) = 2\\sum x_i^2 + 1000 = 2600,$$
+$$\\Rightarrow \\sum x_i^2 = 800.$$
+
+**Variance:**
+$$\\sigma^2 = \\dfrac{\\sum x_i^2}{20} - \\bar{x}^2 = \\dfrac{800}{20} - 36 = 40 - 36 = 4 \\Rightarrow \\sigma = 2.$$
+
+$$\\dfrac{\\bar{x}}{\\sigma} = \\dfrac{6}{2} = 3 = 3:1.$$
+
+**Answer:** B`,statement:"A data consists of 20 observations $x_1, x_2, \\ldots, x_{20}$. If $\\sum_{i=1}^{20}(x_i + 5)^2 = 2500$ and $\\sum_{i=1}^{20}(x_i - 5)^2 = 100$, then the ratio of mean to standard deviation of this data is:",subject:"Mathematics",type:"mcq"},{correct_index:1,correct_value:"7",id:"6952782145",options:["5","7","8","9"],solution:`Each coin is chosen with probability $\\dfrac{1}{N+1}$. A fair coin gives Head with probability $\\tfrac{1}{2}$; the double-headed coin gives Head with probability $1$.
+
+$$P(\\text{Head}) = \\dfrac{N\\cdot \\tfrac{1}{2} + 1\\cdot 1}{N+1} = \\dfrac{\\tfrac{N}{2} + 1}{N+1} = \\dfrac{N+2}{2(N+1)}.$$
+
+Set equal to $\\dfrac{9}{16}$:
+$$\\dfrac{N+2}{2(N+1)} = \\dfrac{9}{16} \\Rightarrow 16(N+2) = 18(N+1)$$
+$$32 + 16N = 18N + 18 \\Rightarrow 2N = 14 \\Rightarrow N = 7.$$
+
+**Answer:** B`,statement:"A bag contains $(N + 1)$ coins $-$ $N$ fair coins, and one coin with 'Head' on both sides. A coin is selected at random and tossed. If the probability of getting 'Head' is $\\dfrac{9}{16}$, then $N$ is equal to:",subject:"Mathematics",type:"mcq"},{correct_index:0,correct_value:"10",id:"6952782146",options:["10","20","25","30"],solution:`Solve $15e^2-34e+15=0$:
+$$e=\\frac{34\\pm\\sqrt{34^2-900}}{30}=\\frac{34\\pm16}{30}=\\frac{5}{3}\\ \\text{or}\\ \\frac{3}{5}.$$
+For a hyperbola $e>1$, so $e=\\dfrac{5}{3}$, giving $\\dfrac{b^2}{a^2}=e^2-1=\\dfrac{16}{9}$.
+
+Through $(6,4\\sqrt3)$, i.e. $y^2=48$:
+$$\\frac{36}{a^2}-\\frac{48}{b^2}=1.$$
+With $b^2=\\dfrac{16a^2}{9}$, $\\dfrac{48}{b^2}=\\dfrac{27}{a^2}$, so $\\dfrac{36-27}{a^2}=1\\Rightarrow a^2=9,\\ b^2=16$.
+
+New hyperbola: $\\dfrac{x^2}{16}-\\dfrac{y^2}{20}=1$ (since $2(a^2+1)=20$). Latus rectum:
+$$\\frac{2\\cdot 20}{\\sqrt{16}}=\\frac{40}{4}=10.$$
+
+**Answer:** A (10)`,statement:"If the eccentricity $e$ of the hyperbola $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$, passing through $(6, 4\\sqrt{3})$, satisfies $15(e^2 + 1) = 34e$, then the length of the latus rectum of the hyperbola $\\dfrac{x^2}{b^2} - \\dfrac{y^2}{2(a^2 + 1)} = 1$ is:",subject:"Mathematics",type:"mcq"},{correct_index:0,correct_value:"$\\dfrac{3}{5}$",id:"6952782147",options:["$\\dfrac{3}{5}$","$\\dfrac{4}{5}$","$\\dfrac{5}{13}$","$\\dfrac{12}{13}$"],solution:`For $y^2=12x$, take points $(3t^2,6t)$; focus $S=(3,0)$. Let $P$ correspond to $t$ and $Q$ to $2t$ (ordinates $6t:12t=1:2$).
+$$P=(3t^2,6t),\\quad Q=(12t^2,12t).$$
+$$PQ^2=(9t^2)^2+(6t)^2=81t^4+36t^2=(3\\sqrt{13})^2=117.$$
+$$9t^4+4t^2-13=0\\Rightarrow (t^2-1)(9t^2+13)=0\\Rightarrow t^2=1.$$
+Take $t=1$: $P=(3,6),\\ Q=(12,12)$.
+$$\\vec{SP}=(0,6),\\qquad \\vec{SQ}=(9,12).$$
+$$\\sin\\alpha=\\frac{|\\,0\\cdot12-6\\cdot9\\,|}{|SP|\\,|SQ|}=\\frac{54}{6\\cdot15}=\\frac{54}{90}=\\frac{3}{5}.$$
+
+**Answer:** A ($\\dfrac{3}{5}$)`,statement:"Let chord $PQ$ of length $3\\sqrt{13}$ of the parabola $y^2 = 12x$ be such that the ordinates of points $P$ and $Q$ are in the ratio $1:2$. If the chord $PQ$ subtends an angle $\\alpha$ at the focus of the parabola, then $\\sin \\alpha$ is equal to:",subject:"Mathematics",type:"mcq"},{correct_index:1,correct_value:"7",id:"6952782148",options:["6","7","8","9"],solution:`Let $u = 1-\\alpha$ and $v = 1-\\beta$. Taking $\\tan$ of both sides,
+$$\\frac{u+v}{1-uv} = \\tan\\frac{\\pi}{4} = 1 \\quad\\Longrightarrow\\quad u+v = 1 - uv.$$
+
+Compute each piece. First,
+$$u+v = 2 - (\\alpha+\\beta).$$
+
+Next, since $\\alpha\\beta = \\alpha\\cdot\\dfrac{1}{3\\alpha} = \\dfrac13$,
+$$uv = (1-\\alpha)(1-\\beta) = 1 - (\\alpha+\\beta) + \\alpha\\beta = \\frac43 - (\\alpha+\\beta).$$
+
+So $1 - uv = (\\alpha+\\beta) - \\dfrac13$. Substituting into $u+v = 1-uv$:
+$$2 - (\\alpha+\\beta) = (\\alpha+\\beta) - \\frac13 \\quad\\Longrightarrow\\quad 2(\\alpha+\\beta) = \\frac{7}{3} \\quad\\Longrightarrow\\quad \\alpha+\\beta = \\frac{7}{6}.$$
+
+(For $\\alpha+\\beta = \\tfrac76$ with $\\alpha\\beta = \\tfrac13$, we get $\\alpha = \\tfrac12,\\ \\beta = \\tfrac23$, which satisfies $0<\\alpha<1$.)
+
+Therefore
+$$6(\\alpha+\\beta) = 6\\cdot\\frac{7}{6} = 7.$$
+
+**Answer:** B`,statement:"Let $0 < \\alpha < 1$, $\\beta = \\dfrac{1}{3\\alpha}$ and $\\tan^{-1}(1 - \\alpha) + \\tan^{-1}(1 - \\beta) = \\dfrac{\\pi}{4}$. Then $6(\\alpha + \\beta)$ is equal to:",subject:"Mathematics",type:"mcq"},{correct_index:1,correct_value:"$-\\dfrac{4\\pi}{3}$",id:"6952782149",options:["$-\\dfrac{2\\pi}{3}$","$-\\dfrac{4\\pi}{3}$","$\\dfrac{2\\pi}{3}$","$\\dfrac{4\\pi}{3}$"],solution:`Rewrite the equation as a single sinusoid:
+$$\\sqrt{3}\\sin\\theta - \\cos\\theta = 1 \\quad\\Longrightarrow\\quad 2\\sin\\!\\left(\\theta - \\frac{\\pi}{6}\\right) = 1 \\quad\\Longrightarrow\\quad \\sin\\!\\left(\\theta - \\frac{\\pi}{6}\\right) = \\frac12.$$
+
+Thus
+$$\\theta - \\frac{\\pi}{6} = \\frac{\\pi}{6} + 2k\\pi \\quad\\text{or}\\quad \\theta - \\frac{\\pi}{6} = \\frac{5\\pi}{6} + 2k\\pi,$$
+giving
+$$\\theta = \\frac{\\pi}{3} + 2k\\pi \\quad\\text{or}\\quad \\theta = \\pi + 2k\\pi.$$
+
+Collecting the values in $(-2\\pi, 2\\pi)$:
+$$\\theta = \\frac{\\pi}{3},\\ -\\frac{5\\pi}{3} \\quad\\text{and}\\quad \\theta = \\pi,\\ -\\pi.$$
+
+Summing,
+$$\\sum_{\\theta\\in S}\\theta = \\frac{\\pi}{3} - \\frac{5\\pi}{3} + \\pi - \\pi = -\\frac{4\\pi}{3}.$$
+
+**Answer:** B`,statement:"Let $S = \\{\\theta \\in (-2\\pi, 2\\pi) : \\cos\\theta + 1 = \\sqrt{3}\\sin\\theta\\}$. Then $\\sum_{\\theta \\in S}\\theta$ is equal to:",subject:"Mathematics",type:"mcq"},{correct_index:2,correct_value:"21",id:"6952782150",options:["19","20","21","22"],solution:`The foot $M$ is the midpoint of $P$ and its image, and $M$ lies on $L$ with $\\vec{PM}\\perp(1,2,b)$. Writing $M$ on $L$ as $(0,1,a-1)+u(1,2,b)$ and imposing the perpendicularity and midpoint conditions gives two families; the constraint $b>0$ selects
+
+$$a = 3,\\quad b = 3,\\quad c = 4,\\quad u = 1$$
+
+So $L : (0,1,2) + u(1,2,3)$ with $|(1,2,3)| = \\sqrt{14}$, and the foot is $M = (1,3,5)$.
+
+For $S$ at distance $2\\sqrt{14}$ from $M$: $|u_S - 1|\\sqrt{14} = 2\\sqrt{14} \\implies u_S = 3$ or $u_S = -1$.
+
+$$u_S = 3 \\Rightarrow S = (3, 7, 11)\\ (\\alpha>0);\\qquad u_S = -1 \\Rightarrow S = (-1,-1,-1)$$
+
+Taking $\\alpha > 0$: $S = (3,7,11)$, so $\\alpha + \\beta + \\gamma = 21$.
+
+**Answer:** C (21)`,statement:"Let the image of the point $P(1, 6, a)$ in the line $L : \\dfrac{x}{1} = \\dfrac{y-1}{2} = \\dfrac{z-a+1}{b}$, $b > 0$, be $\\left(\\dfrac{a}{3}, 0, a + c\\right)$. If $S(\\alpha, \\beta, \\gamma)$, $\\alpha > 0$, is the point on $L$ such that the distance of $S$ from the foot of perpendicular from the point $P$ on $L$ is $2\\sqrt{14}$, then $\\alpha + \\beta + \\gamma$ is equal to:",subject:"Mathematics",type:"mcq"},{correct_index:1,correct_value:"$\\dfrac{5}{2}\\sqrt{2}$",id:"6952782151",options:["$\\dfrac{3}{2}\\sqrt{2}$","$\\dfrac{5}{2}\\sqrt{2}$","$\\dfrac{5}{3}\\sqrt{2}$","$\\dfrac{4}{3}\\sqrt{2}$"],solution:`Direction of $L$ is $\\vec{d_1}\\times\\vec{d_2}$ with $\\vec{d_1}=(3,5,7)$, $\\vec{d_2}=(1,4,7)$:
+
+$$\\vec{d} = (3,5,7)\\times(1,4,7) = (7,\\ -14,\\ 7) \\parallel (1,-2,1)$$
+
+With $L_3$ direction $\\vec{d_3} = (2,1,2)$:
+
+$$\\cos\\theta = \\frac{|(1)(2)+(-2)(1)+(1)(2)|}{\\sqrt{6}\\,\\sqrt{9}} = \\frac{2}{3\\sqrt{6}}$$
+
+$$\\sin\\theta = \\sqrt{1 - \\frac{4}{54}} = \\sqrt{\\frac{50}{54}} = \\frac{5\\sqrt{2}}{3\\sqrt{6}}$$
+
+$$\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta} = \\frac{5\\sqrt{2}}{2} = \\frac{5}{2}\\sqrt{2}$$
+
+**Answer:** B ($\\frac{5}{2}\\sqrt{2}$)`,statement:"Let a line $L$ be perpendicular to both the lines $L_1 : \\dfrac{x+1}{3} = \\dfrac{y+3}{5} = \\dfrac{z+5}{7}$ and $L_2 : \\dfrac{x-2}{1} = \\dfrac{y-4}{4} = \\dfrac{z-6}{7}$. If $\\theta$ is the acute angle between the lines $L$ and $L_3 : \\dfrac{x-\\frac{8}{7}}{2} = \\dfrac{y-\\frac{4}{7}}{1} = \\dfrac{z}{2}$, then $\\tan\\theta$ is equal to:",subject:"Mathematics",type:"mcq"},{correct_index:1,correct_value:"3",id:"6952782152",options:["2","3","4","6"],solution:`Use $\\sin x = x - \\dfrac{x^3}{6} + O(x^5)$.
+
+**Denominator:**
+$$x^2 - \\sin^2 x = x^2 - \\left(x^2 - \\dfrac{x^4}{3} + O(x^6)\\right) = \\dfrac{x^4}{3} + O(x^6)$$
+
+**Numerator:**
+$$x^2 \\sin^2 x = x^2\\left(x^2 + O(x^4)\\right) = x^4 + O(x^6)$$
+
+Therefore
+$$\\lim_{x\\to 0}\\dfrac{x^4 + O(x^6)}{\\tfrac{x^4}{3} + O(x^6)} = \\dfrac{1}{\\tfrac13} = 3$$
+
+**Answer:** B`,statement:"The value of $\\displaystyle\\lim_{x \\to 0}\\left(\\dfrac{x^2 \\sin^2 x}{x^2 - \\sin^2 x}\\right)$ is:",subject:"Mathematics",type:"mcq"},{correct_index:1,correct_value:"$3\\pi + 8$",id:"6952782153",options:["$4\\pi + 2$","$3\\pi + 8$","$3\\pi + 4$","$4\\pi + 3$"],solution:`Use the **king property** $\\int_{-a}^{a} \\dfrac{g(x)}{1+e^{h(x)}}\\,dx = \\int_0^a g(x)\\,dx$ whenever $g$ is even and $h$ is odd. Here $g(x) = 32\\cos^4 x$ is even and $h(x) = \\sin x$ is odd, so
+$$I = \\int_0^{\\pi/4} 32\\cos^4 x\\,dx.$$
+
+**Reduce the power.** Using $\\cos^4 x = \\dfrac{3}{8} + \\dfrac{\\cos 2x}{2} + \\dfrac{\\cos 4x}{8}$,
+$$32\\cos^4 x = 12 + 16\\cos 2x + 4\\cos 4x.$$
+
+Integrate over $[0,\\pi/4]$:
+$$\\int_0^{\\pi/4} 12\\,dx = 3\\pi,\\quad \\int_0^{\\pi/4} 16\\cos 2x\\,dx = 8\\sin\\frac{\\pi}{2} = 8,\\quad \\int_0^{\\pi/4} 4\\cos 4x\\,dx = \\sin\\pi = 0.$$
+
+Therefore $I = 3\\pi + 8$.
+
+**Answer:** B`,statement:"The value of the integral $\\displaystyle\\int_{-\\frac{\\pi}{4}}^{\\frac{\\pi}{4}}\\left(\\dfrac{32\\cos^4 x}{1 + e^{\\sin x}}\\right)dx$ is:",subject:"Mathematics",type:"mcq"},{correct_index:1,correct_value:"9",id:"6952782154",options:["8","9","12","15"],solution:`Rewrite the constraints in terms of $x$ for a fixed $y \\ge 0$: the line gives $x \\le 6 - y$, and $y^2 \\ge 4x - 3$ gives $x \\le \\dfrac{y^2 + 3}{4}$ (the region **left** of the parabola $x = \\tfrac{y^2+3}{4}$, vertex $(\\tfrac34,0)$). With $x \\ge 0$, integrate over $y$.
+
+**Where line meets parabola.** Set $6 - y = \\dfrac{y^2+3}{4}$:
+$$24 - 4y = y^2 + 3 \\implies y^2 + 4y - 21 = 0 \\implies (y-3)(y+7) = 0 \\implies y = 3.$$
+
+For $0 \\le y \\le 3$ the parabola bound $\\tfrac{y^2+3}{4}$ is the smaller (e.g. at $y=0$: $0.75 < 6$); for $3 \\le y \\le 6$ the line bound $6 - y$ is smaller (line hits $x=0$ at $y=6$).
+
+**Split and integrate.**
+$$\\text{Area} = \\int_0^3 \\frac{y^2 + 3}{4}\\,dy + \\int_3^6 (6 - y)\\,dy.$$
+$$\\int_0^3 \\frac{y^2+3}{4}\\,dy = \\frac{1}{4}\\left(9 + 9\\right) = \\frac{18}{4} = \\frac{9}{2},\\qquad \\int_3^6 (6 - y)\\,dy = \\left[6y - \\frac{y^2}{2}\\right]_3^6 = \\frac{9}{2}.$$
+
+Total area $= \\dfrac{9}{2} + \\dfrac{9}{2} = 9.$
+
+**Answer:** 9`,statement:"The area of the region $\\{(x, y) : 0 \\le y \\le 6 - x, \\; y^2 \\ge 4x - 3, \\; x \\ge 0\\}$ is:",subject:"Mathematics",type:"mcq"},{correct_index:0,correct_value:"$\\dfrac{3 - \\log_e(2)}{3\\log_e(2)}$",id:"6952782155",options:["$\\dfrac{3 - \\log_e(2)}{3\\log_e(2)}$","$\\dfrac{1}{3\\log_e(2)}$","$3 + \\log_e(2)$","$\\dfrac{3 + \\log_e(2)}{2 + \\log_e(3)}$"],solution:`**Pin down the bijections.**
+Strictly increasing $g$ maps the smallest input to the smallest output:
+$$g(1)=\\tfrac14,\\ g(e)=\\tfrac13,\\ g(e^2)=\\tfrac12,\\ g(e^3)=1 \\implies g^{-1}\\!\\left(\\tfrac12\\right) = e^2.$$
+Strictly decreasing $f$ maps the smallest input to the largest output:
+$$f(1)=e^3,\\ f(2)=e^2,\\ f(3)=e,\\ f(4)=1 \\implies f^{-1}(e^2) = 2.$$
+So the base is $2$ and $\\phi(x) = 2^x$.
+
+**Set up the area.** The two curves $y=x^2$ and $y=2^x$ satisfy $2^x \\ge x^2$ on $[0,1]$, so
+$$R = \\int_0^1 \\left(2^x - x^2\\right)dx.$$
+
+**Evaluate.**
+$$\\int_0^1 2^x\\,dx = \\frac{2^x}{\\ln 2}\\Big|_0^1 = \\frac{2-1}{\\ln 2} = \\frac{1}{\\ln 2},\\qquad \\int_0^1 x^2\\,dx = \\frac{1}{3}.$$
+$$R = \\frac{1}{\\ln 2} - \\frac{1}{3} = \\frac{3 - \\ln 2}{3\\ln 2}.$$
+
+**Answer:** A`,statement:"Let $e$ be the base of natural logarithm and let $f : \\{1, 2, 3, 4\\} \\to \\{1, e, e^2, e^3\\}$ and $g : \\{1, e, e^2, e^3\\} \\to \\left\\{1, \\frac{1}{2}, \\frac{1}{3}, \\frac{1}{4}\\right\\}$ be two bijective functions such that $f$ is strictly decreasing and $g$ is strictly increasing. If $\\phi(x) = \\left[f^{-1}\\left\\{g^{-1}\\left(\\frac{1}{2}\\right)\\right\\}\\right]^x$, then the area of the region $R = \\{(x, y) : x^2 \\le y \\le \\phi(x), \\; 0 \\le x \\le 1\\}$ is:",subject:"Mathematics",type:"mcq"},{correct_index:null,correct_value:"4",id:"6952782156",options:[],solution:`Compute $\\det A$ by expanding along the last row:
+$$\\det A = 1 \\cdot \\big((-1)(0) - (1)(1)\\big) = -1.$$
+
+Use the $3\\times 3$ identities $\\operatorname{adj}(\\operatorname{adj}A) = (\\det A)\\,A = -A$ and $\\operatorname{adj}A = (\\det A)A^{-1}$, so
+$$\\operatorname{adj}A \\cdot \\operatorname{adj}(\\operatorname{adj}A) = (\\det A)A^{-1}\\cdot(\\det A)A = (\\det A)^2 I = I.$$
+
+The equation becomes
+$$A^2 + \\alpha(-A) + \\beta I = \\text{RHS} \\implies A^2 - \\alpha A + \\beta I = \\text{RHS}.$$
+
+Now
+$$A^2 = \\begin{bmatrix} 2 & -1 & 1 \\\\ -1 & 1 & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}.$$
+
+Match entries with the RHS $\\begin{bmatrix} 2 & -2 & 2 \\\\ -2 & 0 & -1 \\\\ 0 & 0 & -1 \\end{bmatrix}$:
+
+- $(1,1)$: $2 - \\alpha(-1) + \\beta = 2 \\Rightarrow \\alpha + \\beta = 0$.
+- $(2,2)$: $1 - \\alpha(0) + \\beta = 0 \\Rightarrow \\beta = -1$, hence $\\alpha = 1$.
+
+Check $(1,2)$: $-1 - \\alpha(1) + 0 = -1 - 1 = -2$ ✓, and $(3,3)$: $1 - \\alpha(1) + \\beta = 1 - 1 - 1 = -1$ ✓.
+
+Therefore
+$$(\\alpha - \\beta)^2 = (1 - (-1))^2 = 4.$$
+
+**Answer:** 4`,statement:"Let $A = \\begin{bmatrix} -1 & 1 & -1 \\\\ 1 & 0 & 1 \\\\ 0 & 0 & 1 \\end{bmatrix}$ satisfy $A^2 + \\alpha\\left(adj(adj(A))\\right) + \\beta\\left(adj(A)\\left(adj(adj(A))\\right)\\right) = \\begin{bmatrix} 2 & -2 & 2 \\\\ -2 & 0 & -1 \\\\ 0 & 0 & -1 \\end{bmatrix}$ for some $\\alpha, \\beta \\in \\mathbb{R}$. Then $(\\alpha - \\beta)^2$ is equal to ________.",subject:"Mathematics",type:"integer"},{correct_index:null,correct_value:"80",id:"6952782157",options:[],solution:`Let the centre be $(h,k)=(-g,-f)$ with $h,k>0$ and $2h-k=4$. Radius $R^2=g^2+f^2-25=h^2+k^2-25$.
+
+An equilateral triangle inscribed in a circle of radius $R$ has side $R\\sqrt3$ and area
+$$\\frac{\\sqrt3}{4}(R\\sqrt3)^2=\\frac{3\\sqrt3}{4}R^2=27\\sqrt3\\;\\Longrightarrow\\;R^2=36.$$
+So $h^2+k^2=61$. With $k=2h-4$:
+$$h^2+(2h-4)^2=61\\Rightarrow 5h^2-16h-45=0\\Rightarrow h=5,\\ k=6.$$
+
+Chord on $x=1$: distance from centre $(5,6)$ is $|5-1|=4$, so
+$$\\text{chord}^2=4(R^2-d^2)=4(36-16)=80.$$
+
+**Answer:** 80`,statement:"Let the centre of the circle $x^2 + y^2 + 2gx + 2fy + 25 = 0$ be in the first quadrant and lie on the line $2x - y = 4$. Let the area of an equilateral triangle inscribed in the circle be $27\\sqrt{3}$. Then the square of the length of the chord of the circle on the line $x = 1$ is ________.",subject:"Mathematics",type:"integer"},{correct_index:null,correct_value:"3",id:"6952782158",options:[],solution:`We need $\\vec c\\cdot(\\vec a - 2\\vec b) = \\vec c\\cdot\\vec a - 2\\,\\vec c\\cdot\\vec b$.
+
+The first term is given: $\\vec c\\cdot\\vec a = 3$.
+
+For $\\vec c\\cdot\\vec b$, use $\\vec b = \\vec a\\times\\vec c$ and the scalar triple product identity:
+$$\\vec c\\cdot\\vec b = \\vec c\\cdot(\\vec a\\times\\vec c) = 0,$$
+since $\\vec a\\times\\vec c$ is perpendicular to $\\vec c$.
+
+Therefore
+$$\\vec c\\cdot(\\vec a - 2\\vec b) = 3 - 2(0) = 3.$$
+
+**Answer:** 3`,statement:"If $\\vec{a} = \\hat{i} + \\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{j} - \\hat{k}$ and $\\vec{c}$ be three vectors such that $\\vec{a} \\times \\vec{c} = \\vec{b}$ and $\\vec{a} \\cdot \\vec{c} = 3$, then $\\vec{c} \\cdot (\\vec{a} - 2\\vec{b})$ is equal to ________.",subject:"Mathematics",type:"integer"},{correct_index:null,correct_value:"1279",id:"6952782159",options:[],solution:`For $f(\\theta) = \\alpha\\tan^2\\theta + \\beta\\cot^2\\theta$, by AM–GM
+$$f(\\theta) \\ge 2\\sqrt{\\alpha\\beta}, \\qquad \\min f = 2\\sqrt{\\alpha\\beta}.$$
+
+For $g(\\theta) = \\alpha\\sin^2\\theta + \\beta\\cos^2\\theta = \\beta + (\\alpha - \\beta)\\sin^2\\theta$ with $\\alpha > \\beta$, the maximum over $0 < \\theta < \\pi$ occurs at $\\sin^2\\theta = 1$:
+$$\\max g = \\alpha.$$
+
+Setting them equal:
+$$2\\sqrt{\\alpha\\beta} = \\alpha \\;\\Rightarrow\\; 4\\alpha\\beta = \\alpha^2 \\;\\Rightarrow\\; \\alpha = 4\\beta.$$
+
+Then first term $= \\dfrac{\\alpha}{2\\beta} = 2$ and ratio $= \\dfrac{2\\beta}{\\alpha} = \\dfrac{1}{2}$.
+
+$$S_{10} = 2\\cdot\\frac{1 - (1/2)^{10}}{1 - 1/2} = 4\\left(1 - \\frac{1}{1024}\\right) = \\frac{1023}{256}.$$
+
+Here $m = 1023$, $n = 256$, so $m + n = 1279$.
+
+**Answer:** 1279`,statement:"For the functions $f(\\theta) = \\alpha \\tan^2\\theta + \\beta \\cot^2\\theta$, and $g(\\theta) = \\alpha \\sin^2\\theta + \\beta \\cos^2\\theta$, $\\alpha > \\beta > 0$, let $\\min_{0 < \\theta < \\frac{\\pi}{2}} f(\\theta) = \\max_{0 < \\theta < \\pi} g(\\theta)$. If the first term of a G.P. is $\\left(\\dfrac{\\alpha}{2\\beta}\\right)$, its common ratio is $\\left(\\dfrac{2\\beta}{\\alpha}\\right)$ and the sum of its first 10 terms is $\\dfrac{m}{n}$, $\\gcd(m, n) = 1$, then $m + n$ is equal to ________.",subject:"Mathematics",type:"integer"},{correct_index:null,correct_value:"3",id:"6952782160",options:[],solution:`Write the equation in derivative form:
+$$x\\left(x - \\sqrt{x^2-1}\\right)\\frac{dy}{dx} + y\\left(x - \\sqrt{x^2-1}\\right) = x.$$
+
+Divide by $\\left(x - \\sqrt{x^2-1}\\right)$:
+$$x\\frac{dy}{dx} + y = \\frac{x}{x - \\sqrt{x^2-1}}.$$
+
+Rationalize the right side (multiply by $\\frac{x + \\sqrt{x^2-1}}{x + \\sqrt{x^2-1}}$, and $x^2-(x^2-1)=1$):
+$$x\\frac{dy}{dx} + y = x\\left(x + \\sqrt{x^2-1}\\right) = x^2 + x\\sqrt{x^2-1}.$$
+
+The left side is an **exact derivative**, $x\\frac{dy}{dx} + y = \\dfrac{d}{dx}(xy)$, so
+$$\\frac{d}{dx}(xy) = x^2 + x\\sqrt{x^2-1}.$$
+
+Integrate (note $\\int x\\sqrt{x^2-1}\\,dx = \\tfrac13 (x^2-1)^{3/2}$):
+$$xy = \\frac{x^3}{3} + \\frac{1}{3}\\left(x^2-1\\right)^{3/2} + C.$$
+
+**Apply $y(1)=1$:** $\\;1 = \\frac13 + 0 + C \\Rightarrow C = \\frac23.$
+
+At $x=\\sqrt5$: $x^3 = 5\\sqrt5$ and $(x^2-1)^{3/2} = 4^{3/2}=8$, so
+$$\\sqrt5\\,y(\\sqrt5) = \\frac{5\\sqrt5}{3} + \\frac{8}{3} + \\frac23 = \\frac{5\\sqrt5 + 10}{3}.$$
+
+$$y(\\sqrt5) = \\frac{5\\sqrt5 + 10}{3\\sqrt5} = \\frac{5 + 2\\sqrt5}{3} \\approx \\frac{5 + 4.472}{3} \\approx 3.157.$$
+
+The greatest integer less than $3.157$ is $3$.
+
+**Answer:** 3`,statement:"Let $y = y(x)$ be the solution of the differential equation $\\left(x^2 - x\\sqrt{x^2 - 1}\\right)dy + \\left(y\\left(x - \\sqrt{x^2 - 1}\\right) - x\\right)dx = 0$, $x \\ge 1$. If $y(1) = 1$, then the greatest integer less than $y(\\sqrt{5})$ is ________.",subject:"Mathematics",type:"integer"},{correct_index:1,correct_value:"0.82%",id:"6952782161",options:["0.63%","0.82%","0.72%","0.25%"],solution:`For a cylinder, $\\rho = \\dfrac{m}{V} = \\dfrac{m}{\\frac{\\pi}{4} d^2 l} = \\dfrac{4m}{\\pi d^2 l}$.
+
+The maximum fractional error adds contributions from each measured quantity:
+
+$$\\frac{\\Delta \\rho}{\\rho} = \\frac{\\Delta m}{m} + 2\\,\\frac{\\Delta d}{d} + \\frac{\\Delta l}{l}$$
+
+Substituting the values:
+
+$$\\frac{\\Delta \\rho}{\\rho} = \\frac{0.02}{97.42} + 2\\cdot\\frac{0.02}{20.20} + \\frac{0.05}{8.35}$$
+
+$$= 0.000205 + 0.001980 + 0.005988 = 0.008173$$
+
+$$\\frac{\\Delta \\rho}{\\rho} \\times 100 = 0.817\\% \\approx 0.82\\%$$
+
+**Answer:** B ($0.82\\%$)`,statement:"The density $\\rho$ of a uniform cylinder is determined by measuring its mass $m$, length $l$ and diameter $d$. The measured values of $m$, $l$ and $d$ are $97.42 \\pm 0.02$ g, $8.35 \\pm 0.05$ mm and $20.20 \\pm 0.02$ mm, respectively. Calculated percentage fractional error in $\\rho$ is ________.",subject:"Physics",type:"mcq"},{correct_index:3,correct_value:"$[M^1 L^{7/2} T^{-2}]$",id:"6952782162",options:["$[M^1 L^{5/2} T^{-2}]$","$[M^{3/2} L^{5/2} T^{-2}]$","$[M^1 L^2 T^{-2}]$","$[M^1 L^{7/2} T^{-2}]$"],solution:`Since $x$ and $B$ are added, $B$ must have the dimension of length:
+
+$$[B] = [L]$$
+
+$V$ is a potential energy, so $[V] = [M L^2 T^{-2}]$. From the expression:
+
+$$[V] = \\frac{[A]\\,[L]^{1/2}}{[L]} = [A]\\,[L]^{-1/2}$$
+
+$$[A] = [V]\\,[L]^{1/2} = [M L^2 T^{-2}][L^{1/2}] = [M L^{5/2} T^{-2}]$$
+
+Therefore:
+
+$$[AB] = [M L^{5/2} T^{-2}]\\,[L] = [M L^{7/2} T^{-2}]$$
+
+**Answer:** D ($[M^1 L^{7/2} T^{-2}]$)`,statement:"The potential energy of a particle changes with distance $x$ from a fixed origin as $V = \\dfrac{A\\sqrt{x}}{x + B}$, where $A$ and $B$ are constant with appropriate dimensions. The dimensions of $AB$ are ________.",subject:"Physics",type:"mcq"},{correct_index:3,correct_value:"$-9.98$",id:"6952782163",options:["$-8.75$","$-8.35$","$-9.55$","$-9.98$"],solution:`Data: $m = 1\\ \\text{g} = 10^{-3}\\ \\text{kg}$, $h = 1\\ \\text{km} = 1000\\ \\text{m}$, $v = 5\\ \\text{m/s}$.
+
+**Work-energy theorem** (gravity + resistive force):
+$$W_{grav} + W_{res} = \\Delta KE = \\tfrac{1}{2}mv^2$$
+
+**Work by gravity:**
+$$W_{grav} = mgh = (10^{-3})(10)(1000) = 10\\ \\text{J}$$
+
+**Change in kinetic energy:**
+$$\\Delta KE = \\tfrac{1}{2}(10^{-3})(5)^2 = 0.0125\\ \\text{J}$$
+
+**Resistive work:**
+$$W_{res} = \\Delta KE - W_{grav} = 0.0125 - 10 = -9.9875 \\approx -9.98\\ \\text{J}$$
+
+**Answer:** D ($-9.98$)`,statement:"The rain drop of mass 1 g, starts with zero velocity from a height of 1 km. It hits the ground with a speed of 5 m/s. The work done by the unknown resistive force is ________ J. (take $g = 10$ m/s$^2$)",subject:"Physics",type:"mcq"},{correct_index:1,correct_value:"0.67",id:"6952782164",options:["0.33","0.67","1","0.5"],solution:"",statement:"Two blocks ($P$ and $Q$) with respectively masses 2 kg and 1.5 kg are joined by a massless thread. These blocks are mounted on a frictionless pulley which is fixed on the edge of a cube ($S$), as shown in the figure below. Block $P$ is positioned on the top surface which has no friction and block $Q$ is in contact with side-surface, having coefficient friction $\\mu$. The cube ($S$) moves towards the right with acceleration of $\\dfrac{g}{2}$, where $g$ is gravitational acceleration. During this movement the block $P$ and $Q$ remain stationary. The value of $\\mu$ is ________. (take $g = 10$ m/s$^2$) [figure: a cube S with block P (2 kg) on its frictionless top connected over a corner pulley to block Q (1.5 kg) pressed against the right vertical side face]",subject:"Physics",type:"mcq"},{correct_index:0,correct_value:"2.56",id:"6952782165",options:["2.56","3.89","4.32","5.16"],solution:`Maximum tension the wire can bear:
+$$T_{\\max} = \\sigma_{\\max} \\cdot A = \\sigma_{\\max} \\cdot \\pi r^2$$
+$$T_{\\max} = 4 \\times 10^8 \\times 3.14 \\times (4 \\times 10^{-3})^2 = 4 \\times 10^8 \\times 5.024 \\times 10^{-5} = 20096\\ \\text{N}$$
+
+For an accelerating lift, $T = m(g + a)$:
+$$a_{\\max} = \\frac{T_{\\max}}{m} - g = \\frac{20096}{1600} - 10 = 12.56 - 10 = 2.56\\ \\text{m/s}^2$$
+
+**Answer:** A (2.56)`,statement:"A lift of mass 1600 kg is supported by thick iron wire. If the maximum stress which the wire can withstand is $4 \\times 10^8$ N/m$^2$ and its radius is 4 mm, then maximum acceleration the lift can take is ________ m/s$^2$. (take $g = 10$ m/s$^2$ and $\\pi = 3.14$)",subject:"Physics",type:"mcq"},{correct_index:3,correct_value:"$0.0128\\pi$ Nm, 100",id:"6952782166",options:["$0.128\\pi$ Nm, 100","$0.0128\\pi$ Nm, 50","$0.128\\pi$ Nm, 50","$0.0128\\pi$ Nm, 100"],solution:`**Moment of inertia** ($R = 0.04$ m, $m = 5$ kg):
+$$I = \\frac{2}{5}mR^2 = \\frac{2}{5}(5)(0.04)^2 = 3.2\\times10^{-3}\\ \\text{kg·m}^2$$
+
+**Initial angular velocity:**
+$$\\omega_0 = 1200\\ \\text{rpm} = \\frac{1200\\times 2\\pi}{60} = 40\\pi\\ \\text{rad/s}$$
+
+**Angular deceleration** (to rest in 10 s):
+$$\\alpha = \\frac{\\omega_0}{t} = \\frac{40\\pi}{10} = 4\\pi\\ \\text{rad/s}^2$$
+
+**Torque:**
+$$\\tau = I\\alpha = 3.2\\times10^{-3}\\times 4\\pi = 0.0128\\pi\\ \\text{Nm}$$
+
+**Number of rotations** (uniform deceleration, average $\\omega = \\omega_0/2$):
+$$\\theta = \\frac{\\omega_0}{2}\\,t = \\frac{40\\pi}{2}\\times 10 = 200\\pi\\ \\text{rad} \\implies N = \\frac{200\\pi}{2\\pi} = 100$$
+
+**Answer:** D ($0.0128\\pi$ Nm, 100)`,statement:"A solid sphere of radius 4 cm and mass 5 kg is rotating (rotation axis is passing through the centre of the sphere) with an angular velocity of 1200 rpm. It is brought to rest in 10 s by applying a constant torque. The torque applied and the number of rotations it made before it comes to rest are ________ and ________ respectively.",subject:"Physics",type:"mcq"},{correct_index:1,correct_value:"4",id:"6952782167",options:["2","4","3","6"],solution:"",statement:"A smooth inclined plane ends in a vertical circular loop, as shown in the figure. A small body is released from height $h$ as shown. If the body exerts a force of three times its weight on the plane at the highest point of circle then the height $h = \\alpha R$. The value of $\\alpha$ is ________. [figure: an inclined ramp from height h leading into a vertical circular loop of radius R]",subject:"Physics",type:"mcq"},{correct_index:0,correct_value:"$\\left(\\dfrac{\\sqrt{3}}{4}, 1.25\\right)$",id:"6952782168",options:["$\\left(\\dfrac{\\sqrt{3}}{4}, 1.25\\right)$","$\\left(\\dfrac{\\sqrt{3}}{4}, 1.0\\right)$","$(0, 0)$","$(1.25, 0)$"],solution:"",statement:"The position of center of mass of three masses 2 kg, 3 kg and 15 kg placed with respect to mid point ($p$) of normal bisector, as shown in the figure is ________. [figure: an isosceles triangle with 15 kg at apex, 2 kg at bottom-left, 3 kg at bottom-right; two equal sides of 10 m each meeting at apex with 120 degrees; p is the midpoint of the base on the normal bisector below the apex]",subject:"Physics",type:"mcq"},{correct_index:2,correct_value:"1.21",id:"6952782169",options:["1.1","2.22","1.21","4.44"],solution:`The wires are in series, so they carry the same tension $F$ and have the same area $A$. Elongation:
+$$\\Delta L = \\frac{F L}{A Y}$$
+
+Equal elongations ($\\Delta L_A = \\Delta L_B$) give:
+$$\\frac{L_A}{Y_A} = \\frac{L_B}{Y_B} \\implies L_B = L_A \\cdot \\frac{Y_B}{Y_A}$$
+
+Given $\\dfrac{Y_A}{Y_B} = \\dfrac{20}{11}$, so $\\dfrac{Y_B}{Y_A} = \\dfrac{11}{20}$:
+$$L_B = 2.2 \\times \\frac{11}{20} = 1.21\\ \\text{m}$$
+
+**Answer:** C (1.21)`,statement:"The two wires $A$ and $B$ of equal cross-section but of different materials are joined together. The ratio of Young's modulus of wire $A$ and wire $B$ is $20/11$. When the joined wire is kept under certain tension the elongations in the wires $A$ and $B$ are equal. If the length of wire $A$ is 2.2 m, then the length of wire $B$ is ________ m.",subject:"Physics",type:"mcq"},{correct_index:0,correct_value:"100",id:"6952782170",options:["100","120","90","105"],solution:`Let each vessel have volume $V$. Initially both are at $P_0 = 90\\,\\text{kPa}$ and $T = 400\\,\\text{K}$, so the total number of moles is:
+
+$$n = \\frac{P_0 V}{R (400)} + \\frac{P_0 V}{R (400)} = \\frac{2 P_0 V}{400\\,R}$$
+
+The vessels stay connected, so after heating they share a common final pressure $P$. Vessel 1 remains at 400 K and vessel 2 is raised to 500 K:
+
+$$n = \\frac{P V}{400\\,R} + \\frac{P V}{500\\,R}$$
+
+Since the total moles are conserved, equate the two expressions and cancel $V/R$:
+
+$$\\frac{2 P_0}{400} = \\frac{P}{400} + \\frac{P}{500}$$
+
+$$\\frac{2(90)}{400} = P\\left(\\frac{1}{400} + \\frac{1}{500}\\right) = P\\left(\\frac{9}{2000}\\right)$$
+
+$$0.45 = P \\times \\frac{9}{2000} \\quad\\Rightarrow\\quad P = 0.45 \\times \\frac{2000}{9} = 100\\,\\text{kPa}$$
+
+**Answer:** A (100)`,statement:"Two closed vessels of same volume are joined through a narrow tube and both vessels are filled with air of pressure 90 kPa and temperature 400 K. Keeping the temperature of one vessel constant at 400 K the second vessel temperature is raised to 500 K. The final pressure in the vessels is ________ kPa.",subject:"Physics",type:"mcq"},{correct_index:2,correct_value:"1/3",id:"6952782171",options:["3","4","1/3","1/4"],solution:`Phase difference from path difference: $\\phi = \\dfrac{2\\pi}{\\lambda}\\,\\Delta x$, and for two equal-amplitude waves
+$$I = 4I_0\\cos^2\\!\\left(\\frac{\\phi}{2}\\right).$$
+
+At $A$: $\\Delta x = \\dfrac{\\lambda}{3} \\Rightarrow \\phi_A = \\dfrac{2\\pi}{3} \\Rightarrow \\dfrac{\\phi_A}{2} = 60^\\circ$
+$$I_A = 4I_0\\cos^2 60^\\circ = 4I_0 \\cdot \\tfrac{1}{4} = I_0.$$
+
+At $B$: $\\Delta x = \\dfrac{\\lambda}{6} \\Rightarrow \\phi_B = \\dfrac{\\pi}{3} \\Rightarrow \\dfrac{\\phi_B}{2} = 30^\\circ$
+$$I_B = 4I_0\\cos^2 30^\\circ = 4I_0 \\cdot \\tfrac{3}{4} = 3I_0.$$
+
+Ratio:
+$$\\frac{I_A}{I_B} = \\frac{I_0}{3I_0} = \\frac{1}{3}.$$
+
+**Answer:** C ($1/3$)`,statement:"In interference experiment the path difference between two interfering waves at a point $A$ on the screen is $\\lambda/3$, where $\\lambda$ is the wavelength of these waves, and at another point $B$ the path difference is $\\lambda/6$. The ratio of intensities at points $A$ and $B$ is ________.",subject:"Physics",type:"mcq"},{correct_index:2,correct_value:"5/8",id:"6952782172",options:["1/4","5/4","5/8","3/8"],solution:`Start the motion from the extreme position, so use $x = A\\cos(\\omega t)$ with $x = A$ at $t = 0$.
+
+$$\\omega = \\frac{2\\pi}{T} = \\frac{2\\pi}{5}\\ \\text{rad/s}$$
+
+At $x = \\dfrac{A}{\\sqrt{2}}$:
+
+$$A\\cos(\\omega t) = \\frac{A}{\\sqrt{2}} \\implies \\cos(\\omega t) = \\frac{1}{\\sqrt{2}} \\implies \\omega t = \\frac{\\pi}{4}$$
+
+Therefore:
+
+$$t = \\frac{\\pi/4}{\\omega} = \\frac{\\pi/4}{2\\pi/5} = \\frac{5}{8}\\ \\text{s}$$
+
+**Answer:** $\\dfrac{5}{8}$`,statement:"A particle is executing simple harmonic motion. Its amplitude is $A$ and time period is 5 sec. The time required by it to move from $x = A$ to $x = \\dfrac{A}{\\sqrt{2}}$ is ________ sec.",subject:"Physics",type:"mcq"},{correct_index:0,correct_value:"2.14",id:"6952782173",options:["2.14","2.44","3.25","0.7"],solution:`For a uniformly charged semicircular ring, the field at the centre is directed along the axis of symmetry. With linear charge density $\\lambda = \\dfrac{Q}{\\pi R}$:
+
+$$E = \\frac{1}{4\\pi\\epsilon_0}\\cdot\\frac{2\\lambda}{R} = \\frac{2\\lambda}{4\\pi\\epsilon_0 R}$$
+
+Substitute $\\lambda = \\dfrac{Q}{\\pi R}$:
+
+$$E = \\frac{2Q}{4\\pi\\epsilon_0\\,\\pi R^2} = \\frac{Q}{2\\pi^2\\epsilon_0 R^2}$$
+
+Solve for $Q$:
+
+$$Q = 2\\pi^2\\epsilon_0 R^2 E = 2(3.14)^2(8.85\\times10^{-12})(0.35)^2(100)$$
+
+$$Q \\approx 2.14\\times10^{-9}\\ \\text{C} = 2.14\\ \\text{nC}$$
+
+**Answer:** A (2.14)`,statement:"A thin half ring of radius 35 cm is uniformly charged with a total charge of $Q$ coulomb. If the magnitude of the electric field at centre of the half ring is 100 V/m, then the value of $Q$ is ________ nC. ($\\epsilon_0 = 8.85 \\times 10^{-12}$ C$^2$/Nm$^2$ and $\\pi = 3.14$)",subject:"Physics",type:"mcq"},{correct_index:1,correct_value:"2",id:"6952782174",options:["6","2","4","5"],solution:"",statement:"The maximum rated power of the LED is 2 mW and it is used in the circuit with input voltage of 5 V as shown in the figure below. The current through resistance $R_S$ is 0.5 mA. The minimum value of the resistance of $R_S$, to ensure that the LED is not damaged is ________ k$\\Omega$. [figure: a 5 V source in series with $R_S$, feeding a parallel combination of a 1 k$\\Omega$ resistor R (with a Zener diode branch) and a 2 mW LED]",subject:"Physics",type:"mcq"},{correct_index:1,correct_value:"$I_0$",id:"6952782175",options:["$\\dfrac{I_0}{4}$","$I_0$","$\\dfrac{I_0}{\\sqrt{2}}$","$\\dfrac{I_0}{2}$"],solution:`For an isotropic point source, the emitted power $P$ spreads uniformly over a sphere, so the intensity depends only on the distance $r$ from the source:
+
+$$I = \\frac{P}{4\\pi r^2}$$
+
+Both the original and the new detector positions lie on the **same spherical surface**, meaning they are at the same distance $r = L$ from the source. The angular separation of $45^\\circ$ only moves the detector along the sphere and does not change $r$.
+
+$$I_{\\text{new}} = \\frac{P}{4\\pi L^2} = I_0$$
+
+**Answer:** $I_0$`,statement:"A point light source emits E.M. waves in free space. A detector, placed at a distance of $L$ m, measures the intensity as $I_0$. The detector is now shifted to another location on the same spherical surface ensuring the angle between original location and new location as $45^\\circ$. The measured intensity at new location will be ________.",subject:"Physics",type:"mcq"},{correct_index:0,correct_value:"1.66",id:"6952782176",options:["1.66","2.33","2.66","1.33"],solution:"",statement:"A spherical interface lens of radius $R$ separates two media of refractive indices 1 and 1.4 respectively as shown in the figure below. A point source is placed at a distance of $4R$ in front of spherical interface. The magnitude of the magnification of point source image is ________. [figure: point source p at distance 4R from a convex spherical interface of radius R, medium $n_1 = 1$ on left, $n_2 = 1.4$ on right]",subject:"Physics",type:"mcq"},{correct_index:0,correct_value:"6.28",id:"6952782177",options:["6.28","$6.28 \\times 10^{-6}$","628","$6.28 \\times 10^{-4}$"],solution:`Magnetic field at the centre of the loop:
+
+$$B = \\frac{\\mu_0 I}{2R} = \\frac{4\\pi\\times10^{-7}\\times 2}{2\\times 0.10} = 4\\pi\\times10^{-6} = 1.256\\times10^{-5}\\ \\text{T}$$
+
+Magnetic energy density:
+
+$$u = \\frac{B^2}{2\\mu_0} = \\frac{(4\\pi\\times10^{-6})^2}{2\\times 4\\pi\\times10^{-7}} = \\frac{16\\pi^2\\times10^{-12}}{8\\pi\\times10^{-7}} = 2\\pi\\times10^{-5}\\ \\text{J/m}^3$$
+
+Volume of the cube: $V = (10^{-3})^3 = 10^{-9}\\ \\text{m}^3$. Energy stored:
+
+$$U = uV = 2\\pi\\times10^{-5}\\times10^{-9} = 2\\pi\\times10^{-14} = 6.28\\times10^{-14}\\ \\text{J}$$
+
+Hence $\\alpha = 6.28$.
+
+**Answer:** A ($6.28$)`,statement:"A small cube of side 1 mm is placed at the centre of a circular loop of radius 10 cm carrying a current of 2 A. The magnetic energy stored inside the cube is $\\alpha \\times 10^{-14}$ J. The value of $\\alpha$ is ________. ($\\mu_0 = 4\\pi \\times 10^{-7}$ Tm/A, $\\pi = 3.14$)",subject:"Physics",type:"mcq"},{correct_index:0,correct_value:"4/3",id:"6952782178",options:["4/3","3/4","5/3","3/5"],solution:`By Kirchhoff's voltage law, the emf equals the drop across the coil's resistance plus the voltage across the ideal inductor. The voltage appearing across the inductor (the back-emf term) is:
+
+$$V_L = E - iR$$
+
+At $i = 2$ mA:
+
+$$V_{L,1} = 1.0 - (2\\times10^{-3})(100) = 1.0 - 0.2 = 0.8\\ \\text{V}$$
+
+At $i = 4$ mA:
+
+$$V_{L,2} = 1.0 - (4\\times10^{-3})(100) = 1.0 - 0.4 = 0.6\\ \\text{V}$$
+
+$$\\frac{V_{L,1}}{V_{L,2}} = \\frac{0.8}{0.6} = \\frac{4}{3}$$
+
+**Answer:** 4/3`,statement:"An inductor of inductance 10 mH having resistance of 100 $\\Omega$ is connected to battery of E.M.F. 1.0 V through a switch as shown in the figure below. After switch is closed, the ratio of instantaneous voltages across the inductor when the current passing through it is 2 mA and 4 mA is ________. [figure: a series circuit of an inductor (10 mH) and a battery with a switch]",subject:"Physics",type:"mcq"},{correct_index:3,correct_value:"20 and 27",id:"6952782179",options:["27 and 20","3 and 16","5 and 36","20 and 27"],solution:`Photon momentum $p = E/c \\propto \\bar{\\nu}$ (wavenumber). For the Balmer series ($n_f = 2$):
+$$\\bar{\\nu} = R\\left(\\frac{1}{2^2} - \\frac{1}{n^2}\\right)$$
+
+**1st line** ($n = 3$):
+$$\\bar{\\nu}_1 = R\\left(\\frac{1}{4} - \\frac{1}{9}\\right) = R\\cdot\\frac{5}{36}$$
+
+**2nd line** ($n = 4$):
+$$\\bar{\\nu}_2 = R\\left(\\frac{1}{4} - \\frac{1}{16}\\right) = R\\cdot\\frac{3}{16}$$
+
+**Ratio:**
+$$\\frac{p_1}{p_2} = \\frac{5/36}{3/16} = \\frac{5 \\times 16}{36 \\times 3} = \\frac{80}{108} = \\frac{20}{27}$$
+
+So $\\alpha = 20,\\ \\beta = 27$.
+
+**Answer:** D`,statement:"The ratio of momentum of the photons of the $1^{st}$ and $2^{nd}$ line of Balmer series of Hydrogen atoms is $\\alpha/\\beta$. The possible values of $\\alpha$ and $\\beta$ are:-",subject:"Physics",type:"mcq"},{correct_index:0,correct_value:"0.8",id:"6952782180",options:["0.8","0.64","0.9","0.5"],solution:`**Net reactance:**
+$$X = X_L - X_C = 20.0 - 80.0 = -60\\ \\Omega$$
+
+**Impedance:**
+$$Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{80^2 + (-60)^2} = \\sqrt{6400 + 3600} = \\sqrt{10000} = 100\\ \\Omega$$
+
+**Power factor:**
+$$\\cos\\phi = \\frac{R}{Z} = \\frac{80}{100} = 0.8$$
+
+(The driving voltage and frequency are not needed for the power factor.)
+
+**Answer:** A — $0.8$`,statement:"A LCR series circuit driven with $E_{rms} = 90$ V at frequency $f_d = 30$ Hz has resistance $R = 80\\ \\Omega$, an inductance with inductive reactance $X_L = 20.0\\ \\Omega$ and capacitance with capacitive reactance $X_C = 80.0\\ \\Omega$. The power factor of the circuit is ________.",subject:"Physics",type:"mcq"},{correct_index:null,correct_value:"3477",id:"6952782181",options:[],solution:"",statement:"Refer to the circuit diagram given below. The heat generated across the 6 $\\Omega$ resistance in 100 second is $\\dfrac{\\alpha}{100}$ J. The value of $\\alpha$ is ________. (Nearest integer) [figure: circuit with a 6 $\\Omega$ resistor in series with a 3 V cell on top branch, a 3 $\\Omega$ resistor on left branch, a 4 $\\Omega$ resistor in the middle branch, and a 2 V cell on the bottom branch]",subject:"Physics",type:"integer"},{correct_index:null,correct_value:"30",id:"6952782182",options:[],solution:`Unpolarized light through the polarizer:
+$$I_1 = \\frac{I_0}{2}.$$
+
+The optically active solution rotates the plane of polarization by angle $\\theta$. Since the analyser is parallel to the polarizer ($0^\\circ$), the angle between the (rotated) polarization plane and the analyser axis is $\\theta$. By Malus's law:
+$$I = I_1\\cos^2\\theta = \\frac{I_0}{2}\\cos^2\\theta.$$
+
+Set equal to the given output:
+$$\\frac{I_0}{2}\\cos^2\\theta = \\frac{3}{8}I_0 \\implies \\cos^2\\theta = \\frac{3}{4} \\implies \\cos\\theta = \\frac{\\sqrt3}{2}.$$
+
+$$\\theta = 30^\\circ.$$
+
+**Answer:** 30`,statement:"An unpolarized light of intensity $I_0$ passes through polarizer and then through a certain optically active solution and finally through analyser. If the angle between analyser and polariser is $0^\\circ$ and intensity of light emerged from analyser is $\\dfrac{3}{8}I_0$, the angle of rotation of the light by the solution with respect to analyser is ________ degrees.",subject:"Physics",type:"integer"},{correct_index:null,correct_value:"6",id:"6952782183",options:[],solution:`**Reaction:** $_3^7\\text{Li} + {}_1^1\\text{p} \\rightarrow 2\\,{}_2^4\\text{He}$
+
+**Step 1 — Mass defect per reaction:**
+$$\\Delta m = (7.0183 + 1.008) - 2(4.004) = 8.0263 - 8.008 = 0.0183\\ \\text{u}$$
+
+**Step 2 — Energy per reaction:**
+$$E_1 = 0.0183 \\times 931 = 17.04\\ \\text{MeV} = 1.704 \\times 10^{7}\\ \\text{eV}$$
+
+**Step 3 — Number of Li nuclei** in $\\dfrac{7}{17.13}\\ \\text{kg} = 408.64\\ \\text{g}$:
+$$N = \\frac{408.64}{7.0183} \\times 6.0 \\times 10^{23} \\approx 3.49 \\times 10^{25}$$
+
+**Step 4 — Total energy** (one Li consumed per reaction):
+$$E = N \\times E_1 = 3.49 \\times 10^{25} \\times 1.704 \\times 10^{7} \\approx 5.95 \\times 10^{32}\\ \\text{eV}$$
+
+So $\\alpha \\approx 5.95 \\Rightarrow 6$ (nearest integer).
+
+**Answer:** 6`,statement:"The energy released when $\\dfrac{7}{17.13}$ kg of $_3^7\\text{Li}$ is converted into $_2^4\\text{He}$ by proton bombardment is $\\alpha \\times 10^{32}$ eV. The value of $\\alpha$ is ________. (Nearest integer) (Mass of $_3^7\\text{Li} = 7.0183$ u, mass of $_2^4\\text{He} = 4.004$ u, mass of proton = 1.008 u and 1 u = 931 MeV/c$^2$ and Avogadro number = $6.0 \\times 10^{23}$)",subject:"Physics",type:"integer"},{correct_index:null,correct_value:"186",id:"6952782184",options:[],solution:`Work done by the electric force:
+
+$$W = q\\int \\vec{E}\\cdot d\\vec{l} = q\\left[\\int_{0}^{5} 2x\\,dx + \\int_{-2}^{1} 3y^2\\,dy + \\int_{-5}^{2} 4\\,dz\\right]$$
+
+Evaluate each integral:
+
+$$\\int_{0}^{5} 2x\\,dx = \\big[x^2\\big]_0^5 = 25$$
+
+$$\\int_{-2}^{1} 3y^2\\,dy = \\big[y^3\\big]_{-2}^{1} = 1-(-8) = 9$$
+
+$$\\int_{-5}^{2} 4\\,dz = 4\\big[z\\big]_{-5}^{2} = 4(7) = 28$$
+
+Sum $= 25 + 9 + 28 = 62$. With $q = 3$ C:
+
+$$W = 3\\times 62 = 186\\ \\text{J}$$
+
+**Answer:** 186`,statement:"A three coulomb charge moves from the point $(0, -2, -5)$ to the point $(5, 1, 2)$ in an electric field expressed as $\\vec{E} = 2x\\hat{i} + 3y^2\\hat{j} + 4k\\hat{k}$ N/C. The work done in moving the charge is ________ J.",subject:"Physics",type:"integer"},{correct_index:null,correct_value:"600",id:"6952782185",options:[],solution:`From the definition of bulk modulus $B = -V\\dfrac{dP}{dV}$ (taken constant), integrating gives the excess pressure needed at volume $V$:
+$$P = -B\\ln\\!\\left(\\frac{V}{V_0}\\right)$$
+
+Work done on the gas during compression from $V_0$ to $V_f = V_0/3$:
+$$W = \\int_{V_f}^{V_0} P\\, dV = -B\\int_{V_f}^{V_0}\\ln\\!\\left(\\frac{V}{V_0}\\right) dV$$
+
+Evaluating the integral gives:
+$$W = B V_0\\left(\\frac{2}{3} - \\frac{1}{3}\\ln 3\\right)$$
+
+With $B = 3 \\times 10^5$ and $V_0 = 3 \\times 10^{-3}\\ \\text{m}^3$ (so $BV_0 = 900$):
+$$W = 900\\left(0.6667 - 0.3662\\right) = 900 \\times 0.3005 \\approx 270\\ \\text{J}$$
+
+**Answer:** 270`,statement:"A certain gas is isothermally compressed to $\\left(\\dfrac{1}{3}\\right)^{rd}$ of its initial volume ($V_0 = 3$ litre) by applying required pressure. If the bulk modulus of the gas is $3 \\times 10^5$ N/m$^2$, the magnitude of work done on the gas is ________ J.",subject:"Physics",type:"integer"},{correct_index:1,correct_value:"$\\text{Fe}_2\\text{O}_3$",id:"6952782186",options:["FeO","$\\text{Fe}_2\\text{O}_3$","$\\text{Fe}_3\\text{O}_4$","$\\text{FeO}_3$"],solution:`**Step 1 — Mass of each element in 100 g:**
+
+- Fe $= 69.9\\ \\text{g}$, O $= 100 - 69.9 = 30.1\\ \\text{g}$
+
+**Step 2 — Convert to moles:**
+
+$$n_\\text{Fe} = \\frac{69.9}{56} \\approx 1.248, \\qquad n_\\text{O} = \\frac{30.1}{16} \\approx 1.881$$
+
+**Step 3 — Simplest ratio** (divide by smallest):
+
+$$\\text{Fe} : \\text{O} = \\frac{1.248}{1.248} : \\frac{1.881}{1.248} = 1 : 1.507 \\approx 2 : 3$$
+
+Empirical formula $= \\text{Fe}_2\\text{O}_3$ (check: %Fe $= \\tfrac{112}{160} = 70.0\\%$).
+
+**Answer:** B`,statement:"An oxide of iron contains 69.9% iron, its empirical formula, is: (Given : Molar mass of Fe and O are 56 and 16 g mol$^{-1}$ respectively.)",subject:"Chemistry",type:"mcq"},{correct_index:0,correct_value:"$\\dfrac{9x}{5}$",id:"6952782187",options:["$\\dfrac{9x}{5}$","$\\dfrac{36x}{5}$","$\\dfrac{x}{4}$","$\\dfrac{5x}{9}$"],solution:`**Shortest wavelength, Lyman (H):** transition $n = \\infty \\to 1$, $Z = 1$:
+$$\\dfrac{1}{x} = R\\cdot 1^2\\left(\\dfrac{1}{1^2} - 0\\right) = R \\quad\\Rightarrow\\quad R = \\dfrac{1}{x}$$
+
+**Longest wavelength, Balmer ($\\text{He}^+$):** smallest energy gap $n = 3 \\to 2$, $Z = 2$:
+$$\\dfrac{1}{\\lambda} = R\\cdot 2^2\\left(\\dfrac{1}{2^2} - \\dfrac{1}{3^2}\\right) = 4R\\left(\\dfrac{1}{4} - \\dfrac{1}{9}\\right) = 4R\\cdot\\dfrac{5}{36} = \\dfrac{5R}{9}$$
+
+Therefore:
+$$\\lambda = \\dfrac{9}{5R} = \\dfrac{9}{5}\\cdot\\dfrac{1}{R} = \\dfrac{9x}{5}$$
+
+**Answer:** $\\dfrac{9x}{5}$`,statement:"If shortest wavelength of hydrogen atom in Lyman series is $x$, then longest wavelength in Balmer series of $\\text{He}^+$ is:",subject:"Chemistry",type:"mcq"},{correct_index:3,correct_value:"A-IV, B-III, C-II, D-I",id:"6952782188",options:["A-IV, B-I, C-III, D-II","A-IV, B-II, C-III, D-I","A-III, B-I, C-IV, D-II","A-IV, B-III, C-II, D-I"],solution:`Use **radial nodes** $= n - l - 1$ and **nodal planes** (angular nodes) $= l$.
+
+| Orbital | $n$ | $l$ | Radial nodes $=n-l-1$ | Nodal planes $=l$ | LIST-II |
+|---------|-----|-----|-----------------------|-------------------|---------|
+| A. 2s | 2 | 0 | $1$ | $0$ | IV |
+| B. 3s | 3 | 0 | $2$ | $0$ | III |
+| C. 3p | 3 | 1 | $1$ | $1$ | II |
+| D. 4d | 4 | 2 | $1$ | $2$ | I |
+
+Matching: A-IV, B-III, C-II, D-I.
+
+**Answer:** D`,statement:"Match the LIST-I with LIST-II. LIST-I (Orbital): A. 2s; B. 3s; C. 3p; D. 4d. LIST-II (Radial nodes and nodal plane): I. 1 Radial node + two nodal planes; II. 1 Radial node + one nodal plane; III. 2 Radial nodes + No nodal plane; IV. 1 Radial node + No nodal plane. Choose the correct answer from the options given below:",subject:"Chemistry",type:"mcq"},{correct_index:1,correct_value:"A and E",id:"6952782189",options:["A, B and E","A and E","B, C and D","C and D"],solution:`Two species have a "similar" Lewis dot structure only when they are **isoelectronic** (same number of valence electrons) and therefore share the same bonding pattern, lone-pair count, and geometry. Count the valence electrons for each pair:
+
+- **A** $[\\text{SO}_3^{2-}, \\text{CO}_3^{2-}]$: $\\text{CO}_3^{2-}$ has $4+3(6)+2 = 24$ valence electrons — trigonal planar ($sp^2$), central C carries **no lone pair**. $\\text{SO}_3^{2-}$ has $6+3(6)+2 = 26$ valence electrons — pyramidal ($sp^3$), central S carries **one lone pair**. Different electron count, geometry and lone-pair count — **NOT similar.**
+- **B** $[\\text{O}_2^{2-}, \\text{F}_2]$: both have $14$ valence electrons — one single bond and three lone pairs on each atom. Isoelectronic — **similar.**
+- **C** $[\\text{CN}^-, \\text{CO}]$: both have $10$ valence electrons — a triple bond and one lone pair on each atom. Isoelectronic — **similar.**
+- **D** $[\\text{NH}_3, \\text{H}_3\\text{O}^+]$: both have $8$ valence electrons — pyramidal with one lone pair on the central atom. Isoelectronic — **similar.**
+- **E** $[\\text{MnO}_4^{2-}, \\text{CrO}_4^{2-}]$: both are tetrahedral $+6$ oxoanions, but they are **not isoelectronic** — $\\text{CrO}_4^{2-}$ has a $d^0$ centre while $\\text{MnO}_4^{2-}$ has one extra electron ($d^1$). The electron distributions of the two Lewis structures therefore differ — **NOT similar.**
+
+Only pairs **A** and **E** fail to share a similar Lewis dot structure.
+
+**Answer:** B (A and E)`,statement:"The pairs among $A = [\\text{SO}_3^{2-}, \\text{CO}_3^{2-}]$, $B = [\\text{O}_2^{2-}, \\text{F}_2]$, $C = [\\text{CN}^-, \\text{CO}]$, $D = [\\text{NH}_3, \\text{H}_3\\text{O}^+]$ and $E = [\\text{MnO}_4^{2-}, \\text{CrO}_4^{2-}]$ that do not have similar Lewis dot structure are:",subject:"Chemistry",type:"mcq"},{correct_index:2,correct_value:"$|w_C| > |w_D| > |w_B| > |w_A|$",id:"6952782190",options:["$|w_B| > |w_A| > |w_C| > |w_D|$","$|w_C| > |w_D| > |w_A| > |w_B|$","$|w_C| > |w_D| > |w_B| > |w_A|$","$|w_B| > |w_A| > |w_D| > |w_C|$"],solution:`For an isothermal gas moving between the same two states, the work magnitude depends on the external pressure profile.
+
+**Expansion (1 → 2, gas pushes out):**
+
+- Single stage against the low final pressure $p_2$: $|w_A| = p_2(V_2 - V_1)$ — smallest expansion work.
+- Multi stage / reversible (external pressure tracks the gas): $|w_B| = nRT\\ln\\dfrac{V_2}{V_1}$ — larger.
+
+**Compression (2 → 1, surroundings push in):**
+
+- Multi stage / reversible: $|w_D| = nRT\\ln\\dfrac{V_2}{V_1} = |w_B|$ — minimum compression work.
+- Single stage against the high pressure $p_1$: $|w_C| = p_1(V_2 - V_1)$ — maximum.
+
+So the ranking is:
+
+$$|w_C| > |w_B| = |w_D| > |w_A|$$
+
+The single-stage compression is largest and the single-stage expansion is smallest. Among the choices, this matches:
+
+$$|w_C| > |w_D| > |w_B| > |w_A|$$
+
+**Answer:** C`,statement:"Arrange the following isothermal processes in order of the magnitude of the work $(p - V)$ involved between states 1 and 2. A. Expansion in single stage $w_A$; B. Expansion in multi stages $w_B$; C. Compression in single stage $w_C$; D. Compression in multi stages $w_D$. Choose the correct option.",subject:"Chemistry",type:"mcq"},{correct_index:3,correct_value:"80%",id:"6952782191",options:["50%","60%","70%","80%"],solution:`By Raoult's law for a non-volatile solute, the vapour pressure of the solution equals the mole fraction of the solvent times the pure-solvent vapour pressure:
+$$p_{\\text{soln}} = x_{\\text{solvent}}\\, p^\\circ.$$
+$$x_{\\text{solvent}} = \\frac{n_{\\text{solvent}}}{n_{\\text{solvent}}+n_{\\text{solute}}} = \\frac{1}{1+0.25} = \\frac{1}{1.25} = 0.80.$$
+$$\\frac{p_{\\text{soln}}}{p^\\circ} = 0.80 = 80\\%.$$
+
+**Answer:** D (80%)`,statement:"When 0.25 moles of a non-volatile, non-ionizable solute was dissolved in 1 mole of a solvent the vapor pressure of solution was $x$ % of vapor pressure of pure solvent. What is $x$ %?",subject:"Chemistry",type:"mcq"},{correct_index:0,correct_value:"3.28, 2.624",id:"6952782192",options:["3.28, 2.624","2.624, 3.28","3.28, 0.656","0.656, 6.56"],solution:`Let $x$ mol of A convert to B. In the 10 L flask:
+$$[A] = \\frac{1-x}{10}, \\qquad [B] = \\frac{x}{10}$$
+
+$$K_c = \\frac{[B]}{[A]} = \\frac{x}{1-x} = 4 \\implies x = 0.8\\ \\text{mol}$$
+
+**Moles at equilibrium:** He $= 1$, B $= 0.8$.
+
+**Partial pressures** from $p = \\dfrac{nRT}{V}$ with $\\dfrac{RT}{V} = \\dfrac{0.082 \\times 400}{10} = 3.28$ atm/mol:
+
+$$p_{\\text{He}} = 1 \\times 3.28 = 3.28\\ \\text{atm}$$
+$$p_{B} = 0.8 \\times 3.28 = 2.624\\ \\text{atm}$$
+
+**Answer:** A (3.28, 2.624)`,statement:"One mole each of He and A(g) are taken in a 10 L closed flask and heated to 400 K to establish the following equilibrium. $A(g) \\rightleftharpoons B(g)$. $K_c$ for this reaction at 400 K is 4.0. The partial pressures (in atm) of He and B(g) are respectively (at equilibrium). (Assume He, A(g) and B(g) behave as ideal gases) (Given : R = 0.082 L atm K$^{-1}$ mol$^{-1}$)",subject:"Chemistry",type:"mcq"},{correct_index:0,correct_value:"$\\dfrac{10^6 x^2}{a^2(x_1 + x_2 - 2x_3)^2}$",id:"6952782193",options:["$\\dfrac{10^6 x^2}{a^2(x_1 + x_2 - 2x_3)^2}$","$\\dfrac{x^2}{(x_1 + x_2 - 2x_3)^2}$","$\\dfrac{a^2(x_1 + x_2 - 2x_3)^2}{10^6 x^2}$","$\\dfrac{x^2}{(x_1 + x_2 + 2x_3)^2}$"],solution:`**Kohlrausch's law** builds $\\text{BaSO}_4$ from the given electrolytes:
+$$\\Lambda^\\circ_m(\\text{BaSO}_4) = \\Lambda^\\circ_m(\\text{BaCl}_2) + \\Lambda^\\circ_m(\\text{H}_2\\text{SO}_4) - 2\\,\\Lambda^\\circ_m(\\text{HCl}) = x_1 + x_2 - 2x_3$$
+
+(The $2\\,\\text{Cl}^-$ and $2\\,\\text{H}^+$ cancel, leaving $\\text{Ba}^{2+} + \\text{SO}_4^{2-}$.)
+
+**Molar conductivity** links conductivity $x$ (S cm$^{-1}$) to solubility $S$ (mol L$^{-1}$). The factor $1000$ converts litres to cm$^3$:
+$$\\Lambda_m = \\frac{1000\\,x}{S} \\implies S = \\frac{1000\\,x}{x_1 + x_2 - 2x_3}\\ \\text{mol L}^{-1}$$
+
+**Solubility product** ($1{:}1$ salt, $S = [\\text{Ba}^{2+}] = [\\text{SO}_4^{2-}]$):
+$$K_{sp} = [\\text{Ba}^{2+}][\\text{SO}_4^{2-}] = S^2 = \\frac{(1000\\,x)^2}{(x_1 + x_2 - 2x_3)^2} = \\frac{10^6\\,x^2}{(x_1 + x_2 - 2x_3)^2}$$
+
+This is the expression in option A. (Option B drops the $10^6$ litre-to-cm$^3$ conversion; option C is its reciprocal $1/K_{sp}$; option D uses the wrong Kohlrausch combination $x_1 + x_2 + 2x_3$.)
+
+**Answer:** A`,statement:"Consider the following data. Electrolyte $\\Lambda^\\circ_m$ (S cm$^2$ mol$^{-1}$): $\\text{BaCl}_2 = x_1$; $\\text{H}_2\\text{SO}_4 = x_2$; $\\text{HCl} = x_3$. $\\text{BaSO}_4$ is sparingly soluble in water. If the conductivity of the saturated $\\text{BaSO}_4$ solution is $x$ S cm$^{-1}$ then the solubility product of $\\text{BaSO}_4$ can be given as (Here $\\Lambda_m = \\Lambda^\\circ_m$):",subject:"Chemistry",type:"mcq"},{correct_index:0,correct_value:"Both Statement I and Statement II are true",id:"6952782194",options:["Both Statement I and Statement II are true","Both Statement I and Statement II are false","Statement I is true but Statement II is false","Statement I is false but Statement II is true"],solution:`**Statement I:** A more negative reduction potential means a more electropositive (more easily oxidised) metal. Here $E^\\circ_{\\text{Al}^{3+}/\\text{Al}} = -1.66\\ \\text{V}$ (negative) while $E^\\circ_{\\text{Tl}^{3+}/\\text{Tl}}$ is positive. Hence aluminium is more electropositive than thallium. **True.**
+
+**Statement II:** The sum of the first three ionization enthalpies of boron ($\\Delta_i H_1 + \\Delta_i H_2 + \\Delta_i H_3$) is much larger than that of aluminium because of boron's very small size. This large energy cannot be compensated by lattice/hydration energy, so boron cannot form $\\text{B}^{3+}$ and bonds covalently, whereas aluminium readily forms $\\text{Al}^{3+}$. This is the standard NCERT reasoning. **True.**
+
+Both statements are true.
+
+**Answer:** A`,statement:"Given below are two statements: Statement I: Aluminium is more electropositive than thallium as the standard electrode potential value of $E^\\circ_{\\text{Al}^{3+}/\\text{Al}}$ is negative and $E^\\circ_{\\text{Tl}^{3+}/\\text{Tl}}$ is positive. Statement II: The sum of first three ionization enthalpies of boron is very high when compared to that of aluminium. Due to this reason boron forms covalent compounds only and aluminium forms $\\text{Al}^{3+}$ ion. In the light of the above statements, choose the correct answer from the options given below:",subject:"Chemistry",type:"mcq"},{correct_index:2,correct_value:"C and D Only",id:"6952782195",options:["A and B Only","A, C and D Only","C and D Only","B, C and D Only"],solution:`**A.** The catalyst in the contact process is $\\text{V}_2\\text{O}_5$, which is **acidic (amphoteric)**, not basic. **Incorrect.**
+
+**B.** Ziegler–Natta uses a titanium halide ($\\text{TiCl}_4/\\text{TiCl}_3$). The spin-only moment
+$$\\mu = \\sqrt{n(n+2)}\\ \\text{BM}$$
+gives $2.84$ BM only for $n = 2$ ($d^2$). Ti in $\\text{TiCl}_4$ is $d^0$ ($\\mu = 0$) and in $\\text{TiCl}_3$ is $d^1$ ($\\mu = 1.73$). Neither is $2.84$ BM. **Incorrect.**
+
+**C.** The p-block co-catalyst is triethylaluminium $\\text{Al}(\\text{C}_2\\text{H}_5)_3$, where Al is in the $+3$ state. **Correct.**
+
+**D.** The Wacker process uses $\\text{PdCl}_2$. For $\\text{Pd}^{2+}$:
+$$\\text{Pd}^{2+}: [\\text{Kr}]\\,4d^{8}\\ \\Rightarrow\\ 8\\ d\\text{-electrons}$$
+**Correct.**
+
+Correct statements: **C and D**.
+
+**Answer:** C`,statement:"The correct statements among the following are. A. Basic vanadium oxide is used in the manufacture of $\\text{H}_2\\text{SO}_4$. B. The spin-only magnetic moment value of the transition metal halide employed in Ziegler-Natta polymerization is 2.84 BM. C. The p-block metal compound employed in Ziegler-Natta polymerization has the metal in +3 oxidation state. D. The number of electrons present in the outer most 'd' orbital of metal halide employed in Wacker process is 8. Choose the correct answer from the options given below:",subject:"Chemistry",type:"mcq"},{correct_index:2,correct_value:"A-III, B-IV, C-I, D-II",id:"6952782196",options:["A-III, B-IV, C-II, D-I","A-III, B-I, C-IV, D-II","A-III, B-IV, C-I, D-II","A-II, B-I, C-IV, D-III"],solution:`In a tetrahedral field the $e$ orbitals lie lower ($-0.6\\,\\Delta_t$ each) and the $t_2$ orbitals higher ($+0.4\\,\\Delta_t$ each). Tetrahedral complexes are high spin, and the $e$ set (2 orbitals) fills first, then $t_2$ (3 orbitals).
+
+$$\\text{A: } d^2 = e^2 \\Rightarrow 2(-0.6) = -1.2\\,\\Delta_t \\Rightarrow \\text{III}$$
+
+$$\\text{B: } d^4 = e^2 t_2^2 \\Rightarrow 2(-0.6)+2(+0.4) = -0.4\\,\\Delta_t \\Rightarrow \\text{IV}$$
+
+$$\\text{C: } d^6 = e^3 t_2^3 \\Rightarrow 3(-0.6)+3(+0.4) = -0.6\\,\\Delta_t \\Rightarrow \\text{I}$$
+
+$$\\text{D: } d^8 = e^4 t_2^4 \\Rightarrow 4(-0.6)+4(+0.4) = -0.8\\,\\Delta_t \\Rightarrow \\text{II}$$
+
+So A-III, B-IV, C-I, D-II.
+
+**Answer:** C (A-III, B-IV, C-I, D-II)`,statement:"Match the LIST-I with LIST-II. LIST-I (Electronic configuration of tetrahedral metal ion): A. $d^2$; B. $d^4$; C. $d^6$; D. $d^8$. LIST-II (Crystal Field Stabilization Energy $\\Delta_t$): I. $-0.6$; II. $-0.8$; III. $-1.2$; IV. $-0.4$. Choose the correct answer from the options given below:",subject:"Chemistry",type:"mcq"},{correct_index:0,correct_value:"A, B and D only",id:"6952782197",options:["A, B and D only","A and B only","B and D only","B, C and D only"],solution:`In a tetrahedral field the splitting is inverted relative to octahedral: the $t_2$ set $(d_{xy}, d_{yz}, d_{xz})$ is **higher** in energy, while the $e$ set $(d_{x^2-y^2}, d_{z^2})$ is **lower**. Within each set the orbitals are degenerate.
+
+$$e\\text{-set: } d_{x^2-y^2} = d_{z^2} \\quad (\\text{lower}), \\qquad t_2\\text{-set: } d_{xy} = d_{yz} = d_{xz} \\quad (\\text{higher})$$
+
+- **A.** $d_{xy} = d_{xz}\\ (t_2) > d_{x^2-y^2}\\ (e)$ — TRUE.
+- **B.** $d_{xy} = d_{yz}\\ (t_2) > d_{z^2}\\ (e)$ — TRUE.
+- **C.** claims $d_{x^2-y^2} > d_{z^2}$, but these are degenerate ($=$), so FALSE.
+- **D.** $d_{x^2-y^2} = d_{z^2}\\ (e) < d_{xz}\\ (t_2)$ — TRUE.
+
+So A, B and D are correct.
+
+**Answer:** A (A, B and D only)`,statement:"Which of the following are true about the energy of the given d-orbitals of a tetrahedral complex? A. $d_{xy} = d_{xz} > d_{x^2-y^2}$; B. $d_{xy} = d_{yz} > d_{z^2}$; C. $d_{x^2-y^2} > d_{z^2} > d_{xz}$; D. $d_{x^2-y^2} = d_{z^2} < d_{xz}$. Choose the correct answer from the given below:",subject:"Chemistry",type:"mcq"},{correct_index:3,correct_value:"0.12",id:"6952782198",options:["0.42","0.82","0.62","0.12"],solution:`**Reaction:** acid-catalysed hydration (Markovnikov) of 2-methylpropene:
+$$\\text{(CH}_3\\text{)}_2\\text{C}=\\text{CH}_2 \\xrightarrow{\\text{dil. H}_2\\text{SO}_4} \\text{(CH}_3\\text{)}_3\\text{C-OH}$$
+The product (X) is **2-methylpropan-2-ol** (*tert*-butanol), which carries a polar $-\\text{OH}$ group and is therefore far more polar than the parent alkene.
+
+**Chromatography reasoning:** In normal-phase (silica) TLC, a more polar compound adsorbs more strongly to the polar stationary phase and travels a shorter distance, so it has a **lower $R_f$**. Since (X) is more polar than 2-methylpropene, its $R_f$ must be smaller than 0.42.
+
+Among the options, only $0.12 < 0.42$.
+
+**Answer:** D`,statement:"$R_f$ value for 2-methylpropene in a solvent system (Ethyl acetate + ether) is 0.42. 2-methylpropene is treated with dilute $\\text{H}_2\\text{SO}_4$ to give major organic product (X). $R_f$ value for (X) in the same solvent system under identical condition will be:",subject:"Chemistry",type:"mcq"},{correct_index:2,correct_value:"Statement I is true but Statement II is false",id:"6952782199",options:["Both Statement I and Statement II are true","Both Statement I and Statement II are false","Statement I is true but Statement II is false","Statement I is false but Statement II is true"],solution:`**Statement I — check molecular formulas.** Cyclohexanone is $\\text{C}_6\\text{H}_{10}\\text{O}$. Each ring substituent replaces one H.
+
+- 2,6-diethylcyclohexanone: add two $-\\text{C}_2\\text{H}_5$ groups $\\Rightarrow \\text{C}_6\\text{H}_8\\text{O}(\\text{C}_2\\text{H}_5)_2 = \\text{C}_{10}\\text{H}_{18}\\text{O}$
+- 6-methyl-2-n-propylcyclohexanone: add $-\\text{CH}_3$ and $-\\text{C}_3\\text{H}_7 \\Rightarrow \\text{C}_6\\text{H}_8\\text{O}(\\text{CH}_3)(\\text{C}_3\\text{H}_7) = \\text{C}_{10}\\text{H}_{18}\\text{O}$
+
+Same molecular formula, same functional group (ketone), but a different distribution of alkyl groups around the carbonyl — this is exactly **metamerism**. **Statement I is TRUE.**
+
+**Statement II — check for $\\alpha$-hydrogens.** Keto–enol tautomerism requires at least one $\\alpha$-hydrogen. In 2,2,6,6-tetramethylcyclohexanone, both $\\alpha$-carbons (C-2 and C-6) are fully substituted by methyl groups, so **there are no $\\alpha$-hydrogens**. Hence no enol can form. **Statement II is FALSE.**
+
+**Answer:** C`,statement:"Given below are two statements: Statement I: 2,6-diethylcyclohexanone and 6-methyl-2-n-propylcyclohexanone are metamers. Statement II: 2,2,6,6-tetramethylcyclohexanone exhibits keto-enol tautomerism. In the light of the above statements, choose the correct answer from the options given below:",subject:"Chemistry",type:"mcq"},{correct_index:3,correct_value:"Statement I is false but Statement II is true",id:"6952782200",options:["Both Statement I and Statement II are true","Both Statement I and Statement II are false","Statement I is true but Statement II is false","Statement I is false but Statement II is true"],solution:`**Check Statement I:**
+
+- Decarboxylation (soda-lime): $\\text{CH}_3\\text{COONa} + \\text{NaOH} \\xrightarrow{\\Delta} \\text{CH}_4 + \\text{Na}_2\\text{CO}_3$ — gives methane. ✓
+- $\\text{CH}_3\\text{MgBr} + \\text{H}_2\\text{O} \\rightarrow \\text{CH}_4 + \\text{Mg(OH)Br}$ — gives methane. ✓
+- **Kolbe's electrolysis** of sodium acetate: $2\\,\\text{CH}_3\\text{COO}^- \\rightarrow \\text{CH}_3\\text{-CH}_3 + 2\\text{CO}_2 + 2e^-$ — gives **ethane, not methane**. ✗
+
+So Statement I is **false**.
+
+**Check Statement II:**
+
+- Wurtz reaction couples two alkyl halides, so the smallest possible product is ethane; it **cannot** give methane.
+- Hydrogenation of unsaturated hydrocarbons (e.g. $\\text{CH}_2\\text{=CH}_2 \\to \\text{C}_2\\text{H}_6$) also cannot yield methane.
+
+So Statement II is **true**.
+
+Statement I false, Statement II true.
+
+**Answer:** D`,statement:"Given below are two statements: Statement I: Methane can be prepared by decarboxylation of sodium ethanoate, Kolbe's electrolysis of sodium acetate and reaction of $\\text{CH}_3\\text{MgBr}$ with water. Statement II: Methane cannot be prepared from unsaturated hydrocarbons and by Wurtz reaction. In the light of the above statements, choose the correct answer from the options given below:",subject:"Chemistry",type:"mcq"},{correct_index:2,correct_value:"Statement I is true but Statement II is false",id:"6952782201",options:["Both Statement I and Statement II are true","Both Statement I and Statement II are false","Statement I is true but Statement II is false","Statement I is false but Statement II is true"],solution:`**Statement I:** 3-phenylpropene is allylbenzene, $\\text{C}_6\\text{H}_5\\text{-}\\text{CH}_2\\text{-}\\text{CH}=\\text{CH}_2$. Markovnikov addition of HBr places Br on the more substituted internal carbon:
+$$\\text{C}_6\\text{H}_5\\text{-CH}_2\\text{-CH}=\\text{CH}_2 + \\text{HBr} \\rightarrow \\text{C}_6\\text{H}_5\\text{-CH}_2\\text{-}\\underset{\\text{Br}}{\\text{CH}}\\text{-CH}_3$$
+The Br-bearing carbon carries four different groups ($\\text{-Br}$, $\\text{-H}$, $\\text{-CH}_3$, $\\text{-CH}_2\\text{C}_6\\text{H}_5$), so it is a chiral secondary bromide. **True.**
+
+**Statement II:** Both routes start from a diazonium salt. Sandmeyer uses cuprous salts ($\\text{Cu}_2\\text{Cl}_2$ for Ar-Cl, CuCN for Ar-CN); Gattermann uses copper powder with HCl (Ar-Cl) or with KCN/Cu (Ar-CN). Both give aryl chlorides and aryl cyanides. **True.**
+
+Both statements are true.
+
+**Answer:** A`,statement:"Given below are two statements: Statement I: 3-phenylpropene reacts with HBr and gives secondary alkyl bromide having a chiral carbon atom as the major product. Statement II: Aryl chlorides and aryl cyanides can be prepared by Sandmeyer reaction as well as Gattermann reaction. In the light of the above statements, choose the correct answer from the options given below:",subject:"Chemistry",type:"mcq"},{correct_index:1,correct_value:"a cyclohexane ring with a -COOH group meta to the quaternary (crossed) carbon",id:"6952782202",options:["a cyclohexane ring with a -COOH group adjacent to the quaternary (crossed) carbon","a cyclohexane ring with a -COOH group meta to the quaternary (crossed) carbon","a cyclohexane carboxylic acid esterified with a tert-butyl group","a cyclohexane carboxylic acid esterified with a 2-methylallyl (methallyl) group"],solution:"",statement:"Consider the following sequence of reactions: a tertiary alcohol (cyclohexane ring bearing an -OH and a gem-dimethyl/quaternary carbon as drawn) $\\xrightarrow[\\text{(ii) } H^+, PhCOOH]{\\text{(i) } Cu/573K} P$. The major product P is: [figure: reactant is a cyclohexane-type structure with an -OH group and an adjacent quaternary carbon shown by a crossed bond; options are various cyclohexane carboxylic acid / ester structures]",subject:"Chemistry",type:"mcq"},{correct_index:2,correct_value:"C < D < B < A",id:"6952782203",options:["C < B < A < D","D < C < B < A","C < D < B < A","D < B < A < C"],solution:`Boiling point is governed by the strength of intermolecular forces (mainly hydrogen bonding here), for molecules of comparable molar mass:
+
+- **C — $n\\text{-}C_4H_{10}$ (butane):** only weak London dispersion forces, no H-bonding $\\Rightarrow$ lowest bp ($\\approx 0\\,^\\circ\\text{C}$).
+- **D — $C_2H_5NHC_2H_5$ (diethylamine):** a secondary amine with one $\\text{N–H}$, so weak $\\text{N}\\cdots\\text{H–N}$ hydrogen bonding ($\\approx 56\\,^\\circ\\text{C}$).
+- **B — $n\\text{-}C_4H_9NH_2$ (butan-1-amine):** a primary amine with two $\\text{N–H}$ bonds, giving stronger H-bonding than a secondary amine ($\\approx 78\\,^\\circ\\text{C}$).
+- **A — $n\\text{-}C_4H_9OH$ (butan-1-ol):** $\\text{O–H}$ is more polar than $\\text{N–H}$, so alcohols H-bond most strongly $\\Rightarrow$ highest bp ($\\approx 118\\,^\\circ\\text{C}$).
+
+Increasing order: $C < D < B < A$.
+
+**Answer:** C`,statement:"Arrange the following compounds according to increasing order of boiling points. $n\\text{-}C_4H_9OH$ (A), $n\\text{-}C_4H_9NH_2$ (B), $n\\text{-}C_4H_{10}$ (C) and $C_2H_5NHC_2H_5$ (D).",subject:"Chemistry",type:"mcq"},{correct_index:2,correct_value:"A-III, B-I, C-IV, D-II",id:"6952782204",options:["A-I, B-III, C-II, D-IV","A-I, B-III, C-IV, D-II","A-III, B-I, C-IV, D-II","A-III, B-I, C-II, D-IV"],solution:`Link each deficiency disease to the vitamin whose lack causes it:
+
+- **Scurvy** $\\leftarrow$ deficiency of **Ascorbic acid** (Vit C) $\\Rightarrow$ III
+- **Convulsions** $\\leftarrow$ deficiency of **Pyridoxine** ($\\text{B}_6$) $\\Rightarrow$ I
+- **Cheilosis** $\\leftarrow$ deficiency of **Riboflavin** ($\\text{B}_2$) $\\Rightarrow$ IV
+- **Xerophthalmia** $\\leftarrow$ deficiency of **Vitamin A** $\\Rightarrow$ II
+
+So A-III, B-I, C-IV, D-II.
+
+**Answer:** C`,statement:"Match the LIST-I with LIST-II. LIST-I (Deficiency Disease): A. Scurvy; B. Convulsions; C. Cheilosis; D. Xerophthalmia. LIST-II (Vitamin): I. Pyridoxine; II. Vitamin A; III. Ascorbic Acid; IV. Riboflavin. Choose the correct answer from the options given below:",subject:"Chemistry",type:"mcq"},{correct_index:1,correct_value:"A-IV, B-I, C-II, D-III",id:"6952782205",options:["A-IV, B-II, C-I, D-III","A-IV, B-I, C-II, D-III","A-III, B-II, C-I, D-IV","A-IV, B-I, C-III, D-II"],solution:`Identify the side-chain functional group and its characteristic test:
+
+- **Glutamine** — side chain has an **amide** ($-\\text{CONH}_2$) $\\Rightarrow$ **Hofmann bromamide degradation** (IV)
+- **Lysine** — side chain has a **primary amine** ($-\\text{NH}_2$) $\\Rightarrow$ **Hinsberg's test** (I)
+- **Tyrosine** — side chain has a **phenolic $-\\text{OH}$** $\\Rightarrow$ **neutral $\\text{FeCl}_3$ test** (II)
+- **Serine** — side chain has a **primary alcohol** ($-\\text{CH}_2\\text{OH}$) $\\Rightarrow$ **ceric ammonium nitrate test** (III)
+
+So A-IV, B-I, C-II, D-III.
+
+**Answer:** B`,statement:"Match the LIST-I with LIST-II. LIST-I (Amino acid): A. Glutamine; B. Lysine; C. Tyrosine; D. Serine. LIST-II (Positive reaction/Test for functional group present in side chain of amino acid): I. Hinsberg's test; II. Neutral FeCl$_3$ test; III. Ceric ammonium nitrate test; IV. Hoffman bromamide degradation. Choose the correct answer from the options given below:",subject:"Chemistry",type:"mcq"},{correct_index:null,correct_value:"4",id:"6952782206",options:[],solution:`The process $\\text{Li}(g) \\to \\text{Li}^{2+}(g)$ removes two electrons, so the molar energy is the sum of the first two ionization enthalpies:
+$$\\Delta E = IE_1 + IE_2 = 520 + 7297 = 7817\\ \\text{kJ mol}^{-1}$$
+
+The requested unit is **kJ mol$^{-1}$** (a per-mole quantity), so the given mass of 3.5 mg does not change the molar answer.
+
+**Answer:** 7817`,statement:"First and second ionization enthalpies of lithium are 520 kJ mol$^{-1}$ and 7297 kJ mol$^{-1}$ respectively. Energy required to convert 3.5 mg lithium (g) into $\\text{Li}^{2+}$ (g) $[\\text{Li}(g) \\to \\text{Li}^{2+}(g)]$ is ________ kJ mol$^{-1}$. (nearest integer) [Molar mass of Li = 7 g mol$^{-1}$]",subject:"Chemistry",type:"integer"},{correct_index:null,correct_value:"21",id:"6952782207",options:[],solution:"",statement:"Consider the following sequence of reactions: an azobenzene-type substrate (Ph$-$N$=$N$-$NH$-$Ph drawn) $\\xrightarrow[\\text{(ii) Aniline (in excess) (iii) Warm 40-45}^\\circ\\text{C (iv) Cool, acetic acid}]{\\text{(i) HCl}}$ Yellow Product (X). The percentage of nitrogen in the yellow product (X) formed is ________ %. (Nearest Integer) (Given Molar mass in g mol$^{-1}$ H:1, C:12, N:14) [figure: starting material drawn as 1,3-diphenyltriazene / diazoamino compound Ph-N=N-NH-Ph]",subject:"Chemistry",type:"integer"},{correct_index:null,correct_value:"3",id:"6952782208",options:[],solution:`Heating phenol with zinc dust reduces the C–OH bond, giving **benzene** as product X:
+$$C_6H_5OH + Zn \\longrightarrow C_6H_6 + ZnO$$
+
+**Moles of phenol taken:** molar mass of phenol $= 6(12)+6(1)+16 = 94\\ \\text{g mol}^{-1}$
+$$n_{\\text{phenol}} = \\dfrac{4.7}{94} = 0.05\\ \\text{mol}$$
+
+The stoichiometry is $1:1$, so at 100% completion $0.05$ mol of benzene would form. At **60% completion**:
+$$n_X = 0.05 \\times 0.60 = 0.03\\ \\text{mol} = 3 \\times 10^{-2}\\ \\text{mol}$$
+
+**Answer:** 3`,statement:"4.7 g of phenol is heated with Zn to give product X. If this reaction goes to 60% completion then the number of moles of compound X formed will be ________ $\\times 10^{-2}$. (Nearest Integer) (Given molar mass in g mol$^{-1}$ : H:1, C:12, O:16)",subject:"Chemistry",type:"integer"},{correct_index:null,correct_value:"25",id:"6952782209",options:[],solution:`The reaction is first order, so the fraction remaining after $n$ half-lives is $(1/2)^n$.
+
+Number of half-lives in 6 hours:
+
+$$n = \\frac{6}{t_{1/2}} = \\frac{6}{3} = 2$$
+
+Fraction remaining:
+
+$$\\left(\\frac{1}{2}\\right)^{2} = \\frac{1}{4} = 0.25$$
+
+Percentage remaining:
+
+$$0.25 \\times 100 = 25\\%$$
+
+**Answer:** 25`,statement:"Sucrose hydrolyses in acidic medium into glucose and fructose by first order rate law with $t_{1/2} = 3$ hour. The percentage of sucrose remaining after 6 hours is ________. (Nearest integer) (Given : log 2 = 0.3010 and log 3 = 0.4771)",subject:"Chemistry",type:"integer"},{correct_index:null,correct_value:"34",id:"6952782210",options:[],solution:`First find $\\Delta G^\\theta$ from the equilibrium constant:
+
+$$\\Delta G^\\theta = -RT\\ln K$$
+
+Evaluate $\\ln K = 2.303\\log(1.8\\times10^{-7})$ using the given logs:
+
+$$\\log 1.8 = \\log 2 + 2\\log 3 - 1 = 0.30 + 0.96 - 1 = 0.26$$
+
+$$\\log K = 0.26 - 7 = -6.74 \\implies \\ln K = 2.3 \\times (-6.74) = -15.5$$
+
+$$\\Delta G^\\theta = -(8.3)(300)(-15.5) = 38{,}600 \\text{ J mol}^{-1}$$
+
+Now use $\\Delta G^\\theta = \\Delta H^\\theta - T\\Delta S^\\theta$:
+
+$$\\Delta S^\\theta = \\frac{\\Delta H^\\theta - \\Delta G^\\theta}{T} = \\frac{28{,}400 - 38{,}600}{300} = -34 \\text{ J K}^{-1}\\text{mol}^{-1}$$
+
+Magnitude $= 34$.
+
+**Answer:** 34`,statement:"Consider the reaction $X \\rightleftharpoons Y$ at 300 K. If $\\Delta H^\\theta$ and K are 28.40 kJ mol$^{-1}$ and $1.8 \\times 10^{-7}$ at the same temperature, then the magnitude of $\\Delta S^\\theta$ for the reaction in J K$^{-1}$ mol$^{-1}$ is ________. (Nearest integer) (Given : R = 8.3 J K$^{-1}$ mol$^{-1}$, ln 10 = 2.3, log 3 = 0.48, log 2 = 0.30)",subject:"Chemistry",type:"integer"}],shift:"Shift 1",title:"JEE Main 2026 · 06 Apr · Shift 1"},window.MOCK_DATA.slug="jee-main-2026-apr-6-shift-1"
+```
+
+
+---
+
+_Source: [https://jeenotes.in/mock-tests/jee-main-2026-apr-6-shift-1/](https://jeenotes.in/mock-tests/jee-main-2026-apr-6-shift-1/) · raw HTML: `offline/mock-tests/jee-main-2026-apr-6-shift-1/index.html`_

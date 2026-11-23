@@ -1,0 +1,12 @@
+{
+  "name": "jee-notes-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Standalone local copy of the JEE Notes website with its original design.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "preview": "node server.mjs"
+  }
+}

@@ -1,0 +1,176 @@
+/* ============================================================
+   Daily Practise Problems — calendar + one PYQ per subject
+   ============================================================ */
+
+.dpp .dpp-sub { color: var(--ink-2); margin: 8px 0 0; }
+.dpp-loading { color: var(--ink-3); padding: 40px 0; text-align: center; }
+
+/* ---------- calendar ---------- */
+
+.dpp-cal {
+  max-width: 460px;
+  margin: 26px auto 40px;
+  padding: 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-sm);
+}
+.dpp-cal-head {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; margin-bottom: 14px;
+}
+.dpp-cal-month { font-family: var(--font-display); font-size: 18px; letter-spacing: -.01em; }
+.dpp-nav {
+  width: 34px; height: 34px; display: grid; place-items: center;
+  border: 1px solid var(--line); border-radius: 10px;
+  background: var(--surface); color: var(--ink-2);
+  font-size: 15px; cursor: pointer; transition: background .15s, color .15s;
+}
+.dpp-nav:hover:not(:disabled) { background: var(--accent-soft); color: var(--accent); }
+.dpp-nav:disabled { opacity: .3; cursor: default; }
+
+.dpp-cal-dows, .dpp-cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+.dpp-cal-dows {
+  margin-bottom: 6px; text-align: center;
+  font-size: 12px; font-weight: 600; color: var(--ink-3);
+}
+
+.dpp-day {
+  aspect-ratio: 1; display: grid; place-items: center; position: relative;
+  border: 1px solid transparent; border-radius: 10px;
+  background: transparent; color: var(--ink);
+  font-family: inherit; font-size: 14px; font-weight: 500;
+  cursor: pointer; transition: background .15s, color .15s, border-color .15s;
+}
+.dpp-day:hover:not(:disabled):not(.is-blank) { background: var(--surface-2); }
+.dpp-day.is-blank { cursor: default; }
+.dpp-day.is-future { color: var(--ink-3); opacity: .4; cursor: default; }
+.dpp-day.is-today { border-color: var(--accent); color: var(--accent); font-weight: 700; }
+.dpp-day.is-selected { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.dpp-day.is-done::after {
+  content: ""; position: absolute; bottom: 5px;
+  width: 4px; height: 4px; border-radius: 50%; background: var(--chem);
+}
+.dpp-day.is-selected.is-done::after { background: var(--on-accent); }
+
+.dpp-streak {
+  margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--line);
+  text-align: center; font-size: 14px; color: var(--ink-2);
+}
+.dpp-streak-n { font-weight: 700; color: var(--accent); }
+
+/* ---------- day panel ---------- */
+
+.dpp-day-panel { scroll-margin-top: calc(var(--header-h) + 20px); }
+.dpp-day-title {
+  font-family: var(--font-display); font-size: 22px;
+  margin: 0 0 18px; letter-spacing: -.02em;
+}
+.dpp-day-title em { font-style: normal; color: var(--ink-3); font-weight: 500; }
+
+/* ---------- question card ---------- */
+
+.dpp-q {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--q-accent, var(--line-2));
+  border-radius: var(--r);
+  padding: 20px 22px;
+  margin-bottom: 18px;
+}
+.dpp-q[data-subject="physics"]     { --q-accent: var(--phy);  --q-soft: var(--phy-soft); }
+.dpp-q[data-subject="chemistry"]   { --q-accent: var(--chem); --q-soft: var(--chem-soft); }
+.dpp-q[data-subject="mathematics"] { --q-accent: var(--math); --q-soft: var(--math-soft); }
+
+.dpp-q-head { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.dpp-chip {
+  padding: 3px 11px; border-radius: 999px;
+  font-size: 12px; font-weight: 600; letter-spacing: .01em;
+}
+.dpp-chip-physics     { background: var(--phy-soft);  color: var(--phy); }
+.dpp-chip-chemistry   { background: var(--chem-soft); color: var(--chem); }
+.dpp-chip-mathematics { background: var(--math-soft); color: var(--math); }
+.dpp-chip-soft { background: var(--surface-2); color: var(--ink-3); text-transform: capitalize; }
+
+.dpp-topic {
+  font-family: var(--font-display); font-size: 18px;
+  margin: 0; letter-spacing: -.01em;
+}
+.dpp-chapter { margin: 2px 0 0; font-size: 14px; color: var(--ink-2); }
+.dpp-meta {
+  display: flex; flex-wrap: wrap; gap: 6px 10px;
+  margin: 8px 0 16px; font-size: 13px; color: var(--ink-3);
+}
+.dpp-meta span:not(:last-child)::after { content: " ·"; }
+
+.dpp-statement { margin-bottom: 16px; }
+.dpp-statement p { margin: 0 0 8px; }
+.dpp-statement p:last-child { margin-bottom: 0; }
+.dpp-numeric { font-size: 14px; color: var(--ink-2); font-style: italic; margin: 0 0 16px; }
+
+/* ---------- options ---------- */
+
+.dpp-options { display: grid; gap: 8px; margin-bottom: 18px; }
+.dpp-option {
+  display: flex; align-items: flex-start; gap: 12px;
+  width: 100%; padding: 11px 14px; text-align: left;
+  border: 1px solid var(--line); border-radius: var(--r-sm);
+  background: var(--surface); color: var(--ink);
+  font-family: inherit; font-size: 15px; line-height: 1.55;
+  cursor: pointer; transition: border-color .15s, background .15s;
+}
+.dpp-option:hover { border-color: var(--q-accent); background: var(--q-soft); }
+.dpp-q.is-answered .dpp-option { cursor: default; }
+.dpp-q.is-answered .dpp-option:hover { border-color: var(--line); background: var(--surface); }
+.dpp-option-key {
+  flex: none; width: 24px; height: 24px; display: grid; place-items: center;
+  border-radius: 7px; background: var(--surface-2); color: var(--ink-2);
+  font-size: 12px; font-weight: 700;
+}
+.dpp-option.is-correct,
+.dpp-q.is-answered .dpp-option.is-correct:hover {
+  border-color: var(--chem); background: var(--chem-soft);
+}
+.dpp-option.is-correct .dpp-option-key { background: var(--chem); color: #fff; }
+.dpp-option.is-wrong,
+.dpp-q.is-answered .dpp-option.is-wrong:hover {
+  border-color: #dc2626; background: color-mix(in oklab, #dc2626 10%, transparent);
+}
+.dpp-option.is-wrong .dpp-option-key { background: #dc2626; color: #fff; }
+.dpp-option.is-picked,
+.dpp-q.is-answered .dpp-option.is-picked:hover { border-color: var(--q-accent); background: var(--q-soft); }
+.dpp-option.is-picked .dpp-option-key { background: var(--q-accent); color: var(--on-accent); }
+
+/* ---------- actions + solution ---------- */
+
+.dpp-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.dpp-btn {
+  padding: 9px 16px; border-radius: 999px;
+  border: 1px solid var(--line-2); background: var(--surface); color: var(--ink);
+  font-family: inherit; font-size: 14px; font-weight: 600;
+  cursor: pointer; transition: background .15s, color .15s, border-color .15s;
+}
+.dpp-btn:hover { border-color: var(--q-accent); color: var(--q-accent); }
+.dpp-study {
+  background: var(--q-soft); border-color: transparent; color: var(--q-accent);
+  display: inline-flex; align-items: center;
+}
+
+.dpp-solution {
+  margin-top: 16px; padding-top: 16px;
+  border-top: 1px dashed var(--line-2);
+  font-size: 15px; color: var(--ink-2);
+  overflow-x: auto;
+}
+.dpp-solution p { margin: 0 0 10px; }
+.dpp-solution p:last-child { margin-bottom: 0; }
+.dpp-solution table { border-collapse: collapse; margin: 10px 0; font-size: 14px; }
+.dpp-solution th, .dpp-solution td { border: 1px solid var(--line-2); padding: 6px 10px; }
+.dpp-solution img { border-radius: var(--r-sm); margin: 8px 0; }
+
+@media (max-width: 640px) {
+  .dpp-cal { padding: 14px; }
+  .dpp-q { padding: 18px 16px; }
+  .dpp-option { font-size: 14px; }
+}

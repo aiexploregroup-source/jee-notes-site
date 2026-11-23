@@ -1,0 +1,674 @@
+/* ============================================================
+   HappyChases Notes — the design system, applied.
+   Source of truth: Paper, "HappyChases Notes — Design System
+   (JEE · NEET · UPSC · CGPSC)".
+
+   Loaded AFTER v2.css so it re-skins the existing markup without
+   touching the layouts. Tokens come from notes-tokens.css.
+
+   The idea, in one line: ink, white, one highlighter. Every site
+   shares the same ink, paper and link blue; each exam owns a single
+   highlighter that marks but never carries text.
+   ============================================================ */
+
+/* ---------- 1. shell ---------------------------------------- */
+
+:root {
+  --font-display: "Literata", Georgia, serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* re-point the old names at the new system */
+  --bg: var(--color-page);
+  --bg-tint: var(--color-paper);
+  --surface: var(--color-page);
+  --surface-2: var(--color-paper);
+  --ink: var(--color-ink);
+  --ink-2: var(--color-ink-muted);
+  --ink-3: var(--color-ink-muted);
+  --line: var(--color-rule);
+  --line-2: var(--color-rule);
+  --accent: var(--color-accent);
+  --accent-soft: var(--color-accent-tint);
+  --on-accent: var(--color-ink);
+  --brand: var(--color-ink);
+  --brand-soft: var(--color-paper);
+
+  /* the system has no elevation */
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+
+  --r-sm: 0px;
+  --r: 0px;
+  --r-lg: 0px;
+  --r-xl: 0px;
+
+  --maxw: var(--container-page);
+}
+
+/* subject accents are replaced by the one exam highlighter */
+[data-subject], [data-paper] { --accent: var(--color-accent); --accent-soft: var(--color-accent-tint); }
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-read);
+  line-height: var(--leading-read);
+  color: var(--color-ink);
+  background: var(--color-page);
+}
+
+/* no gradient wash — the page is white */
+body::before { content: none !important; display: none !important; }
+
+/* ---------- 2. typography ----------------------------------- */
+
+h1, h2, h3, .topic-title, .rc-title, .related-head, .toc-head {
+  font-family: var(--font-display);
+  letter-spacing: var(--tracking-tight);
+  color: var(--color-ink);
+}
+h1, .topic-title { font-size: var(--text-3xl); font-weight: var(--font-weight-bold); line-height: 58px; }
+h2 { font-size: var(--text-2xl); font-weight: var(--font-weight-bold); line-height: 46px; margin-top: var(--spacing-7); }
+h3 { font-size: var(--text-xl); font-weight: var(--font-weight-bold); line-height: 36px; margin-top: var(--spacing-6); }
+h4 { font-family: var(--font-body); font-size: var(--text-lg); font-weight: var(--font-weight-semibold); letter-spacing: var(--tracking-normal); }
+
+.prose, .page-markdown { max-width: var(--container-prose); }
+.prose p, .page-markdown p { font-size: var(--text-read); line-height: var(--leading-read); }
+
+.topic-lede { font-size: var(--text-lg); line-height: 32px; color: var(--color-ink-muted); font-family: var(--font-body); }
+
+a { color: var(--color-link); }
+.prose a, .page-markdown a { color: var(--color-link); text-decoration: underline; text-underline-offset: 2px; }
+
+/* every small label is mono caps */
+.eyebrow-chapter, .topic-eyebrow, .tg-eyebrow, .ad-label, .toc-head,
+.meta-chip, .tb-label, .rc-kicker, .crumbs, .footer-col > h3, .related-head {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+  font-weight: var(--font-weight-regular);
+}
+
+/* ---------- 3. header + the TestGuru strip ------------------ */
+
+.site-header {
+  height: 64px;
+  background: var(--color-page);
+  border-bottom: 1px solid var(--color-rule);
+  box-shadow: none;
+  backdrop-filter: none;
+}
+.header-inner { max-width: var(--container-page); }
+.brand-text { font-family: var(--font-display); font-weight: var(--font-weight-bold); letter-spacing: var(--tracking-tight); }
+.brand-mark { border-radius: 0; background: var(--color-ink); }
+.nav-link, .nav-drop-btn { font-family: var(--font-body); font-size: var(--text-base); color: var(--color-ink); border-radius: 0; }
+.nav-link:hover, .nav-drop-btn:hover { background: transparent; color: var(--color-ink); text-decoration: underline; text-underline-offset: 4px; }
+.nav-link.is-active { background: transparent; color: var(--color-ink); font-weight: var(--font-weight-semibold); }
+.nav-dropdown { border-radius: 0; border: 1px solid var(--color-rule); box-shadow: none; }
+.icon-btn, .tool-btn, .theme-toggle { border-radius: 0; border: 1px solid var(--color-rule); background: var(--color-page); color: var(--color-ink); }
+
+/* 05F variant B — ink strip, 44px, reserved in --top-h */
+.tg-announce {
+  background: var(--color-ink);
+  color: var(--color-ink-inverse);
+  min-height: 44px;
+  border: 0;
+}
+.tg-announce__link, .tg-announce__go { color: var(--color-ink-inverse); font-weight: var(--font-weight-semibold); text-decoration: underline; }
+.tg-announce__close { color: var(--color-ink-inverse); opacity: var(--opacity-muted); }
+.tg-mark { border-radius: 0; flex-shrink: 0; }
+/* on ink the square is an outline, so the mark takes the strip's colour */
+.tg-announce .tg-mark { color: var(--color-ink-inverse); }
+
+/* ---------- 4. topic page ----------------------------------- */
+
+.topic-hero { border-bottom: 1px solid var(--color-rule); padding-bottom: var(--spacing-6); }
+.topic-grid { max-width: var(--container-page); }
+.meta-chip {
+  background: transparent;
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-full);
+  padding: 4px 12px;
+  color: var(--color-ink-muted);
+}
+/* the one chip that may carry the highlighter */
+.meta-chip.is-active, .subject-pill {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-ink);
+}
+
+.toc { border-left: 1px solid var(--color-rule); }
+.toc a { color: var(--color-ink-muted); font-size: var(--text-base); }
+.toc a:hover, .toc .is-active { color: var(--color-ink); }
+.toc .is-active { border-left: 2px solid var(--color-accent); font-weight: var(--font-weight-semibold); }
+
+/* ---------- 5. callouts = key point / common trap ----------- */
+
+.callout {
+  border-radius: 0;
+  border: 0;
+  border-left: 3px solid var(--color-rule-strong);
+  background: var(--color-paper);
+  box-shadow: none;
+  padding: var(--spacing-4) var(--spacing-5);
+}
+.callout-title {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-regular);
+}
+.callout-content, .callout p { font-size: var(--text-read); line-height: var(--leading-read); color: var(--color-ink); }
+
+/* KEY POINT — the exam highlighter, tinted */
+.callout-tip, .callout-important {
+  background: var(--color-accent-tint);
+  border-left-color: var(--color-accent);
+}
+.callout-tip .callout-title, .callout-important .callout-title { color: var(--color-accent-deep); }
+
+/* COMMON TRAP */
+.callout-warning { background: var(--color-wrong-soft); border-left-color: var(--color-wrong); }
+.callout-warning .callout-title { color: var(--color-wrong); }
+
+/* CHECK / correct */
+.callout-check { background: var(--color-correct-soft); border-left-color: var(--color-correct); }
+.callout-check .callout-title { color: var(--color-correct); }
+
+.callout-note { background: var(--color-paper); border-left-color: var(--color-ink-muted); }
+.callout-note .callout-title { color: var(--color-ink-muted); }
+
+/* a marked phrase is a fill, and the text on it is always ink */
+.prose mark, .page-markdown mark, .highlight {
+  background: var(--color-accent);
+  color: var(--color-ink);
+  padding: 0 2px;
+}
+
+/* ---------- 6. formulas ------------------------------------- */
+
+.prose .katex-display, .page-markdown .katex-display {
+  border: 1px solid var(--color-rule);
+  border-radius: 0;
+  background: var(--color-page);
+  padding: var(--spacing-4) var(--spacing-5);
+}
+
+/* ---------- 7. MCQ / PYQ ------------------------------------ */
+
+.pyq-option {
+  border: 1px solid var(--color-rule);
+  border-radius: 0;
+  background: var(--color-page);
+  font-size: var(--text-base);
+}
+.pyq-option-label { font-family: var(--font-mono); color: var(--color-ink-muted); }
+.pyq-option.is-correct { border-color: var(--color-correct); background: var(--color-correct-soft); }
+.pyq-option.is-wrong { border-color: var(--color-wrong); background: var(--color-wrong-soft); }
+
+/* ---------- 8. TestGuru surfaces ---------------------------- */
+/* plaster, never white, never the exam colour */
+
+.tg-card, .tg-aside, .tg-bar, .tg-modal__dialog {
+  background: var(--color-tg-plaster);
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.tg-card__title, .tg-aside__title, .tg-modal__title {
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--tracking-tight);
+  color: var(--color-ink);
+}
+.tg-btn {
+  background: var(--color-ink);
+  color: var(--color-ink-inverse);
+  border-radius: 0;
+  border: 0;
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-semibold);
+  box-shadow: none;
+}
+.tg-btn:hover { background: var(--color-ink); opacity: .9; }
+.tg-modal__backdrop { background: color-mix(in srgb, var(--color-ink) 60%, transparent); }
+.tg-modal__report { background: var(--color-page); border: 1px solid var(--color-rule); border-radius: 0; }
+.tg-modal__bar--weak { color: var(--color-wrong); }
+.tg-modal__bar--solid { color: var(--color-correct); }
+.tg-modal__bar--mixed { color: var(--color-ink-muted); }
+
+/* ---------- 9. ads — the third surface, always labelled ----- */
+
+.ad-unit {
+  background: var(--color-paper);
+  border: 1px dashed var(--color-rule);
+  border-radius: 0;
+  box-shadow: none;
+}
+.ad-label {
+  color: var(--color-ink-muted);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-label);
+}
+.ad-article-end { min-height: 280px; }
+
+/* ---------- 10. pager, related, newsletter, footer ---------- */
+
+.pager-link, .related-card, .rc-go {
+  border: 1px solid var(--color-rule);
+  border-radius: 0;
+  background: var(--color-page);
+  box-shadow: none;
+}
+.pager-dir { font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: var(--tracking-label); text-transform: uppercase; color: var(--color-ink-muted); }
+.pager-title { font-family: var(--font-display); font-weight: var(--font-weight-semibold); color: var(--color-link); }
+
+.newsletter { background: var(--color-paper); border-top: 1px solid var(--color-rule); }
+.newsletter-card { background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+.nl-input { border: 1px solid var(--color-rule); border-radius: 0; background: var(--color-page); font-family: var(--font-body); }
+.nl-btn { background: var(--color-ink); color: var(--color-ink-inverse); border-radius: 0; border: 0; font-weight: var(--font-weight-semibold); }
+
+.site-footer { background: var(--color-paper); border-top: 1px solid var(--color-rule); }
+.footer-col a, .footer-base { color: var(--color-ink-muted); font-size: var(--text-base); }
+.footer-col a:hover { color: var(--color-ink); }
+
+.bottom-nav { background: var(--color-page); border-top: 1px solid var(--color-rule); box-shadow: none; }
+.bn-item { color: var(--color-ink-muted); font-family: var(--font-body); font-size: var(--text-sm); }
+.bn-item.is-active { color: var(--color-ink); font-weight: var(--font-weight-semibold); }
+
+.tag {
+  background: transparent;
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-full);
+  color: var(--color-ink-muted);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+}
+
+.reading-progress span { background: var(--color-accent); }
+
+/* ---------- 11. mobile -------------------------------------- */
+
+@media (max-width: 768px) {
+  h1, .topic-title { font-size: 34px; line-height: 40px; }
+  h2 { font-size: var(--text-xl); line-height: 34px; }
+  h3 { font-size: 22px; line-height: 30px; }
+  h4 { font-size: 19px; }
+  body { font-size: 17px; line-height: 29px; }
+  .prose p, .page-markdown p { font-size: 17px; line-height: 29px; }
+  .topic-lede { font-size: var(--text-base); line-height: 26px; }
+  /* room for the anchor ad so it never covers a tap target */
+  body { padding-bottom: 60px; }
+}
+
+/* ============================================================
+   12. Corrections after the first visual pass
+   
+   The old CSS overloads --accent: it drives the subject colour AND
+   links, list markers, nav state and heading decorations. The Paper
+   system separates those — the highlighter marks, it never carries
+   text, and it is never a link or a button. These selectors carry
+   the specificity needed to win against v2.css.
+   ============================================================ */
+
+/* links are blue, never the highlighter */
+.prose a:not(.related-card):not(.pager-link),
+.page-markdown a:not(.related-card):not(.pager-link) {
+  color: var(--color-link);
+  text-decoration-color: var(--color-link);
+}
+
+/* nav state is ink; the per-subject colours are retired */
+.nav-link[data-subject].is-active,
+.nav-link[data-paper].is-active,
+.nav-link.is-active {
+  color: var(--color-ink);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* no coloured dash above headings — the system rules with hairlines */
+.prose h2::before,
+.page-markdown h2::before,
+.prose h3::before,
+.page-markdown h3::before { content: none !important; display: none !important; }
+
+/* list markers are ink, not highlighter */
+.prose li::marker,
+.page-markdown li::marker { color: var(--color-ink-muted); }
+
+/* ---------- the folded page ---------------------------------
+   Built from the existing .brand-mark box: an ink square, two
+   white rules at 3.6 and 2.2 units, and the corner turned down in
+   the exam colour. The fold is the only place that colour lives. */
+
+.brand-mark {
+  position: relative;
+  background-color: var(--color-ink);
+  background-image:
+    linear-gradient(var(--color-ink-inverse), var(--color-ink-inverse)),
+    linear-gradient(var(--color-ink-inverse), var(--color-ink-inverse));
+  background-size: 58% 11%, 36% 11%;
+  background-position: 21% 46%, 21% 68%;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  font-size: 0;
+  color: transparent;
+  overflow: hidden;
+}
+.brand-mark::before {
+  content: "";
+  position: absolute;
+  top: 0; right: 0;
+  width: 34%; height: 34%;
+  background: var(--color-accent);
+  clip-path: polygon(100% 0, 100% 100%, 0 0);
+}
+
+.brand-text { color: var(--color-ink); font-family: var(--font-display); }
+.brand-text em { font-style: normal; font-weight: var(--font-weight-regular); color: var(--color-ink); }
+
+/* The strip is 44px in the system (05F rule 06). Every sticky offset is
+   derived from --top-h, so the variable has to agree with the rendered
+   height or the header and the topic stickybar overlap by the difference. */
+:root, html.has-announce { --announce-h: 44px; }
+
+/* ---------- 13. homepage ------------------------------------
+   The system has no decorative gradients and no coloured buttons:
+   "buttons are ink, links are blue, the exam colour is never a
+   button" (page 02). The hero orbs and the gradient wordmark are
+   from the old look and have no place in it. */
+
+.home-hero__orb { display: none !important; }
+.home-hero__accent {
+  background-image: none;
+  background-color: var(--color-accent);
+  color: var(--color-ink);
+  -webkit-text-fill-color: var(--color-ink);
+  padding: 0 .12em;
+}
+
+.home-btn { border-radius: 0; box-shadow: none; font-family: var(--font-body); font-weight: var(--font-weight-semibold); }
+.home-btn--primary { background: var(--color-ink); color: var(--color-ink-inverse); border: 1px solid var(--color-ink); }
+.home-btn--ghost { background: var(--color-page); color: var(--color-ink); border: 1px solid var(--color-ink); }
+
+.home-card, .home-card--subject, .home-card--recent {
+  border-radius: 0;
+  border: 1px solid var(--color-rule);
+  box-shadow: none;
+  background: var(--color-page);
+}
+.home-card h3, .home-card .home-card__title { font-family: var(--font-display); letter-spacing: var(--tracking-tight); }
+
+/* the skip link is an action, so ink */
+.skip-link { background: var(--color-ink); color: var(--color-ink-inverse); border-radius: 0; }
+
+/* ============================================================
+   14. Homepage — T1
+   The class names are identical on all four sites, so this one
+   block re-skins every homepage.
+   ============================================================ */
+
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: var(--spacing-8);
+  align-items: start;
+  padding-block: var(--spacing-9) var(--spacing-8);
+  border-bottom: 1px solid var(--color-rule);
+}
+.home-hero__copy { max-width: 760px; }
+
+.home-hero__kicker {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-link);
+  margin-bottom: var(--spacing-5);
+}
+
+.home-hero__title {
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-bold);
+  font-size: clamp(38px, 4.6vw, 64px);
+  line-height: 1.08;
+  letter-spacing: var(--tracking-tight);
+  color: var(--color-ink);
+  margin: 0 0 var(--spacing-4);
+}
+
+.home-hero__lede {
+  font-size: var(--text-read);
+  line-height: var(--leading-read);
+  color: var(--color-ink-muted);
+  max-width: 560px;
+  margin-bottom: var(--spacing-6);
+}
+
+.home-hero__actions { display: flex; gap: var(--spacing-3); flex-wrap: wrap; }
+.home-btn { padding: 14px 22px; font-size: var(--text-base); }
+
+/* the hero's right column carried three gradient orbs; the system
+   wants the exam-at-a-glance table there instead. Until that markup
+   exists the column simply holds nothing. */
+.home-hero__visual { min-height: 0; }
+
+/* ---------- subjects ---------- */
+
+.home-section { padding-block: var(--spacing-8); }
+.home-section__heading {
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--text-2xl);
+  letter-spacing: var(--tracking-tight);
+  color: var(--color-ink);
+  margin: 0 0 var(--spacing-5);
+}
+.home-section__sub {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-label);
+  color: var(--color-ink-muted);
+}
+
+/* one bordered strip, hairline dividers between tiles */
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0;
+  border: 1px solid var(--color-rule);
+}
+.subjects-grid > .home-card--subject {
+  border: 0;
+  border-left: 1px solid var(--color-rule);
+  border-radius: 0;
+  background: var(--color-page);
+  box-shadow: none;
+  padding: var(--spacing-5);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--spacing-2) var(--spacing-4);
+  align-items: baseline;
+}
+.subjects-grid > .home-card--subject:first-child { border-left: 0; }
+.home-card--subject:hover { background: var(--color-paper); }
+
+/* T1 has no icon tiles on the subject cards */
+.home-card__icon { display: none !important; }
+
+.home-card--subject .home-card__title,
+.home-card--subject .home-card__subject-label {
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--text-lg);
+  letter-spacing: var(--tracking-tight);
+  color: var(--color-ink);
+  grid-column: 1;
+}
+.home-card--subject .home-card__desc {
+  grid-column: 1 / -1;
+  font-size: var(--text-base);
+  line-height: var(--leading-body);
+  color: var(--color-ink-muted);
+}
+.home-card--subject .home-card__go {
+  grid-column: 2; grid-row: 1;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-label);
+  color: var(--color-link);
+  white-space: nowrap;
+}
+
+/* ---------- TestGuru block A ---------- */
+
+.tg-card--banner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--spacing-7);
+  align-items: center;
+  background: var(--color-tg-plaster);
+  padding: var(--spacing-6) var(--spacing-7);
+  border: 0;
+  border-radius: 0;
+}
+.tg-card--banner .tg-card__title {
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--text-xl);
+  line-height: 1.25;
+  letter-spacing: var(--tracking-tight);
+  margin: var(--spacing-2) 0;
+}
+.tg-card--banner .tg-card__text { font-size: var(--text-base); line-height: var(--leading-body); color: var(--color-ink-muted); }
+.tg-card__actions { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-2); }
+.tg-card__note { font-size: var(--text-sm); color: var(--color-ink-muted); }
+
+/* ---------- new and updated ---------- */
+/* T1 renders this as a list with three lanes, not a card grid */
+
+.recent-grid { display: block; border-top: 1px solid var(--color-rule-strong); }
+.recent-grid > .home-card--recent {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr) auto;
+  gap: var(--spacing-4);
+  align-items: baseline;
+  border: 0;
+  border-bottom: 1px solid var(--color-rule);
+  border-radius: 0;
+  background: var(--color-page);
+  box-shadow: none;
+  padding: var(--spacing-4) 0;
+}
+.home-card--recent:hover { background: var(--color-paper); }
+.home-card--recent .home-card__kicker {
+  grid-column: 1; grid-row: 1;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-link);
+}
+.home-card--recent .home-card__title {
+  grid-column: 2; grid-row: 1;
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--text-base);
+  color: var(--color-ink);
+}
+.home-card--recent .home-card__desc {
+  grid-column: 2; grid-row: 2;
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+}
+.home-card--recent .home-card__go {
+  grid-column: 3; grid-row: 1;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-label);
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .home-hero { grid-template-columns: 1fr; }
+  .recent-grid > .home-card--recent { grid-template-columns: minmax(0, 1fr) auto; }
+  .home-card--recent .home-card__kicker { grid-column: 1; grid-row: 1; }
+  .home-card--recent .home-card__title { grid-column: 1; grid-row: 2; }
+  .home-card--recent .home-card__desc { grid-column: 1; grid-row: 3; }
+  .home-card--recent .home-card__go { grid-column: 2; grid-row: 1; }
+}
+
+/* ---------- exam at a glance (T1, hero right) ---------- */
+
+.exam-glance { border-top: 2px solid var(--color-rule-strong); padding-top: var(--spacing-3); }
+.exam-glance__label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+  margin: 0 0 var(--spacing-2);
+}
+.exam-glance__list { margin: 0; }
+.exam-glance__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--spacing-4);
+  padding-block: var(--spacing-3);
+  border-bottom: 1px solid var(--color-rule);
+}
+.exam-glance__key { font-size: var(--text-base); color: var(--color-ink); }
+.exam-glance__val {
+  margin: 0;
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-ink);
+  text-align: right;
+  white-space: nowrap;
+}
+.exam-glance__source {
+  margin: var(--spacing-3) 0 0;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-ink-muted);
+}
+
+/* ---------- Today rail (T1, beside New and updated) ---------- */
+
+.recent-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: var(--spacing-7);
+  align-items: start;
+}
+.today-card__box {
+  display: block;
+  border: 1px solid var(--color-rule);
+  border-top: 4px solid var(--color-accent);
+  background: var(--color-page);
+  padding: var(--spacing-4) var(--spacing-5);
+  border-radius: 0;
+}
+.today-card__box:hover { background: var(--color-paper); }
+.today-card__kicker {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+  margin: 0 0 var(--spacing-2);
+}
+.today-card__text { margin: 0 0 var(--spacing-3); font-size: var(--text-base); line-height: var(--leading-body); color: var(--color-ink); }
+.today-card__go { font-size: var(--text-base); font-weight: var(--font-weight-semibold); color: var(--color-link); }
+
+@media (max-width: 900px) {
+  .recent-layout { grid-template-columns: 1fr; }
+}
